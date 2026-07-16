@@ -1,4 +1,4 @@
-name: Link Check
+name: Documentation Validation
 
 on:
   push:
@@ -6,21 +6,128 @@ on:
       - main
   pull_request:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * 1"
 
 permissions:
   contents: read
 
 jobs:
-  link-check:
+  validate-documentation:
+    name: Validate documentation
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
-      - name: Check Markdown links
-        uses: lycheeverse/lychee-action@v2
-        with:
-          fail: true
+      - name: Check required repository files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            "README.md"
+            "CONTRIBUTING.md"
+            "LICENSE"
+            "NOTICE.md"
+            "learning-paths/README.md"
+            "project-guides/README.md"
+            "resources/README.md"
+            "resources/catalog.md"
+            "resources/catalog.yml"
+            "assets/images/research-hub-banner-light.svg"
+            "assets/images/research-hub-banner-dark.svg"
+          )
+
+          for file in "${required_files[@]}"; do
+            if [[ ! -s "$file" ]]; then
+              echo "::error file=$file::Required file is missing or empty."
+              exit 1
+            fi
+          done
+
+          echo "All required repository files are present."
+
+      - name: Validate internal Markdown links
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.parse import unquote
+          import re
+          import sys
+
+          root = Path.cwd()
+          missing = []
+
+          # Standard Markdown links and images.
+          link_pattern = re.compile(r'!?\[[^\]]*\]\(([^)]+)\)')
+          # Basic HTML href/src links used in the README.
+          html_pattern = re.compile(
+              r'(?:href|src|srcset)=["\']([^"\']+)["\']',
+              re.IGNORECASE,
+          )
+
+          for md_file in root.rglob("*.md"):
+              text = md_file.read_text(encoding="utf-8")
+              targets = link_pattern.findall(text) + html_pattern.findall(text)
+
+              for raw_target in targets:
+                  target = raw_target.strip().split()[0]
+                  if not target:
+                      continue
+
+                  # External URLs, email links, anchors, and data URIs are
+                  # intentionally excluded because remote services may be flaky.
+                  if target.startswith(
+                      ("http://", "https://", "mailto:", "#", "data:")
+                  ):
+                      continue
+
+                  # Remove query and fragment.
+                  clean = target.split("#", 1)[0].split("?", 1)[0]
+                  clean = unquote(clean)
+                  if not clean:
+                      continue
+
+                  resolved = (md_file.parent / clean).resolve()
+
+                  try:
+                      resolved.relative_to(root.resolve())
+                  except ValueError:
+                      missing.append((md_file, target, "points outside repository"))
+                      continue
+
+                  if not resolved.exists():
+                      missing.append((md_file, target, "target does not exist"))
+
+          if missing:
+              for source, target, reason in missing:
+                  print(f"::error file={source}::{target} — {reason}")
+              sys.exit(1)
+
+          print("All internal Markdown links are valid.")
+          PY
+
+      - name: Validate SVG assets
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          import sys
+
+          errors = []
+
+          for svg in Path("assets").rglob("*.svg"):
+              try:
+                  ET.parse(svg)
+              except ET.ParseError as exc:
+                  errors.append((svg, exc))
+
+          if errors:
+              for svg, exc in errors:
+                  print(f"::error file={svg}::Invalid SVG XML: {exc}")
+              sys.exit(1)
+
+          print("All SVG assets are valid XML.")
+          PY
