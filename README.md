@@ -3,7 +3,7 @@
 ![Research Hub Banner](assets/images/research-hub-banner.svg)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/islam-md-didarul/mechanical-cfd-ai-research-hub)](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/commits/main)
-[![License](https://img.shields.io/github/license/islam-md-didarul/mechanical-cfd-ai-research-hub)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Link Check](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/actions/workflows/link-check.yml/badge.svg)](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/actions/workflows/link-check.yml)
 
 A curated research and learning ecosystem maintained by **Md. Didarul Islam** for mechanical engineering, computational fluid dynamics, numerical methods, AI for CFD, reduced-order modeling, finite-element analysis, and scientific communication.
