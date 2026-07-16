@@ -2,15 +2,21 @@
 
 [← Main hub](../README.md)
 
-These guides connect the curated resources to practical engineering research workflows.
+These guides connect curated learning resources to practical computational-engineering research workflows.
 
-| Guide | Core workflow |
-|---|---|
-| [Medical CFD and Digital Twins](./medical-cfd.md) | CT geometry → CFD → physiological metrics → ROM → prediction |
-| [Turbomachinery Optimization](./turbomachinery.md) | CAD → RANS → experiment → optimization |
-| [PIV and Reduced-Order Modeling](./piv-rom.md) | Snapshots → DMD/POD → reconstruction |
-| [Multiphase Flow and Cavitation](./multiphase.md) | Multiphase CFD → image analysis → AI |
-| [Solid Mechanics and FSI](./fsi.md) | Solid model → fluid model → coupling → validation |
-| [Research Communication](./research-communication.md) | Evidence → figures → manuscript → presentation |
+| Guide | Core workflow | Open |
+|---|---|---|
+| **[Biofluids CFD and Digital Twins](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/medical-cfd.md)** | [CT or MRI geometry → meshing → patient-specific CFD → physiological metrics → reduced-order modeling → clinical prediction](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/medical-cfd.md) | [Open guide →](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/medical-cfd.md) |
+| **[Turbomachinery and Pump Optimization](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/turbomachinery.md)** | [CAD geometry → mesh-independence analysis → RANS or URANS CFD → experimental validation → design optimization](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/turbomachinery.md) | [Open guide →](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/turbomachinery.md) |
+| **[PIV and Reduced-Order Modeling](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/piv-rom.md)** | [PIV or CFD snapshots → preprocessing → POD or DMD → modal analysis → reconstruction and prediction](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/piv-rom.md) | [Open guide →](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/piv-rom.md) |
+| **[Multiphase Flow and Cavitation](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/multiphase.md)** | [Multiphase CFD → bubble or vapor detection → cavitation metrics → image analysis → AI-assisted prediction](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/multiphase.md) | [Open guide →](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/multiphase.md) |
+| **[Solid Mechanics and Fluid–Structure Interaction](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/fsi.md)** | [Material model → structural analysis → fluid model → coupling interface → FSI validation](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/fsi.md) | [Open guide →](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/fsi.md) |
+| **[Research Communication](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/research-communication.md)** | [Research evidence → figures and tables → manuscript → presentation → rehearsal](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/research-communication.md) | [Open guide →](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/project-guides/research-communication.md) |
 
-<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->
+---
+
+**[Browse the complete verified resource catalog →](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/resources/catalog.md)**
+
+**[Explore the structured learning paths →](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/tree/main/learning-paths)**
+
+<!-- documentation-status-refresh: 2026-07-16-project-guide-links -->
