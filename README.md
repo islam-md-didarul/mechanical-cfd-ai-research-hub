@@ -48,32 +48,50 @@ This repository organizes independent open-source resources into a coherent rese
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
 
-## Choose your pathway
+<br>
+
+<p>
+  <strong>Choose your pathway</strong>
+</p>
+
+<hr>
 
 <table>
 <tr>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/foundations.svg" width="72" alt="Foundations icon"><br>
-  <h3>Build foundations</h3>
+  <p align="center">
+  <strong>Build foundations</strong>
+  </p>
   Mathematics, Python, numerical methods, and machine-learning prerequisites.<br><br>
   <a href="./learning-paths/foundations.md"><strong>Start learning →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/cfd.svg" width="72" alt="CFD icon"><br>
-  <h3>Develop engineering models</h3>
+  <p align="center">
+  <strong>Develop engineering models</strong>
+  </p>
   CFD, FEA, multiphase flow, verification, validation, and engineering applications.<br><br>
   <a href="./learning-paths/cfd.md"><strong>Explore CFD →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/scientific-ai.svg" width="72" alt="Scientific AI icon"><br>
-  <h3>Apply scientific AI</h3>
+  <p align="center">
+  <strong>Apply scientific AI</strong>
+  </p>
   DMD, Koopman models, PINNs, surrogate modeling, and AI4CFD.<br><br>
   <a href="./learning-paths/scientific-ai.md"><strong>Explore Scientific AI →</strong></a>
 </td>
 </tr>
 </table>
 
-## Research learning roadmap
+<br>
+
+<p>
+  <strong>Research learning roadmap</strong>
+</p>
+
+<hr>
 
 ```mermaid
 flowchart LR
@@ -109,19 +127,29 @@ flowchart LR
   <a href="./learning-paths/README.md"><strong>View the complete learning paths →</strong></a>
 </p>
 
-## Featured research pathways
+<br>
+
+<p>
+  <strong>Featured research pathways</strong>
+</p>
+
+<hr>
 
 <table>
 <tr>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/medical-cfd.svg" width="80" alt="Medical CFD icon"></p>
-  <h3 align="center">Medical CFD & Digital Twins</h3>
+  <p align="center">
+  <strong>Biofluids CFD & Digital Twins</strong>
+  </p>
   <p align="center">CT geometry → meshing → patient-specific CFD → physiological metrics → ROM → clinical prediction</p>
   <p align="center"><a href="./project-guides/medical-cfd.md"><strong>Explore pathway →</strong></a></p>
 </td>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/turbomachinery.svg" width="80" alt="Turbomachinery icon"></p>
-  <h3 align="center">Turbomachinery Optimization</h3>
+  <p align="center">
+  <strong>Turbomachinery Optimization</strong>
+  </p>
   <p align="center">CAD geometry → mesh independence → RANS CFD → experimental validation → design optimization</p>
   <p align="center"><a href="./project-guides/turbomachinery.md"><strong>Explore pathway →</strong></a></p>
 </td>
@@ -129,13 +157,17 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/piv-rom.svg" width="80" alt="PIV and ROM icon"></p>
-  <h3 align="center">PIV & Reduced-Order Modeling</h3>
+  <p align="center">
+  <strong>PIV & Reduced-Order Modeling</strong>
+  </p>
   <p align="center">Snapshot preprocessing → modal decomposition → temporal analysis → flow reconstruction</p>
   <p align="center"><a href="./project-guides/piv-rom.md"><strong>Explore pathway →</strong></a></p>
 </td>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/multiphase.svg" width="80" alt="Multiphase icon"></p>
-  <h3 align="center">Multiphase Flow & Cavitation</h3>
+  <p align="center">
+  <strong>Multiphase Flow & Cavitation</strong>
+  </p>
   <p align="center">Multiphase CFD → bubble detection → cavitation metrics → image analysis → AI-assisted prediction</p>
   <p align="center"><a href="./project-guides/multiphase.md"><strong>Explore pathway →</strong></a></p>
 </td>
@@ -146,7 +178,13 @@ flowchart LR
   <a href="./project-guides/README.md"><strong>Browse all project guides →</strong></a>
 </p>
 
-## Resource collections
+<br>
+
+<p>
+  <strong>Resource collections</strong>
+</p>
+
+<hr>
 
 | Collection | Resources | Primary purpose |
 |---|---:|---|
@@ -162,13 +200,19 @@ flowchart LR
   <a href="./resources/catalog.md"><strong>Browse all 28 verified resources →</strong></a>
 </p>
 
-## Featured core toolkit
+<br>
+
+<p>
+  <strong>Featured core toolkit</strong>
+</p>
+
+<hr>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### CFDPython
+<p><strong>CFDPython</strong></p>
 
 `CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
@@ -180,7 +224,7 @@ Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 </td>
 <td width="50%" valign="top">
 
-### ML Foundations
+<p><strong>ML Foundations</strong></p>
 
 `CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
@@ -194,7 +238,7 @@ Mathematics and computer-science foundations for machine learning and reduced-or
 <tr>
 <td width="50%" valign="top">
 
-### PyDMD
+<p><strong>PyDMD</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `PYTHON`
 
@@ -206,7 +250,7 @@ A comprehensive Python library for Dynamic Mode Decomposition methods.
 </td>
 <td width="50%" valign="top">
 
-### Awesome AI4CFD
+<p><strong>Awesome AI4CFD</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `LITERATURE`
 
@@ -219,7 +263,13 @@ A structured survey of machine-learning research for computational fluid dynamic
 </tr>
 </table>
 
-## Resource classification
+<br>
+
+<p>
+  <strong>Resource classification</strong>
+</p>
+
+<hr>
 
 | Label | Meaning |
 |---|---|
@@ -229,7 +279,13 @@ A structured survey of machine-learning research for computational fluid dynamic
 | **Reference** | Mainly used to discover additional resources |
 | **Optional** | Useful for productivity or communication |
 
-## Repository organization
+<br>
+
+<p>
+  <strong>Repository organization</strong>
+</p>
+
+<hr>
 
 ```text
 mechanical-cfd-ai-research-hub/
@@ -260,7 +316,13 @@ mechanical-cfd-ai-research-hub/
 └── NOTICE.md
 ```
 
-## How the hub supports research
+<br>
+
+<p>
+  <strong>How the hub supports research</strong>
+</p>
+
+<hr>
 
 ```mermaid
 flowchart LR
@@ -287,13 +349,25 @@ flowchart LR
     class DEC,COM output;
 ```
 
-## Contributing
+<br>
+
+<p>
+  <strong>Contributing</strong>
+</p>
+
+<hr>
 
 Resources should be added only after checking their relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
 
 [Read the contribution guide →](./CONTRIBUTING.md)
 
-## License and attribution
+<br>
+
+<p>
+  <strong>License and attribution</strong>
+</p>
+
+<hr>
 
 The MIT license in this hub applies only to the original organization, descriptions, documentation, and assets created for this repository. Every linked repository remains governed by its own upstream license.
 
