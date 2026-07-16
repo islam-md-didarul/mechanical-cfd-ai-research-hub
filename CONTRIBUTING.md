@@ -5,7 +5,7 @@ Contributions that improve accuracy, organization, or coverage are welcome.
 ## Required information for a new resource
 
 - Repository name and URL
-- Original upstream URL, when the resource is a fork
+- Original repository URL
 - Category and resource type
 - Knowledge level and primary language
 - Main benefit

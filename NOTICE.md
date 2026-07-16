@@ -10,6 +10,6 @@ Before copying, modifying, integrating, or redistributing code from a linked pro
 2. Review its current license and notices.
 3. Preserve copyright and attribution requirements.
 4. Cite the original project in research publications when appropriate.
-5. Confirm that any fork-specific changes are clearly documented.
+5. Confirm that any local or derivative modifications are clearly documented.
 
-Where a repository is a fork, this hub links both the fork maintained under `islam-md-didarul` and the original upstream project.
+This hub links directly to the original repositories maintained by their respective authors and organizations.

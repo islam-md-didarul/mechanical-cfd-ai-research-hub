@@ -6,16 +6,16 @@ Connect conservation equations to working numerical algorithms and understand th
 
 ## Recommended order
 
-1. [islam-md-didarul/CFDPython](https://github.com/islam-md-didarul/CFDPython)
-2. [islam-md-didarul/Python_CFD](https://github.com/islam-md-didarul/Python_CFD)
-3. [islam-md-didarul/CFD-Python](https://github.com/islam-md-didarul/CFD-Python)
-4. [islam-md-didarul/staggered-grid-lid-driven-cavity](https://github.com/islam-md-didarul/staggered-grid-lid-driven-cavity)
-5. [islam-md-didarul/PyCFD](https://github.com/islam-md-didarul/PyCFD)
+1. [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython)
+2. [DrZGan/Python_CFD](https://github.com/DrZGan/Python_CFD)
+3. [kangluosee/CFD-Python](https://github.com/kangluosee/CFD-Python)
+4. [jeddiot/staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity)
+5. [LukeMcCulloch/PyCFD](https://github.com/LukeMcCulloch/PyCFD)
 
 ## Supporting directories
 
-- [islam-md-didarul/awesome-fluid-dynamics](https://github.com/islam-md-didarul/awesome-fluid-dynamics)
-- [islam-md-didarul/list-lattice-Boltzmann-codes](https://github.com/islam-md-didarul/list-lattice-Boltzmann-codes)
+- [lento234/awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics)
+- [sthavishtha/list-lattice-Boltzmann-codes](https://github.com/sthavishtha/list-lattice-Boltzmann-codes)
 
 ## Expected outcomes
 

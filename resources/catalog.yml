@@ -7,8 +7,7 @@ resources:
     type: "Research guide"
     level: "All levels"
     language: "Mixed"
-    fork: https://github.com/islam-md-didarul/mechanical-engineering-research-skill
-    upstream: https://github.com/hanhuark/mechanical-engineering-research-skill
+    repository: https://github.com/hanhuark/mechanical-engineering-research-skill
     license: "MIT"
     priority: "Core"
     benefit: >-
@@ -22,8 +21,7 @@ resources:
     type: "Curated list"
     level: "All levels"
     language: "Mixed"
-    fork: https://github.com/islam-md-didarul/awesome-mecheng
-    upstream: https://github.com/m2n037/awesome-mecheng
+    repository: https://github.com/m2n037/awesome-mecheng
     license: "GPL-3.0"
     priority: "Reference"
     benefit: >-
@@ -37,8 +35,7 @@ resources:
     type: "Curated list"
     level: "All levels"
     language: "Mixed"
-    fork: https://github.com/islam-md-didarul/awesome-aerospace-engineering
-    upstream: https://github.com/mahran-sayed/awesome-aerospace-engineering
+    repository: https://github.com/mahran-sayed/awesome-aerospace-engineering
     license: "GPL-3.0"
     priority: "Reference"
     benefit: >-
@@ -52,8 +49,7 @@ resources:
     type: "Learning compendium"
     level: "Beginner to advanced"
     language: "JavaScript"
-    fork: https://github.com/islam-md-didarul/maths-cs-ai-compendium
-    upstream: https://github.com/HenryNdubuaku/maths-cs-ai-compendium
+    repository: https://github.com/HenryNdubuaku/maths-cs-ai-compendium
     license: "Apache-2.0"
     priority: "Core"
     benefit: >-
@@ -67,8 +63,7 @@ resources:
     type: "Course resources"
     level: "Beginner"
     language: "Python"
-    fork: https://github.com/islam-md-didarul/pcc_3e
-    upstream: https://github.com/ehmatthes/pcc_3e
+    repository: https://github.com/ehmatthes/pcc_3e
     license: "See upstream"
     priority: "Core"
     benefit: >-
@@ -82,8 +77,7 @@ resources:
     type: "Notebook course"
     level: "Beginner to intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/Complete-Python-Bootcamp
-    upstream: https://github.com/krishnaik06/Complete-Python-Bootcamp
+    repository: https://github.com/krishnaik06/Complete-Python-Bootcamp
     license: "GPL-3.0"
     priority: "Supporting"
     benefit: >-
@@ -97,8 +91,7 @@ resources:
     type: "Notebook course"
     level: "Beginner to intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/ML-foundations
-    upstream: https://github.com/jonkrohn/ML-foundations
+    repository: https://github.com/jonkrohn/ML-foundations
     license: "MIT"
     priority: "Core"
     benefit: >-
@@ -112,8 +105,7 @@ resources:
     type: "Notebook course"
     level: "Beginner to intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/MLOB1
-    upstream: https://github.com/shaiful019/MLOB1
+    repository: https://github.com/shaiful019/MLOB1
     license: "MIT"
     priority: "Supporting"
     benefit: >-
@@ -127,8 +119,7 @@ resources:
     type: "Roadmap"
     level: "All levels"
     language: "JavaScript"
-    fork: https://github.com/islam-md-didarul/ai-expert-roadmap
-    upstream: https://github.com/AMAI-GmbH/AI-Expert-Roadmap
+    repository: https://github.com/AMAI-GmbH/AI-Expert-Roadmap
     license: "MIT"
     priority: "Reference"
     benefit: >-
@@ -142,8 +133,7 @@ resources:
     type: "Curated list"
     level: "All levels"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/ai_all_resources
-    upstream: https://github.com/nivu/ai_all_resources
+    repository: https://github.com/nivu/ai_all_resources
     license: "See upstream"
     priority: "Reference"
     benefit: >-
@@ -157,8 +147,7 @@ resources:
     type: "Ranked curated list"
     level: "Intermediate"
     language: "Mixed"
-    fork: https://github.com/islam-md-didarul/best-of-ml-python
-    upstream: https://github.com/lukasmasuch/best-of-ml-python
+    repository: https://github.com/lukasmasuch/best-of-ml-python
     license: "CC-BY-SA-4.0"
     priority: "Supporting"
     benefit: >-
@@ -172,8 +161,7 @@ resources:
     type: "Book code and notebooks"
     level: "Intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/Hands-On-Large-Language-Models
-    upstream: https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
+    repository: https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
     license: "Apache-2.0"
     priority: "Specialized"
     benefit: >-
@@ -187,8 +175,7 @@ resources:
     type: "Notebook course"
     level: "Beginner to intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/CFDPython
-    upstream: https://github.com/barbagroup/CFDPython
+    repository: https://github.com/barbagroup/CFDPython
     license: "See upstream"
     priority: "Core"
     benefit: >-
@@ -202,8 +189,7 @@ resources:
     type: "Notebook course"
     level: "Beginner to intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/Python_CFD
-    upstream: https://github.com/DrZGan/Python_CFD
+    repository: https://github.com/DrZGan/Python_CFD
     license: "See upstream"
     priority: "Supporting"
     benefit: >-
@@ -217,8 +203,7 @@ resources:
     type: "Notebook collection"
     level: "Beginner to intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/CFD-Python
-    upstream: https://github.com/kangluosee/CFD-Python
+    repository: https://github.com/kangluosee/CFD-Python
     license: "See upstream"
     priority: "Supporting"
     benefit: >-
@@ -232,8 +217,7 @@ resources:
     type: "Educational solver"
     level: "Intermediate"
     language: "MATLAB"
-    fork: https://github.com/islam-md-didarul/staggered-grid-lid-driven-cavity
-    upstream: https://github.com/jeddiot/staggered-grid-lid-driven-cavity
+    repository: https://github.com/jeddiot/staggered-grid-lid-driven-cavity
     license: "See upstream"
     priority: "Core"
     benefit: >-
@@ -247,8 +231,7 @@ resources:
     type: "Research solver prototype"
     level: "Intermediate to advanced"
     language: "Python"
-    fork: https://github.com/islam-md-didarul/PyCFD
-    upstream: https://github.com/LukeMcCulloch/PyCFD
+    repository: https://github.com/LukeMcCulloch/PyCFD
     license: "MIT"
     priority: "Specialized"
     benefit: >-
@@ -262,8 +245,7 @@ resources:
     type: "Curated list"
     level: "All levels"
     language: "Mixed"
-    fork: https://github.com/islam-md-didarul/awesome-fluid-dynamics
-    upstream: https://github.com/lento234/awesome-fluid-dynamics
+    repository: https://github.com/lento234/awesome-fluid-dynamics
     license: "CC0-1.0"
     priority: "Reference"
     benefit: >-
@@ -277,8 +259,7 @@ resources:
     type: "Curated solver list"
     level: "Intermediate to advanced"
     language: "Mixed"
-    fork: https://github.com/islam-md-didarul/list-lattice-Boltzmann-codes
-    upstream: https://github.com/sthavishtha/list-lattice-Boltzmann-codes
+    repository: https://github.com/sthavishtha/list-lattice-Boltzmann-codes
     license: "See upstream"
     priority: "Specialized"
     benefit: >-
@@ -292,7 +273,7 @@ resources:
     type: "Original curated learning hub"
     level: "Beginner to advanced"
     language: "Markdown"
-    fork: https://github.com/islam-md-didarul/ml-cfd-learning-resources
+    repository: https://github.com/islam-md-didarul/ml-cfd-learning-resources
     license: "MIT"
     priority: "Core"
     benefit: >-
@@ -306,8 +287,7 @@ resources:
     type: "Lecture materials"
     level: "Intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/ml-cfd-lecture
-    upstream: https://github.com/AndreWeiner/ml-cfd-lecture
+    repository: https://github.com/AndreWeiner/ml-cfd-lecture
     license: "GPL-3.0"
     priority: "Core"
     benefit: >-
@@ -321,8 +301,7 @@ resources:
     type: "Survey and curated literature"
     level: "Intermediate to advanced"
     language: "Mixed"
-    fork: https://github.com/islam-md-didarul/Awesome-AI4CFD
-    upstream: https://github.com/WillDreamer/Awesome-AI4CFD
+    repository: https://github.com/WillDreamer/Awesome-AI4CFD
     license: "See upstream"
     priority: "Core"
     benefit: >-
@@ -336,8 +315,7 @@ resources:
     type: "Python library"
     level: "Intermediate to advanced"
     language: "Python"
-    fork: https://github.com/islam-md-didarul/PyDMD
-    upstream: https://github.com/PyDMD/PyDMD
+    repository: https://github.com/PyDMD/PyDMD
     license: "MIT"
     priority: "Core"
     benefit: >-
@@ -351,8 +329,7 @@ resources:
     type: "Research implementation"
     level: "Advanced"
     language: "Python"
-    fork: https://github.com/islam-md-didarul/PINNs
-    upstream: https://github.com/maziarraissi/PINNs
+    repository: https://github.com/maziarraissi/PINNs
     license: "MIT"
     priority: "Specialized"
     benefit: >-
@@ -366,8 +343,7 @@ resources:
     type: "Python FEA library"
     level: "Intermediate to advanced"
     language: "Python"
-    fork: https://github.com/islam-md-didarul/felupe
-    upstream: https://github.com/adtzlr/felupe
+    repository: https://github.com/adtzlr/felupe
     license: "GPL-3.0"
     priority: "Specialized"
     benefit: >-
@@ -381,8 +357,7 @@ resources:
     type: "Application notebooks"
     level: "Intermediate"
     language: "Jupyter Notebook"
-    fork: https://github.com/islam-md-didarul/BubbleID
-    upstream: https://github.com/cldunlap73/BubbleID
+    repository: https://github.com/cldunlap73/BubbleID
     license: "Apache-2.0"
     priority: "Specialized"
     benefit: >-
@@ -396,8 +371,7 @@ resources:
     type: "Document template"
     level: "All levels"
     language: "LaTeX"
-    fork: https://github.com/islam-md-didarul/LaTex-Thesis-Template
-    upstream: https://github.com/samina1/LaTex-Thesis-Template
+    repository: https://github.com/samina1/LaTex-Thesis-Template
     license: "See upstream"
     priority: "Supporting"
     benefit: >-
@@ -411,8 +385,7 @@ resources:
     type: "AI media utility"
     level: "Intermediate"
     language: "Python"
-    fork: https://github.com/islam-md-didarul/voice-pro
-    upstream: https://github.com/abus-aikorea/voice-pro
+    repository: https://github.com/abus-aikorea/voice-pro
     license: "MIT"
     priority: "Optional"
     benefit: >-

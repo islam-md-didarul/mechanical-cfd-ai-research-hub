@@ -48,40 +48,40 @@ flowchart LR
 
 | Repository | Segment | Type | Level | Priority | Source |
 |---|---|---|---|---|---|
-| [mechanical-engineering-research-skill](https://github.com/islam-md-didarul/mechanical-engineering-research-skill) | Research Practice & Engineering Maps | Research guide | All levels | Core | [Upstream](https://github.com/hanhuark/mechanical-engineering-research-skill) |
-| [awesome-mecheng](https://github.com/islam-md-didarul/awesome-mecheng) | Research Practice & Engineering Maps | Curated list | All levels | Reference | [Upstream](https://github.com/m2n037/awesome-mecheng) |
-| [awesome-aerospace-engineering](https://github.com/islam-md-didarul/awesome-aerospace-engineering) | Research Practice & Engineering Maps | Curated list | All levels | Reference | [Upstream](https://github.com/mahran-sayed/awesome-aerospace-engineering) |
-| [maths-cs-ai-compendium](https://github.com/islam-md-didarul/maths-cs-ai-compendium) | Mathematics & Programming Foundations | Learning compendium | Beginner to advanced | Core | [Upstream](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) |
-| [pcc_3e](https://github.com/islam-md-didarul/pcc_3e) | Mathematics & Programming Foundations | Course resources | Beginner | Core | [Upstream](https://github.com/ehmatthes/pcc_3e) |
-| [Complete-Python-Bootcamp](https://github.com/islam-md-didarul/Complete-Python-Bootcamp) | Mathematics & Programming Foundations | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/krishnaik06/Complete-Python-Bootcamp) |
-| [ML-foundations](https://github.com/islam-md-didarul/ML-foundations) | Mathematics & Programming Foundations | Notebook course | Beginner to intermediate | Core | [Upstream](https://github.com/jonkrohn/ML-foundations) |
-| [MLOB1](https://github.com/islam-md-didarul/MLOB1) | General Machine Learning & AI | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/shaiful019/MLOB1) |
-| [ai-expert-roadmap](https://github.com/islam-md-didarul/ai-expert-roadmap) | General Machine Learning & AI | Roadmap | All levels | Reference | [Upstream](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) |
-| [ai_all_resources](https://github.com/islam-md-didarul/ai_all_resources) | General Machine Learning & AI | Curated list | All levels | Reference | [Upstream](https://github.com/nivu/ai_all_resources) |
-| [best-of-ml-python](https://github.com/islam-md-didarul/best-of-ml-python) | General Machine Learning & AI | Ranked curated list | Intermediate | Supporting | [Upstream](https://github.com/lukasmasuch/best-of-ml-python) |
-| [Hands-On-Large-Language-Models](https://github.com/islam-md-didarul/Hands-On-Large-Language-Models) | General Machine Learning & AI | Book code and notebooks | Intermediate | Specialized | [Upstream](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) |
-| [CFDPython](https://github.com/islam-md-didarul/CFDPython) | CFD Foundations & Numerical Solvers | Notebook course | Beginner to intermediate | Core | [Upstream](https://github.com/barbagroup/CFDPython) |
-| [Python_CFD](https://github.com/islam-md-didarul/Python_CFD) | CFD Foundations & Numerical Solvers | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/DrZGan/Python_CFD) |
-| [CFD-Python](https://github.com/islam-md-didarul/CFD-Python) | CFD Foundations & Numerical Solvers | Notebook collection | Beginner to intermediate | Supporting | [Upstream](https://github.com/kangluosee/CFD-Python) |
-| [staggered-grid-lid-driven-cavity](https://github.com/islam-md-didarul/staggered-grid-lid-driven-cavity) | CFD Foundations & Numerical Solvers | Educational solver | Intermediate | Core | [Upstream](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) |
-| [PyCFD](https://github.com/islam-md-didarul/PyCFD) | CFD Foundations & Numerical Solvers | Research solver prototype | Intermediate to advanced | Specialized | [Upstream](https://github.com/LukeMcCulloch/PyCFD) |
-| [awesome-fluid-dynamics](https://github.com/islam-md-didarul/awesome-fluid-dynamics) | CFD Foundations & Numerical Solvers | Curated list | All levels | Reference | [Upstream](https://github.com/lento234/awesome-fluid-dynamics) |
-| [list-lattice-Boltzmann-codes](https://github.com/islam-md-didarul/list-lattice-Boltzmann-codes) | CFD Foundations & Numerical Solvers | Curated solver list | Intermediate to advanced | Specialized | [Upstream](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) |
+| [mechanical-engineering-research-skill](https://github.com/hanhuark/mechanical-engineering-research-skill) | Research Practice & Engineering Maps | Research guide | All levels | Core | [Upstream](https://github.com/hanhuark/mechanical-engineering-research-skill) |
+| [awesome-mecheng](https://github.com/m2n037/awesome-mecheng) | Research Practice & Engineering Maps | Curated list | All levels | Reference | [Upstream](https://github.com/m2n037/awesome-mecheng) |
+| [awesome-aerospace-engineering](https://github.com/mahran-sayed/awesome-aerospace-engineering) | Research Practice & Engineering Maps | Curated list | All levels | Reference | [Upstream](https://github.com/mahran-sayed/awesome-aerospace-engineering) |
+| [maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | Mathematics & Programming Foundations | Learning compendium | Beginner to advanced | Core | [Upstream](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) |
+| [pcc_3e](https://github.com/ehmatthes/pcc_3e) | Mathematics & Programming Foundations | Course resources | Beginner | Core | [Upstream](https://github.com/ehmatthes/pcc_3e) |
+| [Complete-Python-Bootcamp](https://github.com/krishnaik06/Complete-Python-Bootcamp) | Mathematics & Programming Foundations | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/krishnaik06/Complete-Python-Bootcamp) |
+| [ML-foundations](https://github.com/jonkrohn/ML-foundations) | Mathematics & Programming Foundations | Notebook course | Beginner to intermediate | Core | [Upstream](https://github.com/jonkrohn/ML-foundations) |
+| [MLOB1](https://github.com/shaiful019/MLOB1) | General Machine Learning & AI | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/shaiful019/MLOB1) |
+| [ai-expert-roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | General Machine Learning & AI | Roadmap | All levels | Reference | [Upstream](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) |
+| [ai_all_resources](https://github.com/nivu/ai_all_resources) | General Machine Learning & AI | Curated list | All levels | Reference | [Upstream](https://github.com/nivu/ai_all_resources) |
+| [best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python) | General Machine Learning & AI | Ranked curated list | Intermediate | Supporting | [Upstream](https://github.com/lukasmasuch/best-of-ml-python) |
+| [Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | General Machine Learning & AI | Book code and notebooks | Intermediate | Specialized | [Upstream](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) |
+| [CFDPython](https://github.com/barbagroup/CFDPython) | CFD Foundations & Numerical Solvers | Notebook course | Beginner to intermediate | Core | [Upstream](https://github.com/barbagroup/CFDPython) |
+| [Python_CFD](https://github.com/DrZGan/Python_CFD) | CFD Foundations & Numerical Solvers | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/DrZGan/Python_CFD) |
+| [CFD-Python](https://github.com/kangluosee/CFD-Python) | CFD Foundations & Numerical Solvers | Notebook collection | Beginner to intermediate | Supporting | [Upstream](https://github.com/kangluosee/CFD-Python) |
+| [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) | CFD Foundations & Numerical Solvers | Educational solver | Intermediate | Core | [Upstream](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) |
+| [PyCFD](https://github.com/LukeMcCulloch/PyCFD) | CFD Foundations & Numerical Solvers | Research solver prototype | Intermediate to advanced | Specialized | [Upstream](https://github.com/LukeMcCulloch/PyCFD) |
+| [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics) | CFD Foundations & Numerical Solvers | Curated list | All levels | Reference | [Upstream](https://github.com/lento234/awesome-fluid-dynamics) |
+| [list-lattice-Boltzmann-codes](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) | CFD Foundations & Numerical Solvers | Curated solver list | Intermediate to advanced | Specialized | [Upstream](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) |
 | [ml-cfd-learning-resources](https://github.com/islam-md-didarul/ml-cfd-learning-resources) | AI for CFD, ROM & Scientific ML | Original curated learning hub | Beginner to advanced | Core | Original |
-| [ml-cfd-lecture](https://github.com/islam-md-didarul/ml-cfd-lecture) | AI for CFD, ROM & Scientific ML | Lecture materials | Intermediate | Core | [Upstream](https://github.com/AndreWeiner/ml-cfd-lecture) |
-| [Awesome-AI4CFD](https://github.com/islam-md-didarul/Awesome-AI4CFD) | AI for CFD, ROM & Scientific ML | Survey and curated literature | Intermediate to advanced | Core | [Upstream](https://github.com/WillDreamer/Awesome-AI4CFD) |
-| [PyDMD](https://github.com/islam-md-didarul/PyDMD) | AI for CFD, ROM & Scientific ML | Python library | Intermediate to advanced | Core | [Upstream](https://github.com/PyDMD/PyDMD) |
-| [PINNs](https://github.com/islam-md-didarul/PINNs) | AI for CFD, ROM & Scientific ML | Research implementation | Advanced | Specialized | [Upstream](https://github.com/maziarraissi/PINNs) |
-| [felupe](https://github.com/islam-md-didarul/felupe) | FEA, Multiphase & Specialized Applications | Python FEA library | Intermediate to advanced | Specialized | [Upstream](https://github.com/adtzlr/felupe) |
-| [BubbleID](https://github.com/islam-md-didarul/BubbleID) | FEA, Multiphase & Specialized Applications | Application notebooks | Intermediate | Specialized | [Upstream](https://github.com/cldunlap73/BubbleID) |
-| [LaTex-Thesis-Template](https://github.com/islam-md-didarul/LaTex-Thesis-Template) | Research Communication & Productivity | Document template | All levels | Supporting | [Upstream](https://github.com/samina1/LaTex-Thesis-Template) |
-| [voice-pro](https://github.com/islam-md-didarul/voice-pro) | Research Communication & Productivity | AI media utility | Intermediate | Optional | [Upstream](https://github.com/abus-aikorea/voice-pro) |
+| [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) | AI for CFD, ROM & Scientific ML | Lecture materials | Intermediate | Core | [Upstream](https://github.com/AndreWeiner/ml-cfd-lecture) |
+| [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) | AI for CFD, ROM & Scientific ML | Survey and curated literature | Intermediate to advanced | Core | [Upstream](https://github.com/WillDreamer/Awesome-AI4CFD) |
+| [PyDMD](https://github.com/PyDMD/PyDMD) | AI for CFD, ROM & Scientific ML | Python library | Intermediate to advanced | Core | [Upstream](https://github.com/PyDMD/PyDMD) |
+| [PINNs](https://github.com/maziarraissi/PINNs) | AI for CFD, ROM & Scientific ML | Research implementation | Advanced | Specialized | [Upstream](https://github.com/maziarraissi/PINNs) |
+| [felupe](https://github.com/adtzlr/felupe) | FEA, Multiphase & Specialized Applications | Python FEA library | Intermediate to advanced | Specialized | [Upstream](https://github.com/adtzlr/felupe) |
+| [BubbleID](https://github.com/cldunlap73/BubbleID) | FEA, Multiphase & Specialized Applications | Application notebooks | Intermediate | Specialized | [Upstream](https://github.com/cldunlap73/BubbleID) |
+| [LaTex-Thesis-Template](https://github.com/samina1/LaTex-Thesis-Template) | Research Communication & Productivity | Document template | All levels | Supporting | [Upstream](https://github.com/samina1/LaTex-Thesis-Template) |
+| [voice-pro](https://github.com/abus-aikorea/voice-pro) | Research Communication & Productivity | AI media utility | Intermediate | Optional | [Upstream](https://github.com/abus-aikorea/voice-pro) |
 
 ---
 
 ## 1. Research Practice & Engineering Maps
 
-### [mechanical-engineering-research-skill](https://github.com/islam-md-didarul/mechanical-engineering-research-skill)
+### [mechanical-engineering-research-skill](https://github.com/hanhuark/mechanical-engineering-research-skill)
 
 **Type:** Research guide  
 **Level:** All levels  
@@ -94,7 +94,7 @@ flowchart LR
 
 **Recommended use.** Use as the top-level research-methodology reference for planning, reviewing literature, validating models, and documenting results.
 
-### [awesome-mecheng](https://github.com/islam-md-didarul/awesome-mecheng)
+### [awesome-mecheng](https://github.com/m2n037/awesome-mecheng)
 
 **Type:** Curated list  
 **Level:** All levels  
@@ -107,7 +107,7 @@ flowchart LR
 
 **Recommended use.** Consult when a project expands beyond fluid mechanics or requires multidisciplinary engineering tools.
 
-### [awesome-aerospace-engineering](https://github.com/islam-md-didarul/awesome-aerospace-engineering)
+### [awesome-aerospace-engineering](https://github.com/mahran-sayed/awesome-aerospace-engineering)
 
 **Type:** Curated list  
 **Level:** All levels  
@@ -122,7 +122,7 @@ flowchart LR
 
 ## 2. Mathematics & Programming Foundations
 
-### [maths-cs-ai-compendium](https://github.com/islam-md-didarul/maths-cs-ai-compendium)
+### [maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)
 
 **Type:** Learning compendium  
 **Level:** Beginner to advanced  
@@ -135,7 +135,7 @@ flowchart LR
 
 **Recommended use.** Use to review concepts that support numerical methods, machine learning, and scientific computing.
 
-### [pcc_3e](https://github.com/islam-md-didarul/pcc_3e)
+### [pcc_3e](https://github.com/ehmatthes/pcc_3e)
 
 **Type:** Course resources  
 **Level:** Beginner  
@@ -148,7 +148,7 @@ flowchart LR
 
 **Recommended use.** Start here before CFD scripting, data processing, or machine-learning notebooks.
 
-### [Complete-Python-Bootcamp](https://github.com/islam-md-didarul/Complete-Python-Bootcamp)
+### [Complete-Python-Bootcamp](https://github.com/krishnaik06/Complete-Python-Bootcamp)
 
 **Type:** Notebook course  
 **Level:** Beginner to intermediate  
@@ -161,7 +161,7 @@ flowchart LR
 
 **Recommended use.** Use after basic Python syntax to build research coding confidence.
 
-### [ML-foundations](https://github.com/islam-md-didarul/ML-foundations)
+### [ML-foundations](https://github.com/jonkrohn/ML-foundations)
 
 **Type:** Notebook course  
 **Level:** Beginner to intermediate  
@@ -176,7 +176,7 @@ flowchart LR
 
 ## 3. General Machine Learning & AI
 
-### [MLOB1](https://github.com/islam-md-didarul/MLOB1)
+### [MLOB1](https://github.com/shaiful019/MLOB1)
 
 **Type:** Notebook course  
 **Level:** Beginner to intermediate  
@@ -189,7 +189,7 @@ flowchart LR
 
 **Recommended use.** Use before building CFD surrogate models or classification pipelines.
 
-### [ai-expert-roadmap](https://github.com/islam-md-didarul/ai-expert-roadmap)
+### [ai-expert-roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
 
 **Type:** Roadmap  
 **Level:** All levels  
@@ -202,7 +202,7 @@ flowchart LR
 
 **Recommended use.** Use as a planning reference; treat dated sections as historical guidance and verify modern tooling separately.
 
-### [ai_all_resources](https://github.com/islam-md-didarul/ai_all_resources)
+### [ai_all_resources](https://github.com/nivu/ai_all_resources)
 
 **Type:** Curated list  
 **Level:** All levels  
@@ -215,7 +215,7 @@ flowchart LR
 
 **Recommended use.** Use as a discovery directory when a new AI topic appears in a research project.
 
-### [best-of-ml-python](https://github.com/islam-md-didarul/best-of-ml-python)
+### [best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python)
 
 **Type:** Ranked curated list  
 **Level:** Intermediate  
@@ -228,7 +228,7 @@ flowchart LR
 
 **Recommended use.** Consult when selecting frameworks for training, optimization, explainability, or deployment.
 
-### [Hands-On-Large-Language-Models](https://github.com/islam-md-didarul/Hands-On-Large-Language-Models)
+### [Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
 
 **Type:** Book code and notebooks  
 **Level:** Intermediate  
@@ -243,7 +243,7 @@ flowchart LR
 
 ## 4. CFD Foundations & Numerical Solvers
 
-### [CFDPython](https://github.com/islam-md-didarul/CFDPython)
+### [CFDPython](https://github.com/barbagroup/CFDPython)
 
 **Type:** Notebook course  
 **Level:** Beginner to intermediate  
@@ -256,7 +256,7 @@ flowchart LR
 
 **Recommended use.** Use as the first CFD programming course and the bridge between governing equations and numerical implementation.
 
-### [Python_CFD](https://github.com/islam-md-didarul/Python_CFD)
+### [Python_CFD](https://github.com/DrZGan/Python_CFD)
 
 **Type:** Notebook course  
 **Level:** Beginner to intermediate  
@@ -269,7 +269,7 @@ flowchart LR
 
 **Recommended use.** Use alongside or after CFDPython to reinforce discretization and solver concepts.
 
-### [CFD-Python](https://github.com/islam-md-didarul/CFD-Python)
+### [CFD-Python](https://github.com/kangluosee/CFD-Python)
 
 **Type:** Notebook collection  
 **Level:** Beginner to intermediate  
@@ -282,7 +282,7 @@ flowchart LR
 
 **Recommended use.** Use as supplementary exercises after learning the basic numerical methods.
 
-### [staggered-grid-lid-driven-cavity](https://github.com/islam-md-didarul/staggered-grid-lid-driven-cavity)
+### [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity)
 
 **Type:** Educational solver  
 **Level:** Intermediate  
@@ -295,7 +295,7 @@ flowchart LR
 
 **Recommended use.** Study pressure–velocity coupling, boundary conditions, and finite-volume implementation.
 
-### [PyCFD](https://github.com/islam-md-didarul/PyCFD)
+### [PyCFD](https://github.com/LukeMcCulloch/PyCFD)
 
 **Type:** Research solver prototype  
 **Level:** Intermediate to advanced  
@@ -308,7 +308,7 @@ flowchart LR
 
 **Recommended use.** Use after introductory CFD programming to study unstructured mesh and solver organization.
 
-### [awesome-fluid-dynamics](https://github.com/islam-md-didarul/awesome-fluid-dynamics)
+### [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics)
 
 **Type:** Curated list  
 **Level:** All levels  
@@ -321,7 +321,7 @@ flowchart LR
 
 **Recommended use.** Use as the broad fluid-dynamics discovery directory for theory, experiments, and computation.
 
-### [list-lattice-Boltzmann-codes](https://github.com/islam-md-didarul/list-lattice-Boltzmann-codes)
+### [list-lattice-Boltzmann-codes](https://github.com/sthavishtha/list-lattice-Boltzmann-codes)
 
 **Type:** Curated solver list  
 **Level:** Intermediate to advanced  
@@ -349,7 +349,7 @@ flowchart LR
 
 **Recommended use.** Use as the specialized AI-for-CFD sub-hub linked from this broader repository.
 
-### [ml-cfd-lecture](https://github.com/islam-md-didarul/ml-cfd-lecture)
+### [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture)
 
 **Type:** Lecture materials  
 **Level:** Intermediate  
@@ -362,7 +362,7 @@ flowchart LR
 
 **Recommended use.** Study after introductory CFD and machine learning, before a full surrogate or ROM project.
 
-### [Awesome-AI4CFD](https://github.com/islam-md-didarul/Awesome-AI4CFD)
+### [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)
 
 **Type:** Survey and curated literature  
 **Level:** Intermediate to advanced  
@@ -375,7 +375,7 @@ flowchart LR
 
 **Recommended use.** Consult during literature reviews, method selection, and proposal development.
 
-### [PyDMD](https://github.com/islam-md-didarul/PyDMD)
+### [PyDMD](https://github.com/PyDMD/PyDMD)
 
 **Type:** Python library  
 **Level:** Intermediate to advanced  
@@ -388,7 +388,7 @@ flowchart LR
 
 **Recommended use.** Use for CFD/PIV modal analysis, reduced-order reconstruction, and benchmarking CNN-KAE or Koopman models.
 
-### [PINNs](https://github.com/islam-md-didarul/PINNs)
+### [PINNs](https://github.com/maziarraissi/PINNs)
 
 **Type:** Research implementation  
 **Level:** Advanced  
@@ -403,7 +403,7 @@ flowchart LR
 
 ## 6. FEA, Multiphase & Specialized Applications
 
-### [felupe](https://github.com/islam-md-didarul/felupe)
+### [felupe](https://github.com/adtzlr/felupe)
 
 **Type:** Python FEA library  
 **Level:** Intermediate to advanced  
@@ -416,7 +416,7 @@ flowchart LR
 
 **Recommended use.** Use for solid-mechanics learning, constitutive modeling, and preparation for FSI studies.
 
-### [BubbleID](https://github.com/islam-md-didarul/BubbleID)
+### [BubbleID](https://github.com/cldunlap73/BubbleID)
 
 **Type:** Application notebooks  
 **Level:** Intermediate  
@@ -431,7 +431,7 @@ flowchart LR
 
 ## 7. Research Communication & Productivity
 
-### [LaTex-Thesis-Template](https://github.com/islam-md-didarul/LaTex-Thesis-Template)
+### [LaTex-Thesis-Template](https://github.com/samina1/LaTex-Thesis-Template)
 
 **Type:** Document template  
 **Level:** All levels  
@@ -444,7 +444,7 @@ flowchart LR
 
 **Recommended use.** Use for thesis, dissertation, report, or manuscript preparation after checking institutional formatting requirements.
 
-### [voice-pro](https://github.com/islam-md-didarul/voice-pro)
+### [voice-pro](https://github.com/abus-aikorea/voice-pro)
 
 **Type:** AI media utility  
 **Level:** Intermediate  

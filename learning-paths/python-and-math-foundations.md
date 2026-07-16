@@ -6,11 +6,11 @@ Build the programming and mathematical background required for numerical CFD, ma
 
 ## Recommended order
 
-1. [islam-md-didarul/pcc_3e](https://github.com/islam-md-didarul/pcc_3e)
-2. [islam-md-didarul/Complete-Python-Bootcamp](https://github.com/islam-md-didarul/Complete-Python-Bootcamp)
-3. [islam-md-didarul/maths-cs-ai-compendium](https://github.com/islam-md-didarul/maths-cs-ai-compendium)
-4. [islam-md-didarul/ML-foundations](https://github.com/islam-md-didarul/ML-foundations)
-5. [islam-md-didarul/MLOB1](https://github.com/islam-md-didarul/MLOB1)
+1. [ehmatthes/pcc_3e](https://github.com/ehmatthes/pcc_3e)
+2. [krishnaik06/Complete-Python-Bootcamp](https://github.com/krishnaik06/Complete-Python-Bootcamp)
+3. [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)
+4. [jonkrohn/ML-foundations](https://github.com/jonkrohn/ML-foundations)
+5. [shaiful019/MLOB1](https://github.com/shaiful019/MLOB1)
 
 ## Expected outcomes
 

@@ -8,12 +8,12 @@ Represent high-dimensional transient flow data with compact models while retaini
 
 1. Linear algebra and Singular Value Decomposition
 2. Proper Orthogonal Decomposition
-3. [islam-md-didarul/PyDMD](https://github.com/islam-md-didarul/PyDMD)
+3. [PyDMD/PyDMD](https://github.com/PyDMD/PyDMD)
 4. Extended, optimized, or controlled DMD
 5. Koopman operator concepts
 6. Autoencoders and convolutional autoencoders
 7. Linear latent dynamics and CNN-KAE
-8. [islam-md-didarul/PINNs](https://github.com/islam-md-didarul/PINNs) for physics-constrained alternatives
+8. [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs) for physics-constrained alternatives
 
 ## Validation checklist
 

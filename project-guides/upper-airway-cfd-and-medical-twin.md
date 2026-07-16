@@ -8,12 +8,12 @@ Connect patient-specific airway geometry and breathing conditions to pressure/ve
 
 | Repository | Role |
 |---|---|
-| [ML-foundations](https://github.com/islam-md-didarul/ML-foundations) | Linear algebra, statistics, and ML prerequisites |
-| [CFDPython](https://github.com/islam-md-didarul/CFDPython) | Governing-equation and discretization foundation |
-| [ml-cfd-lecture](https://github.com/islam-md-didarul/ml-cfd-lecture) | ML–CFD integration |
-| [PyDMD](https://github.com/islam-md-didarul/PyDMD) | Classical ROM baseline |
-| [Awesome-AI4CFD](https://github.com/islam-md-didarul/Awesome-AI4CFD) | Literature and method discovery |
-| [PINNs](https://github.com/islam-md-didarul/PINNs) | Physics-informed alternatives |
+| [ML-foundations](https://github.com/jonkrohn/ML-foundations) | Linear algebra, statistics, and ML prerequisites |
+| [CFDPython](https://github.com/barbagroup/CFDPython) | Governing-equation and discretization foundation |
+| [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) | ML–CFD integration |
+| [PyDMD](https://github.com/PyDMD/PyDMD) | Classical ROM baseline |
+| [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) | Literature and method discovery |
+| [PINNs](https://github.com/maziarraissi/PINNs) | Physics-informed alternatives |
 
 ## Suggested workflow
 
