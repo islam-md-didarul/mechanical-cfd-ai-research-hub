@@ -31,3 +31,5 @@ flowchart LR
 - Image-processing validation
 - Cavitation inception, volume, erosion, or bubble metrics
 - Comparison with experiment or established benchmark
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

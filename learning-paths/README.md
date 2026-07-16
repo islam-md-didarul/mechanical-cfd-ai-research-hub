@@ -21,3 +21,5 @@ flowchart LR
     D --> E["Reduced-Order Models"]
     E --> F["Research Application"]
 ```
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

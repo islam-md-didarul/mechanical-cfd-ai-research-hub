@@ -33,3 +33,5 @@ flowchart LR
 - Physiological flow metrics
 - ROM baseline and independent test performance
 - Clinical relevance and limitations
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

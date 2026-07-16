@@ -28,3 +28,5 @@ flowchart LR
 - Time-step and convergence sensitivity
 - Conservation across the interface
 - Comparison with deformation, pressure, force, or frequency measurements
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

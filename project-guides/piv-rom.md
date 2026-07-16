@@ -31,3 +31,5 @@ Python foundations
 - Reconstruction error
 - Mode frequencies and physical interpretation
 - Generalization to unseen time intervals or operating conditions
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

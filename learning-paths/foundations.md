@@ -23,3 +23,5 @@ Build the mathematical, programming, and machine-learning prerequisites needed f
 - Understand vectors, matrices, derivatives, probability, and optimization.
 - Split datasets and evaluate regression or classification models.
 - Reproduce a notebook result and explain each processing step.
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

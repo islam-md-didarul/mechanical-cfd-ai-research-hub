@@ -35,3 +35,5 @@ flowchart LR
 - Test robustness across operating conditions or patients.
 - Compare latent dimension, parameter count, and inference time.
 - Interpret results using physical quantities, not only loss values.
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

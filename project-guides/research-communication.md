@@ -26,3 +26,5 @@ flowchart LR
 - Report uncertainty and limitations.
 - Separate observations from interpretation.
 - End with contribution, significance, and next steps.
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

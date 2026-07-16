@@ -13,3 +13,5 @@ Before copying, modifying, or redistributing third-party code:
 5. verify whether the project is actively maintained and suitable for the intended research use.
 
 Links do not imply endorsement by or affiliation with the upstream authors.
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

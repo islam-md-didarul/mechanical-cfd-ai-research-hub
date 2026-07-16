@@ -16,3 +16,5 @@ The resource library separates the concise landing page from the detailed techni
 - **Specialized:** A focused method or application
 - **Reference:** Discovery of additional external resources
 - **Optional:** Productivity or communication support
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

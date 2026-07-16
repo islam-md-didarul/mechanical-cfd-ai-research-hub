@@ -228,3 +228,5 @@ Speech, transcription, audio processing, and presentation-rehearsal utilities.
 4. Add it to this catalog and `catalog.yml`.
 5. Connect it to at least one learning path or project guide.
 6. Run the link-check workflow.
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

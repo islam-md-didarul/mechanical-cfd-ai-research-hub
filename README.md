@@ -28,7 +28,7 @@
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/islam-md-didarul/mechanical-cfd-ai-research-hub?style=flat-square" alt="Last commit">
   <img src="https://img.shields.io/github/license/islam-md-didarul/mechanical-cfd-ai-research-hub?style=flat-square" alt="License">
-  <img src="https://img.shields.io/github/actions/workflow/status/islam-md-didarul/mechanical-cfd-ai-research-hub/link-check.yml?style=flat-square&label=link%20check" alt="Link check">
+  <img src="https://img.shields.io/github/actions/workflow/status/islam-md-didarul/mechanical-cfd-ai-research-hub/link-check.yml?style=flat-square&label=documentation%20check" alt="Documentation check">
 </p>
 
 ---
@@ -305,3 +305,5 @@ The MIT license in this hub applies only to the original organization, descripti
   Maintained by <strong>Md. Didarul Islam</strong><br>
   Mechanical Engineering · CFD · Scientific AI
 </p>
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

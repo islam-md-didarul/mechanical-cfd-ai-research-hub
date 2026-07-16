@@ -1,4 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <metadata id="status-refresh">2026-07-16-green-status-refresh</metadata>
+
   <rect x="4" y="4" width="152" height="152" rx="32" fill="#F1F8FA" stroke="#C8E9EF" stroke-width="4"/>
   <g fill="none" stroke="#124E78" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M38 112h84M48 112V70l32-22 32 22v42M66 112V84h28v28"/>
   <path d="M43 65h74M80 48V31M70 31h20"/></g></svg>

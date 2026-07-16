@@ -39,3 +39,5 @@ A proposed resource should:
 - Separate verified facts from interpretation.
 - Do not copy large passages from upstream documentation.
 - Keep category and status labels consistent.
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

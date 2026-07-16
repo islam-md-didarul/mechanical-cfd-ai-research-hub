@@ -35,3 +35,5 @@ flowchart LR
 - Compare against experimental or benchmark data.
 - Quantify uncertainty and numerical error.
 - Separate numerical findings from physical interpretation.
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

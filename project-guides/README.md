@@ -12,3 +12,5 @@ These guides connect the curated resources to practical engineering research wor
 | [Multiphase Flow and Cavitation](./multiphase.md) | Multiphase CFD → image analysis → AI |
 | [Solid Mechanics and FSI](./fsi.md) | Solid model → fluid model → coupling → validation |
 | [Research Communication](./research-communication.md) | Evidence → figures → manuscript → presentation |
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->

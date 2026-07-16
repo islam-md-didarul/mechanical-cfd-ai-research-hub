@@ -32,3 +32,5 @@ flowchart LR
 - Experimental uncertainty
 - Head, efficiency, power, and cavitation metrics
 - Optimization objective and validation of the final design
+
+<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->
