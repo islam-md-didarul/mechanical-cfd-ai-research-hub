@@ -31,11 +31,10 @@ jobs:
       - name: Check documentation links
         uses: lycheeverse/lychee-action@v2
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           args: >-
             --verbose
             --no-progress
             --max-retries 3
             --accept 200,206,429
             "./**/*.md"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
