@@ -1,4 +1,4 @@
-# Medical CFD and Digital Twins
+# Biofluids CFD and Digital Twins
 
 [← Project guides](./README.md) · [Main hub](../README.md)
 
