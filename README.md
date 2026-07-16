@@ -1,470 +1,307 @@
-# Mechanical Engineering, CFD & AI Research Hub
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/images/research-hub-banner-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
+    <img src="./assets/images/research-hub-banner-light.svg"
+         width="100%"
+         alt="Mechanical CFD and Scientific AI Research Hub">
+  </picture>
+</p>
 
-![Research Hub Banner](assets/images/research-hub-banner.svg)
+<h1 align="center">Mechanical CFD & Scientific AI Research Hub</h1>
 
-[![GitHub last commit](https://img.shields.io/github/last-commit/islam-md-didarul/mechanical-cfd-ai-research-hub)](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/commits/main)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Link Check](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/actions/workflows/link-check.yml/badge.svg)](https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/actions/workflows/link-check.yml)
+<p align="center">
+  Structured learning pathways, verified resources, and project-oriented guidance
+  for computational engineering research.
+</p>
 
-A curated research and learning ecosystem maintained by **Md. Didarul Islam** for mechanical engineering, computational fluid dynamics, numerical methods, AI for CFD, reduced-order modeling, finite-element analysis, and scientific communication.
+<p align="center">
+  <a href="./learning-paths/README.md"><strong>Learning Paths</strong></a>
+  ·
+  <a href="./project-guides/README.md"><strong>Project Guides</strong></a>
+  ·
+  <a href="./resources/catalog.md"><strong>Resource Catalog</strong></a>
+  ·
+  <a href="./CONTRIBUTING.md"><strong>Contribute</strong></a>
+</p>
 
-> This repository is a navigation and explanation hub. It links to independent repositories rather than copying their source code.
-
-## Why this hub exists
-
-The linked repositories are individually useful, but they serve different purposes. This hub separates them by research function, explains the benefit of each resource, identifies a recommended learning order, and connects them to practical engineering research.
-
-## Recommended progression
-
-```mermaid
-flowchart LR
-    A[Math and Python] --> B[Numerical Methods]
-    B --> C[CFD Foundations]
-    A --> D[ML Foundations]
-    C --> E[AI for CFD]
-    D --> E
-    E --> F[DMD and Koopman ROM]
-    E --> G[PINNs and Scientific ML]
-    C --> H[FEA and Multiphase Tools]
-    F --> I[Digital Twins and Surrogates]
-    G --> I
-    I --> J[Publication and Presentation]
-```
-
-## Quick navigation
-
-- [Research Practice & Engineering Maps](#1-research-practice--engineering-maps)
-- [Mathematics & Programming Foundations](#2-mathematics--programming-foundations)
-- [General Machine Learning & AI](#3-general-machine-learning--ai)
-- [CFD Foundations & Numerical Solvers](#4-cfd-foundations--numerical-solvers)
-- [AI for CFD, ROM & Scientific ML](#5-ai-for-cfd-rom--scientific-ml)
-- [FEA, Multiphase & Specialized Applications](#6-fea-multiphase--specialized-applications)
-- [Research Communication & Productivity](#7-research-communication--productivity)
-- [Learning paths](learning-paths/)
-- [Project guides](project-guides/)
-- [Machine-readable catalog](resources/catalog.yml)
-
-## Complete repository catalog
-
-| Repository | Segment | Type | Level | Priority | Source |
-|---|---|---|---|---|---|
-| [mechanical-engineering-research-skill](https://github.com/hanhuark/mechanical-engineering-research-skill) | Research Practice & Engineering Maps | Research guide | All levels | Core | [Upstream](https://github.com/hanhuark/mechanical-engineering-research-skill) |
-| [awesome-mecheng](https://github.com/m2n037/awesome-mecheng) | Research Practice & Engineering Maps | Curated list | All levels | Reference | [Upstream](https://github.com/m2n037/awesome-mecheng) |
-| [awesome-aerospace-engineering](https://github.com/mahran-sayed/awesome-aerospace-engineering) | Research Practice & Engineering Maps | Curated list | All levels | Reference | [Upstream](https://github.com/mahran-sayed/awesome-aerospace-engineering) |
-| [maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) | Mathematics & Programming Foundations | Learning compendium | Beginner to advanced | Core | [Upstream](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) |
-| [pcc_3e](https://github.com/ehmatthes/pcc_3e) | Mathematics & Programming Foundations | Course resources | Beginner | Core | [Upstream](https://github.com/ehmatthes/pcc_3e) |
-| [Complete-Python-Bootcamp](https://github.com/krishnaik06/Complete-Python-Bootcamp) | Mathematics & Programming Foundations | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/krishnaik06/Complete-Python-Bootcamp) |
-| [ML-foundations](https://github.com/jonkrohn/ML-foundations) | Mathematics & Programming Foundations | Notebook course | Beginner to intermediate | Core | [Upstream](https://github.com/jonkrohn/ML-foundations) |
-| [MLOB1](https://github.com/shaiful019/MLOB1) | General Machine Learning & AI | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/shaiful019/MLOB1) |
-| [ai-expert-roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | General Machine Learning & AI | Roadmap | All levels | Reference | [Upstream](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) |
-| [ai_all_resources](https://github.com/nivu/ai_all_resources) | General Machine Learning & AI | Curated list | All levels | Reference | [Upstream](https://github.com/nivu/ai_all_resources) |
-| [best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python) | General Machine Learning & AI | Ranked curated list | Intermediate | Supporting | [Upstream](https://github.com/lukasmasuch/best-of-ml-python) |
-| [Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) | General Machine Learning & AI | Book code and notebooks | Intermediate | Specialized | [Upstream](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models) |
-| [CFDPython](https://github.com/barbagroup/CFDPython) | CFD Foundations & Numerical Solvers | Notebook course | Beginner to intermediate | Core | [Upstream](https://github.com/barbagroup/CFDPython) |
-| [Python_CFD](https://github.com/DrZGan/Python_CFD) | CFD Foundations & Numerical Solvers | Notebook course | Beginner to intermediate | Supporting | [Upstream](https://github.com/DrZGan/Python_CFD) |
-| [CFD-Python](https://github.com/kangluosee/CFD-Python) | CFD Foundations & Numerical Solvers | Notebook collection | Beginner to intermediate | Supporting | [Upstream](https://github.com/kangluosee/CFD-Python) |
-| [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) | CFD Foundations & Numerical Solvers | Educational solver | Intermediate | Core | [Upstream](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) |
-| [PyCFD](https://github.com/LukeMcCulloch/PyCFD) | CFD Foundations & Numerical Solvers | Research solver prototype | Intermediate to advanced | Specialized | [Upstream](https://github.com/LukeMcCulloch/PyCFD) |
-| [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics) | CFD Foundations & Numerical Solvers | Curated list | All levels | Reference | [Upstream](https://github.com/lento234/awesome-fluid-dynamics) |
-| [list-lattice-Boltzmann-codes](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) | CFD Foundations & Numerical Solvers | Curated solver list | Intermediate to advanced | Specialized | [Upstream](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) |
-| [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) | AI for CFD, ROM & Scientific ML | Lecture materials | Intermediate | Core | [Upstream](https://github.com/AndreWeiner/ml-cfd-lecture) |
-| [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) | AI for CFD, ROM & Scientific ML | Survey and curated literature | Intermediate to advanced | Core | [Upstream](https://github.com/WillDreamer/Awesome-AI4CFD) |
-| [PyDMD](https://github.com/PyDMD/PyDMD) | AI for CFD, ROM & Scientific ML | Python library | Intermediate to advanced | Core | [Upstream](https://github.com/PyDMD/PyDMD) |
-| [PINNs](https://github.com/maziarraissi/PINNs) | AI for CFD, ROM & Scientific ML | Research implementation | Advanced | Specialized | [Upstream](https://github.com/maziarraissi/PINNs) |
-| [felupe](https://github.com/adtzlr/felupe) | FEA, Multiphase & Specialized Applications | Python FEA library | Intermediate to advanced | Specialized | [Upstream](https://github.com/adtzlr/felupe) |
-| [BubbleID](https://github.com/cldunlap73/BubbleID) | FEA, Multiphase & Specialized Applications | Application notebooks | Intermediate | Specialized | [Upstream](https://github.com/cldunlap73/BubbleID) |
-| [LaTex-Thesis-Template](https://github.com/samina1/LaTex-Thesis-Template) | Research Communication & Productivity | Document template | All levels | Supporting | [Upstream](https://github.com/samina1/LaTex-Thesis-Template) |
-| [voice-pro](https://github.com/abus-aikorea/voice-pro) | Research Communication & Productivity | AI media utility | Intermediate | Optional | [Upstream](https://github.com/abus-aikorea/voice-pro) |
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/islam-md-didarul/mechanical-cfd-ai-research-hub?style=flat-square" alt="Last commit">
+  <img src="https://img.shields.io/github/license/islam-md-didarul/mechanical-cfd-ai-research-hub?style=flat-square" alt="License">
+  <img src="https://img.shields.io/github/actions/workflow/status/islam-md-didarul/mechanical-cfd-ai-research-hub/link-check.yml?style=flat-square&label=link%20check" alt="Link check">
+</p>
 
 ---
 
-## 1. Research Practice & Engineering Maps
+## About this hub
+
+This repository organizes independent open-source resources into a coherent research pathway for:
+
+- computational fluid dynamics and numerical methods;
+- mechanical and aerospace engineering applications;
+- machine learning for fluid mechanics;
+- Dynamic Mode Decomposition and Koopman-based reduced-order modeling;
+- physics-informed and scientific machine learning;
+- finite-element, multiphase, and image-analysis workflows;
+- scientific writing, presentation, and research communication.
+
+> [!NOTE]
+> This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
+
+## Choose your pathway
+
+<table>
+<tr>
+<td width="33%" valign="top" align="center">
+  <img src="./assets/icons/foundations.svg" width="72" alt="Foundations icon"><br>
+  <h3>Build foundations</h3>
+  Mathematics, Python, numerical methods, and machine-learning prerequisites.<br><br>
+  <a href="./learning-paths/foundations.md"><strong>Start learning →</strong></a>
+</td>
+<td width="33%" valign="top" align="center">
+  <img src="./assets/icons/cfd.svg" width="72" alt="CFD icon"><br>
+  <h3>Develop engineering models</h3>
+  CFD, FEA, multiphase flow, verification, validation, and engineering applications.<br><br>
+  <a href="./learning-paths/cfd.md"><strong>Explore CFD →</strong></a>
+</td>
+<td width="33%" valign="top" align="center">
+  <img src="./assets/icons/scientific-ai.svg" width="72" alt="Scientific AI icon"><br>
+  <h3>Apply scientific AI</h3>
+  DMD, Koopman models, PINNs, surrogate modeling, and AI4CFD.<br><br>
+  <a href="./learning-paths/scientific-ai.md"><strong>Explore Scientific AI →</strong></a>
+</td>
+</tr>
+</table>
+
+## Research learning roadmap
+
+```mermaid
+flowchart LR
+    A["01 · Foundations<br/>Mathematics + Python"]
+    B["02 · Numerical Engineering<br/>Numerical Methods + CFD"]
+    C["03 · Data Foundations<br/>Machine Learning"]
+    D["04 · Scientific AI<br/>AI4CFD + PINNs"]
+    E["05 · Reduced Models<br/>DMD + Koopman"]
+    F["06 · Research Systems<br/>Surrogates + Digital Twins"]
+    G["07 · Communication<br/>Papers + Presentations"]
+
+    A --> B
+    A --> C
+    B --> D
+    C --> D
+    D --> E
+    D --> F
+    E --> F
+    F --> G
+
+    classDef foundation fill:#102A43,stroke:#22B8CF,color:#F8FAFC,stroke-width:2px;
+    classDef engineering fill:#123B5D,stroke:#4CC9F0,color:#F8FAFC,stroke-width:2px;
+    classDef ai fill:#123F3B,stroke:#20C997,color:#F8FAFC,stroke-width:2px;
+    classDef output fill:#49351D,stroke:#F4A261,color:#F8FAFC,stroke-width:2px;
+
+    class A foundation;
+    class B engineering;
+    class C,D,E ai;
+    class F,G output;
+```
+
+<p align="center">
+  <a href="./learning-paths/README.md"><strong>View the complete learning paths →</strong></a>
+</p>
+
+## Featured research pathways
+
+<table>
+<tr>
+<td width="50%" valign="top">
+  <p align="center"><img src="./assets/icons/medical-cfd.svg" width="80" alt="Medical CFD icon"></p>
+  <h3 align="center">Medical CFD & Digital Twins</h3>
+  <p align="center">CT geometry → meshing → patient-specific CFD → physiological metrics → ROM → clinical prediction</p>
+  <p align="center"><a href="./project-guides/medical-cfd.md"><strong>Explore pathway →</strong></a></p>
+</td>
+<td width="50%" valign="top">
+  <p align="center"><img src="./assets/icons/turbomachinery.svg" width="80" alt="Turbomachinery icon"></p>
+  <h3 align="center">Turbomachinery Optimization</h3>
+  <p align="center">CAD geometry → mesh independence → RANS CFD → experimental validation → design optimization</p>
+  <p align="center"><a href="./project-guides/turbomachinery.md"><strong>Explore pathway →</strong></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+  <p align="center"><img src="./assets/icons/piv-rom.svg" width="80" alt="PIV and ROM icon"></p>
+  <h3 align="center">PIV & Reduced-Order Modeling</h3>
+  <p align="center">Snapshot preprocessing → modal decomposition → temporal analysis → flow reconstruction</p>
+  <p align="center"><a href="./project-guides/piv-rom.md"><strong>Explore pathway →</strong></a></p>
+</td>
+<td width="50%" valign="top">
+  <p align="center"><img src="./assets/icons/multiphase.svg" width="80" alt="Multiphase icon"></p>
+  <h3 align="center">Multiphase Flow & Cavitation</h3>
+  <p align="center">Multiphase CFD → bubble detection → cavitation metrics → image analysis → AI-assisted prediction</p>
+  <p align="center"><a href="./project-guides/multiphase.md"><strong>Explore pathway →</strong></a></p>
+</td>
+</tr>
+</table>
 
-### [mechanical-engineering-research-skill](https://github.com/hanhuark/mechanical-engineering-research-skill)
+<p align="center">
+  <a href="./project-guides/README.md"><strong>Browse all project guides →</strong></a>
+</p>
 
-**Type:** Research guide  
-**Level:** All levels  
-**Primary language:** Mixed  
-**Priority in this hub:** Core  
-**License:** MIT  
-**Original upstream:** [hanhuark/mechanical-engineering-research-skill](https://github.com/hanhuark/mechanical-engineering-research-skill)  
+## Resource collections
 
-**Main benefit.** Provides reusable workflows and research-oriented guidance for mechanical-engineering investigations.
+| Collection | Resources | Primary purpose |
+|---|---:|---|
+| Research practice | 3 | Research planning and engineering maps |
+| Mathematics and programming | 4 | Python, mathematics, and numerical prerequisites |
+| Machine learning and AI | 5 | General data-driven modeling foundations |
+| CFD and numerical solvers | 7 | Numerical CFD, solver development, and fluid mechanics |
+| Scientific AI and ROM | 5 | AI4CFD, DMD, Koopman methods, and PINNs |
+| Specialized applications | 2 | FEA, multiphase flow, and image analysis |
+| Research communication | 2 | Thesis preparation and presentation support |
 
-**Recommended use.** Use as the top-level research-methodology reference for planning, reviewing literature, validating models, and documenting results.
+<p align="center">
+  <a href="./resources/catalog.md"><strong>Browse all 28 verified resources →</strong></a>
+</p>
 
-### [awesome-mecheng](https://github.com/m2n037/awesome-mecheng)
+## Featured core toolkit
 
-**Type:** Curated list  
-**Level:** All levels  
-**Primary language:** Mixed  
-**Priority in this hub:** Reference  
-**License:** GPL-3.0  
-**Original upstream:** [m2n037/awesome-mecheng](https://github.com/m2n037/awesome-mecheng)  
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Main benefit.** Provides broad mechanical-engineering resources beyond CFD, including design, mechanics, manufacturing, and thermal sciences.
+### CFDPython
 
-**Recommended use.** Consult when a project expands beyond fluid mechanics or requires multidisciplinary engineering tools.
+`CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
-### [awesome-aerospace-engineering](https://github.com/mahran-sayed/awesome-aerospace-engineering)
+Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 
-**Type:** Curated list  
-**Level:** All levels  
-**Primary language:** Mixed  
-**Priority in this hub:** Reference  
-**License:** GPL-3.0  
-**Original upstream:** [mahran-sayed/awesome-aerospace-engineering](https://github.com/mahran-sayed/awesome-aerospace-engineering)  
+**Best for:** Connecting governing equations with Python implementation.  
+**Source:** [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython)
 
-**Main benefit.** Collects aerospace-learning resources spanning aerodynamics, propulsion, structures, flight mechanics, and software.
+</td>
+<td width="50%" valign="top">
 
-**Recommended use.** Use for aerospace-oriented CFD research, graduate-study preparation, or cross-disciplinary exploration.
+### ML Foundations
 
-## 2. Mathematics & Programming Foundations
+`CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
-### [maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)
+Mathematics and computer-science foundations for machine learning and reduced-order modeling.
 
-**Type:** Learning compendium  
-**Level:** Beginner to advanced  
-**Primary language:** JavaScript  
-**Priority in this hub:** Core  
-**License:** Apache-2.0  
-**Original upstream:** [HenryNdubuaku/maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium)  
+**Best for:** Preparing for DMD, autoencoders, Koopman methods, and PINNs.  
+**Source:** [jonkrohn/ML-foundations](https://github.com/jonkrohn/ML-foundations)
 
-**Main benefit.** Connects mathematics, computing, and artificial intelligence through intuition-focused explanations.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Recommended use.** Use to review concepts that support numerical methods, machine learning, and scientific computing.
+### PyDMD
 
-### [pcc_3e](https://github.com/ehmatthes/pcc_3e)
+`CORE` `INTERMEDIATE–ADVANCED` `PYTHON`
 
-**Type:** Course resources  
-**Level:** Beginner  
-**Primary language:** Python  
-**Priority in this hub:** Core  
-**License:** See upstream  
-**Original upstream:** [ehmatthes/pcc_3e](https://github.com/ehmatthes/pcc_3e)  
+A comprehensive Python library for Dynamic Mode Decomposition methods.
 
-**Main benefit.** Offers structured Python exercises and projects suitable for researchers beginning scientific programming.
+**Best for:** CFD/PIV modal analysis, reconstruction, and ROM benchmarking.  
+**Source:** [PyDMD/PyDMD](https://github.com/PyDMD/PyDMD)
 
-**Recommended use.** Start here before CFD scripting, data processing, or machine-learning notebooks.
+</td>
+<td width="50%" valign="top">
 
-### [Complete-Python-Bootcamp](https://github.com/krishnaik06/Complete-Python-Bootcamp)
+### Awesome AI4CFD
 
-**Type:** Notebook course  
-**Level:** Beginner to intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Supporting  
-**License:** GPL-3.0  
-**Original upstream:** [krishnaik06/Complete-Python-Bootcamp](https://github.com/krishnaik06/Complete-Python-Bootcamp)  
+`CORE` `INTERMEDIATE–ADVANCED` `LITERATURE`
 
-**Main benefit.** Provides extended Python practice for data handling, scripting, automation, and machine-learning preparation.
+A structured survey of machine-learning research for computational fluid dynamics.
 
-**Recommended use.** Use after basic Python syntax to build research coding confidence.
+**Best for:** Literature reviews, method selection, and proposal development.  
+**Source:** [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)
 
-### [ML-foundations](https://github.com/jonkrohn/ML-foundations)
+</td>
+</tr>
+</table>
 
-**Type:** Notebook course  
-**Level:** Beginner to intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Core  
-**License:** MIT  
-**Original upstream:** [jonkrohn/ML-foundations](https://github.com/jonkrohn/ML-foundations)  
+## Resource classification
 
-**Main benefit.** Covers linear algebra, calculus, statistics, and computer science needed for machine learning and reduced-order modeling.
-
-**Recommended use.** Complete before DMD, Koopman models, autoencoders, or PINNs.
-
-## 3. General Machine Learning & AI
-
-### [MLOB1](https://github.com/shaiful019/MLOB1)
-
-**Type:** Notebook course  
-**Level:** Beginner to intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Supporting  
-**License:** MIT  
-**Original upstream:** [shaiful019/MLOB1](https://github.com/shaiful019/MLOB1)  
-
-**Main benefit.** Introduces practical machine-learning workflows, preprocessing, model training, and evaluation with Python.
-
-**Recommended use.** Use before building CFD surrogate models or classification pipelines.
-
-### [ai-expert-roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)
-
-**Type:** Roadmap  
-**Level:** All levels  
-**Primary language:** JavaScript  
-**Priority in this hub:** Reference  
-**License:** MIT  
-**Original upstream:** [AMAI-GmbH/AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap)  
-
-**Main benefit.** Maps the major knowledge areas required for long-term development in artificial intelligence.
-
-**Recommended use.** Use as a planning reference; treat dated sections as historical guidance and verify modern tooling separately.
-
-### [ai_all_resources](https://github.com/nivu/ai_all_resources)
-
-**Type:** Curated list  
-**Level:** All levels  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Reference  
-**License:** See upstream  
-**Original upstream:** [nivu/ai_all_resources](https://github.com/nivu/ai_all_resources)  
-
-**Main benefit.** Collects courses, books, libraries, and references across multiple artificial-intelligence domains.
-
-**Recommended use.** Use as a discovery directory when a new AI topic appears in a research project.
-
-### [best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python)
-
-**Type:** Ranked curated list  
-**Level:** Intermediate  
-**Primary language:** Mixed  
-**Priority in this hub:** Supporting  
-**License:** CC-BY-SA-4.0  
-**Original upstream:** [lukasmasuch/best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python)  
-
-**Main benefit.** Helps identify established and actively maintained Python libraries for machine learning.
-
-**Recommended use.** Consult when selecting frameworks for training, optimization, explainability, or deployment.
-
-### [Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
-
-**Type:** Book code and notebooks  
-**Level:** Intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Specialized  
-**License:** Apache-2.0  
-**Original upstream:** [HandsOnLLM/Hands-On-Large-Language-Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)  
-
-**Main benefit.** Demonstrates practical language-model workflows useful for document search, knowledge bases, and scientific text processing.
-
-**Recommended use.** Use after basic machine learning for research-assistant and literature-management applications.
-
-## 4. CFD Foundations & Numerical Solvers
-
-### [CFDPython](https://github.com/barbagroup/CFDPython)
-
-**Type:** Notebook course  
-**Level:** Beginner to intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Core  
-**License:** See upstream  
-**Original upstream:** [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython)  
-
-**Main benefit.** Teaches numerical CFD progressively through the well-known 12 Steps to Navier–Stokes.
-
-**Recommended use.** Use as the first CFD programming course and the bridge between governing equations and numerical implementation.
-
-### [Python_CFD](https://github.com/DrZGan/Python_CFD)
-
-**Type:** Notebook course  
-**Level:** Beginner to intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Supporting  
-**License:** See upstream  
-**Original upstream:** [DrZGan/Python_CFD](https://github.com/DrZGan/Python_CFD)  
-
-**Main benefit.** Provides a complementary CFD course implemented in Python.
-
-**Recommended use.** Use alongside or after CFDPython to reinforce discretization and solver concepts.
-
-### [CFD-Python](https://github.com/kangluosee/CFD-Python)
-
-**Type:** Notebook collection  
-**Level:** Beginner to intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Supporting  
-**License:** See upstream  
-**Original upstream:** [kangluosee/CFD-Python](https://github.com/kangluosee/CFD-Python)  
-
-**Main benefit.** Offers additional CFD coding examples for independent practice and comparison.
-
-**Recommended use.** Use as supplementary exercises after learning the basic numerical methods.
-
-### [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity)
-
-**Type:** Educational solver  
-**Level:** Intermediate  
-**Primary language:** MATLAB  
-**Priority in this hub:** Core  
-**License:** See upstream  
-**Original upstream:** [jeddiot/staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity)  
-
-**Main benefit.** Demonstrates incompressible-flow solution on a staggered grid using a classic benchmark problem.
-
-**Recommended use.** Study pressure–velocity coupling, boundary conditions, and finite-volume implementation.
-
-### [PyCFD](https://github.com/LukeMcCulloch/PyCFD)
-
-**Type:** Research solver prototype  
-**Level:** Intermediate to advanced  
-**Primary language:** Python  
-**Priority in this hub:** Specialized  
-**License:** MIT  
-**Original upstream:** [LukeMcCulloch/PyCFD](https://github.com/LukeMcCulloch/PyCFD)  
-
-**Main benefit.** Shows the architecture of an unstructured Euler-equation solver on a two-dimensional grid.
-
-**Recommended use.** Use after introductory CFD programming to study unstructured mesh and solver organization.
-
-### [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics)
-
-**Type:** Curated list  
-**Level:** All levels  
-**Primary language:** Mixed  
-**Priority in this hub:** Reference  
-**License:** CC0-1.0  
-**Original upstream:** [lento234/awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics)  
-
-**Main benefit.** Collects software, educational resources, and references across fluid dynamics.
-
-**Recommended use.** Use as the broad fluid-dynamics discovery directory for theory, experiments, and computation.
-
-### [list-lattice-Boltzmann-codes](https://github.com/sthavishtha/list-lattice-Boltzmann-codes)
-
-**Type:** Curated solver list  
-**Level:** Intermediate to advanced  
-**Primary language:** Mixed  
-**Priority in this hub:** Specialized  
-**License:** See upstream  
-**Original upstream:** [sthavishtha/list-lattice-Boltzmann-codes](https://github.com/sthavishtha/list-lattice-Boltzmann-codes)  
-
-**Main benefit.** Collects open-source lattice Boltzmann codes for alternative CFD formulations.
-
-**Recommended use.** Consult for multiphase, porous-media, microfluidic, or complex-boundary applications.
-
-## 5. AI for CFD, ROM & Scientific ML
-
-### [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture)
-
-**Type:** Lecture materials  
-**Level:** Intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Core  
-**License:** GPL-3.0  
-**Original upstream:** [AndreWeiner/ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture)  
-
-**Main benefit.** Connects general machine-learning methods directly to computational fluid mechanics.
-
-**Recommended use.** Study after introductory CFD and machine learning, before a full surrogate or ROM project.
-
-### [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)
-
-**Type:** Survey and curated literature  
-**Level:** Intermediate to advanced  
-**Primary language:** Mixed  
-**Priority in this hub:** Core  
-**License:** See upstream  
-**Original upstream:** [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)  
-
-**Main benefit.** Organizes research on machine learning for computational fluid dynamics.
-
-**Recommended use.** Consult during literature reviews, method selection, and proposal development.
-
-### [PyDMD](https://github.com/PyDMD/PyDMD)
-
-**Type:** Python library  
-**Level:** Intermediate to advanced  
-**Primary language:** Python  
-**Priority in this hub:** Core  
-**License:** MIT  
-**Original upstream:** [PyDMD/PyDMD](https://github.com/PyDMD/PyDMD)  
-
-**Main benefit.** Implements Dynamic Mode Decomposition methods for extracting spatial modes and temporal dynamics from snapshot data.
-
-**Recommended use.** Use for CFD/PIV modal analysis, reduced-order reconstruction, and benchmarking CNN-KAE or Koopman models.
-
-### [PINNs](https://github.com/maziarraissi/PINNs)
-
-**Type:** Research implementation  
-**Level:** Advanced  
-**Primary language:** Python  
-**Priority in this hub:** Specialized  
-**License:** MIT  
-**Original upstream:** [maziarraissi/PINNs](https://github.com/maziarraissi/PINNs)  
-
-**Main benefit.** Introduces physics-informed deep learning for forward, inverse, and equation-discovery problems.
-
-**Recommended use.** Study after differential equations, neural networks, and numerical CFD.
-
-## 6. FEA, Multiphase & Specialized Applications
-
-### [felupe](https://github.com/adtzlr/felupe)
-
-**Type:** Python FEA library  
-**Level:** Intermediate to advanced  
-**Primary language:** Python  
-**Priority in this hub:** Specialized  
-**License:** GPL-3.0  
-**Original upstream:** [adtzlr/felupe](https://github.com/adtzlr/felupe)  
-
-**Main benefit.** Supports finite-element analysis for continuum mechanics of solid bodies.
-
-**Recommended use.** Use for solid-mechanics learning, constitutive modeling, and preparation for FSI studies.
-
-### [BubbleID](https://github.com/cldunlap73/BubbleID)
-
-**Type:** Application notebooks  
-**Level:** Intermediate  
-**Primary language:** Jupyter Notebook  
-**Priority in this hub:** Specialized  
-**License:** Apache-2.0  
-**Original upstream:** [cldunlap73/BubbleID](https://github.com/cldunlap73/BubbleID)  
-
-**Main benefit.** Provides an application-oriented workflow for bubble identification and image-based analysis.
-
-**Recommended use.** Evaluate for cavitation, multiphase-flow visualization, and experimental image processing.
-
-## 7. Research Communication & Productivity
-
-### [LaTex-Thesis-Template](https://github.com/samina1/LaTex-Thesis-Template)
-
-**Type:** Document template  
-**Level:** All levels  
-**Primary language:** LaTeX  
-**Priority in this hub:** Supporting  
-**License:** See upstream  
-**Original upstream:** [samina1/LaTex-Thesis-Template](https://github.com/samina1/LaTex-Thesis-Template)  
-
-**Main benefit.** Provides a starting structure for long academic documents with equations, figures, tables, and references.
-
-**Recommended use.** Use for thesis, dissertation, report, or manuscript preparation after checking institutional formatting requirements.
-
-### [voice-pro](https://github.com/abus-aikorea/voice-pro)
-
-**Type:** AI media utility  
-**Level:** Intermediate  
-**Primary language:** Python  
-**Priority in this hub:** Optional  
-**License:** MIT  
-**Original upstream:** [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro)  
-
-**Main benefit.** Provides speech, transcription, audio-processing, and presentation-rehearsal utilities.
-
-**Recommended use.** Use optionally for lecture preparation, script rehearsal, transcription, and educational content.
-
-
-## Project-specific routes
-
-| Research direction | Recommended route |
+| Label | Meaning |
 |---|---|
-| Upper-airway CFD and medical digital twin | [ML-foundations](https://github.com/jonkrohn/ML-foundations) → [CFDPython](https://github.com/barbagroup/CFDPython) → [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) → [PyDMD](https://github.com/PyDMD/PyDMD) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) → [PINNs](https://github.com/maziarraissi/PINNs) / [CNN-KAE development](project-guides/upper-airway-cfd-and-medical-twin.md) |
-| Pump and turbomachinery | [CFDPython](https://github.com/barbagroup/CFDPython) → [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) → [PyCFD](https://github.com/LukeMcCulloch/PyCFD) → [PyDMD](https://github.com/PyDMD/PyDMD) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) |
-| PIV and transient-flow analysis | [Python foundations](learning-paths/python-and-math-foundations.md) → [snapshot preprocessing](learning-paths/reduced-order-modeling.md) → [PyDMD](https://github.com/PyDMD/PyDMD) → [flow reconstruction](learning-paths/reduced-order-modeling.md) |
-| Cavitation and multiphase analysis | [CFD foundations](learning-paths/cfd-foundations.md) → [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics) → [BubbleID](https://github.com/cldunlap73/BubbleID) → [LBM resources](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) |
-| Solid mechanics and FSI | [Mathematics and Python](learning-paths/python-and-math-foundations.md) → [felupe](https://github.com/adtzlr/felupe) → [validated fluid and solid models](project-guides/solid-mechanics-and-fsi.md) → [coupled FSI guide](project-guides/solid-mechanics-and-fsi.md) |
-| Scientific writing and presentation | [LaTeX Thesis Template](https://github.com/samina1/LaTex-Thesis-Template) → [literature and document workflow](learning-paths/scientific-communication.md) → [voice-pro](https://github.com/abus-aikorea/voice-pro) for rehearsal |
+| **Core** | Directly supports the principal CFD–AI learning pathway |
+| **Supporting** | Strengthens prerequisites or implementation ability |
+| **Specialized** | Intended for a particular method or application |
+| **Reference** | Mainly used to discover additional resources |
+| **Optional** | Useful for productivity or communication |
 
-## Status labels
+## Repository organization
 
-- **Core:** Directly supports the main CFD–AI research pathway.
-- **Supporting:** Strengthens important prerequisite or implementation skills.
-- **Specialized:** Useful for a specific method or application.
-- **Reference:** Primarily used for discovering external resources.
-- **Optional:** Helpful for productivity or communication but not required technically.
+```text
+mechanical-cfd-ai-research-hub/
+├── README.md
+├── assets/
+│   ├── images/
+│   └── icons/
+├── learning-paths/
+│   ├── README.md
+│   ├── foundations.md
+│   ├── cfd.md
+│   └── scientific-ai.md
+├── project-guides/
+│   ├── README.md
+│   ├── medical-cfd.md
+│   ├── turbomachinery.md
+│   ├── piv-rom.md
+│   ├── multiphase.md
+│   ├── fsi.md
+│   └── research-communication.md
+├── resources/
+│   ├── README.md
+│   ├── catalog.md
+│   └── catalog.yml
+├── .github/workflows/link-check.yml
+├── CONTRIBUTING.md
+├── LICENSE
+└── NOTICE.md
+```
+
+## How the hub supports research
+
+```mermaid
+flowchart LR
+    EXP["Experiments / Clinical Data"]
+    CFD["High-Fidelity CFD"]
+    ROM["Reduced-Order Model"]
+    AI["Scientific AI / Surrogate"]
+    DEC["Design or Clinical Decision"]
+    COM["Publication and Communication"]
+
+    EXP <--> CFD
+    CFD --> ROM
+    CFD --> AI
+    ROM --> DEC
+    AI --> DEC
+    DEC --> COM
+
+    classDef data fill:#102A43,stroke:#22B8CF,color:#F8FAFC,stroke-width:2px;
+    classDef model fill:#123F3B,stroke:#20C997,color:#F8FAFC,stroke-width:2px;
+    classDef output fill:#49351D,stroke:#F4A261,color:#F8FAFC,stroke-width:2px;
+
+    class EXP,CFD data;
+    class ROM,AI model;
+    class DEC,COM output;
+```
+
+## Contributing
+
+Resources should be added only after checking their relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
+
+[Read the contribution guide →](./CONTRIBUTING.md)
 
 ## License and attribution
 
-The MIT license in this hub applies only to the original organization, descriptions, documentation, and scripts created for this repository. Every linked repository remains governed by its own license. Review the upstream license before copying, modifying, or redistributing third-party code.
+The MIT license in this hub applies only to the original organization, descriptions, documentation, and assets created for this repository. Every linked repository remains governed by its own upstream license.
 
-See [NOTICE.md](NOTICE.md) for details.
+[Read the attribution notice →](./NOTICE.md)
+
+---
+
+<p align="center">
+  Maintained by <strong>Md. Didarul Islam</strong><br>
+  Mechanical Engineering · CFD · Scientific AI
+</p>

@@ -1,382 +1,211 @@
-version: 1
-owner: islam-md-didarul
-last_updated: 2026-07-16
+schema_version: 1
+
+hub:
+  name: Mechanical CFD & Scientific AI Research Hub
+  owner: Md. Didarul Islam
+  resource_count: 28
+  categories:
+    - research-practice
+    - mathematics-programming
+    - machine-learning-ai
+    - cfd-numerical-solvers
+    - scientific-ai-rom
+    - specialized-applications
+    - research-communication
+
 resources:
   - name: mechanical-engineering-research-skill
-    category: "Research Practice & Engineering Maps"
-    type: "Research guide"
-    level: "All levels"
-    language: "Mixed"
-    repository: https://github.com/hanhuark/mechanical-engineering-research-skill
-    license: "MIT"
-    priority: "Core"
-    benefit: >-
-      Provides reusable workflows and research-oriented guidance for mechanical-engineering investigations.
-    recommended_use: >-
-      Use as the top-level research-methodology reference for planning, reviewing literature, validating models, and documenting results.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/hanhuark/mechanical-engineering-research-skill
+    category: research-practice
+    type: research-guide
+    level: all
+    priority: core
+
   - name: awesome-mecheng
-    category: "Research Practice & Engineering Maps"
-    type: "Curated list"
-    level: "All levels"
-    language: "Mixed"
-    repository: https://github.com/m2n037/awesome-mecheng
-    license: "GPL-3.0"
-    priority: "Reference"
-    benefit: >-
-      Provides broad mechanical-engineering resources beyond CFD, including design, mechanics, manufacturing, and thermal sciences.
-    recommended_use: >-
-      Consult when a project expands beyond fluid mechanics or requires multidisciplinary engineering tools.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/m2n037/awesome-mecheng
+    category: research-practice
+    type: curated-list
+    level: all
+    priority: reference
+
   - name: awesome-aerospace-engineering
-    category: "Research Practice & Engineering Maps"
-    type: "Curated list"
-    level: "All levels"
-    language: "Mixed"
-    repository: https://github.com/mahran-sayed/awesome-aerospace-engineering
-    license: "GPL-3.0"
-    priority: "Reference"
-    benefit: >-
-      Collects aerospace-learning resources spanning aerodynamics, propulsion, structures, flight mechanics, and software.
-    recommended_use: >-
-      Use for aerospace-oriented CFD research, graduate-study preparation, or cross-disciplinary exploration.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/mahran-sayed/awesome-aerospace-engineering
+    category: research-practice
+    type: curated-list
+    level: all
+    priority: reference
+
   - name: maths-cs-ai-compendium
-    category: "Mathematics & Programming Foundations"
-    type: "Learning compendium"
-    level: "Beginner to advanced"
-    language: "JavaScript"
-    repository: https://github.com/HenryNdubuaku/maths-cs-ai-compendium
-    license: "Apache-2.0"
-    priority: "Core"
-    benefit: >-
-      Connects mathematics, computing, and artificial intelligence through intuition-focused explanations.
-    recommended_use: >-
-      Use to review concepts that support numerical methods, machine learning, and scientific computing.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/HenryNdubuaku/maths-cs-ai-compendium
+    category: mathematics-programming
+    type: learning-compendium
+    level: beginner-to-advanced
+    priority: core
+
   - name: pcc_3e
-    category: "Mathematics & Programming Foundations"
-    type: "Course resources"
-    level: "Beginner"
-    language: "Python"
-    repository: https://github.com/ehmatthes/pcc_3e
-    license: "See upstream"
-    priority: "Core"
-    benefit: >-
-      Offers structured Python exercises and projects suitable for researchers beginning scientific programming.
-    recommended_use: >-
-      Start here before CFD scripting, data processing, or machine-learning notebooks.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/ehmatthes/pcc_3e
+    category: mathematics-programming
+    type: course-resources
+    level: beginner
+    priority: core
+
   - name: Complete-Python-Bootcamp
-    category: "Mathematics & Programming Foundations"
-    type: "Notebook course"
-    level: "Beginner to intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/krishnaik06/Complete-Python-Bootcamp
-    license: "GPL-3.0"
-    priority: "Supporting"
-    benefit: >-
-      Provides extended Python practice for data handling, scripting, automation, and machine-learning preparation.
-    recommended_use: >-
-      Use after basic Python syntax to build research coding confidence.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/krishnaik06/Complete-Python-Bootcamp
+    category: mathematics-programming
+    type: notebook-course
+    level: beginner-to-intermediate
+    priority: supporting
+
   - name: ML-foundations
-    category: "Mathematics & Programming Foundations"
-    type: "Notebook course"
-    level: "Beginner to intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/jonkrohn/ML-foundations
-    license: "MIT"
-    priority: "Core"
-    benefit: >-
-      Covers linear algebra, calculus, statistics, and computer science needed for machine learning and reduced-order modeling.
-    recommended_use: >-
-      Complete before DMD, Koopman models, autoencoders, or PINNs.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/jonkrohn/ML-foundations
+    category: mathematics-programming
+    type: notebook-course
+    level: beginner-to-intermediate
+    priority: core
+
   - name: MLOB1
-    category: "General Machine Learning & AI"
-    type: "Notebook course"
-    level: "Beginner to intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/shaiful019/MLOB1
-    license: "MIT"
-    priority: "Supporting"
-    benefit: >-
-      Introduces practical machine-learning workflows, preprocessing, model training, and evaluation with Python.
-    recommended_use: >-
-      Use before building CFD surrogate models or classification pipelines.
-    status: active
-    last_checked: 2026-07-16
-  - name: ai-expert-roadmap
-    category: "General Machine Learning & AI"
-    type: "Roadmap"
-    level: "All levels"
-    language: "JavaScript"
-    repository: https://github.com/AMAI-GmbH/AI-Expert-Roadmap
-    license: "MIT"
-    priority: "Reference"
-    benefit: >-
-      Maps the major knowledge areas required for long-term development in artificial intelligence.
-    recommended_use: >-
-      Use as a planning reference; treat dated sections as historical guidance and verify modern tooling separately.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/shaiful019/MLOB1
+    category: machine-learning-ai
+    type: notebook-course
+    level: beginner-to-intermediate
+    priority: supporting
+
+  - name: AI-Expert-Roadmap
+    url: https://github.com/AMAI-GmbH/AI-Expert-Roadmap
+    category: machine-learning-ai
+    type: roadmap
+    level: all
+    priority: reference
+
   - name: ai_all_resources
-    category: "General Machine Learning & AI"
-    type: "Curated list"
-    level: "All levels"
-    language: "Jupyter Notebook"
-    repository: https://github.com/nivu/ai_all_resources
-    license: "See upstream"
-    priority: "Reference"
-    benefit: >-
-      Collects courses, books, libraries, and references across multiple artificial-intelligence domains.
-    recommended_use: >-
-      Use as a discovery directory when a new AI topic appears in a research project.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/nivu/ai_all_resources
+    category: machine-learning-ai
+    type: curated-list
+    level: all
+    priority: reference
+
   - name: best-of-ml-python
-    category: "General Machine Learning & AI"
-    type: "Ranked curated list"
-    level: "Intermediate"
-    language: "Mixed"
-    repository: https://github.com/lukasmasuch/best-of-ml-python
-    license: "CC-BY-SA-4.0"
-    priority: "Supporting"
-    benefit: >-
-      Helps identify established and actively maintained Python libraries for machine learning.
-    recommended_use: >-
-      Consult when selecting frameworks for training, optimization, explainability, or deployment.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/lukasmasuch/best-of-ml-python
+    category: machine-learning-ai
+    type: ranked-curated-list
+    level: intermediate
+    priority: supporting
+
   - name: Hands-On-Large-Language-Models
-    category: "General Machine Learning & AI"
-    type: "Book code and notebooks"
-    level: "Intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
-    license: "Apache-2.0"
-    priority: "Specialized"
-    benefit: >-
-      Demonstrates practical language-model workflows useful for document search, knowledge bases, and scientific text processing.
-    recommended_use: >-
-      Use after basic machine learning for research-assistant and literature-management applications.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
+    category: machine-learning-ai
+    type: book-code-and-notebooks
+    level: intermediate
+    priority: specialized
+
   - name: CFDPython
-    category: "CFD Foundations & Numerical Solvers"
-    type: "Notebook course"
-    level: "Beginner to intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/barbagroup/CFDPython
-    license: "See upstream"
-    priority: "Core"
-    benefit: >-
-      Teaches numerical CFD progressively through the well-known 12 Steps to Navier–Stokes.
-    recommended_use: >-
-      Use as the first CFD programming course and the bridge between governing equations and numerical implementation.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/barbagroup/CFDPython
+    category: cfd-numerical-solvers
+    type: notebook-course
+    level: beginner-to-intermediate
+    priority: core
+
   - name: Python_CFD
-    category: "CFD Foundations & Numerical Solvers"
-    type: "Notebook course"
-    level: "Beginner to intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/DrZGan/Python_CFD
-    license: "See upstream"
-    priority: "Supporting"
-    benefit: >-
-      Provides a complementary CFD course implemented in Python.
-    recommended_use: >-
-      Use alongside or after CFDPython to reinforce discretization and solver concepts.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/DrZGan/Python_CFD
+    category: cfd-numerical-solvers
+    type: notebook-course
+    level: beginner-to-intermediate
+    priority: supporting
+
   - name: CFD-Python
-    category: "CFD Foundations & Numerical Solvers"
-    type: "Notebook collection"
-    level: "Beginner to intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/kangluosee/CFD-Python
-    license: "See upstream"
-    priority: "Supporting"
-    benefit: >-
-      Offers additional CFD coding examples for independent practice and comparison.
-    recommended_use: >-
-      Use as supplementary exercises after learning the basic numerical methods.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/kangluosee/CFD-Python
+    category: cfd-numerical-solvers
+    type: notebook-collection
+    level: beginner-to-intermediate
+    priority: supporting
+
   - name: staggered-grid-lid-driven-cavity
-    category: "CFD Foundations & Numerical Solvers"
-    type: "Educational solver"
-    level: "Intermediate"
-    language: "MATLAB"
-    repository: https://github.com/jeddiot/staggered-grid-lid-driven-cavity
-    license: "See upstream"
-    priority: "Core"
-    benefit: >-
-      Demonstrates incompressible-flow solution on a staggered grid using a classic benchmark problem.
-    recommended_use: >-
-      Study pressure–velocity coupling, boundary conditions, and finite-volume implementation.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/jeddiot/staggered-grid-lid-driven-cavity
+    category: cfd-numerical-solvers
+    type: educational-solver
+    level: intermediate
+    priority: core
+
   - name: PyCFD
-    category: "CFD Foundations & Numerical Solvers"
-    type: "Research solver prototype"
-    level: "Intermediate to advanced"
-    language: "Python"
-    repository: https://github.com/LukeMcCulloch/PyCFD
-    license: "MIT"
-    priority: "Specialized"
-    benefit: >-
-      Shows the architecture of an unstructured Euler-equation solver on a two-dimensional grid.
-    recommended_use: >-
-      Use after introductory CFD programming to study unstructured mesh and solver organization.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/LukeMcCulloch/PyCFD
+    category: cfd-numerical-solvers
+    type: research-solver-prototype
+    level: intermediate-to-advanced
+    priority: specialized
+
   - name: awesome-fluid-dynamics
-    category: "CFD Foundations & Numerical Solvers"
-    type: "Curated list"
-    level: "All levels"
-    language: "Mixed"
-    repository: https://github.com/lento234/awesome-fluid-dynamics
-    license: "CC0-1.0"
-    priority: "Reference"
-    benefit: >-
-      Collects software, educational resources, and references across fluid dynamics.
-    recommended_use: >-
-      Use as the broad fluid-dynamics discovery directory for theory, experiments, and computation.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/lento234/awesome-fluid-dynamics
+    category: cfd-numerical-solvers
+    type: curated-list
+    level: all
+    priority: reference
+
   - name: list-lattice-Boltzmann-codes
-    category: "CFD Foundations & Numerical Solvers"
-    type: "Curated solver list"
-    level: "Intermediate to advanced"
-    language: "Mixed"
-    repository: https://github.com/sthavishtha/list-lattice-Boltzmann-codes
-    license: "See upstream"
-    priority: "Specialized"
-    benefit: >-
-      Collects open-source lattice Boltzmann codes for alternative CFD formulations.
-    recommended_use: >-
-      Consult for multiphase, porous-media, microfluidic, or complex-boundary applications.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/sthavishtha/list-lattice-Boltzmann-codes
+    category: cfd-numerical-solvers
+    type: curated-solver-list
+    level: intermediate-to-advanced
+    priority: specialized
+
+  - name: ml-cfd-learning-resources
+    url: https://github.com/islam-md-didarul/ml-cfd-learning-resources
+    category: scientific-ai-rom
+    type: original-curated-hub
+    level: beginner-to-advanced
+    priority: core
+
   - name: ml-cfd-lecture
-    category: "AI for CFD, ROM & Scientific ML"
-    type: "Lecture materials"
-    level: "Intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/AndreWeiner/ml-cfd-lecture
-    license: "GPL-3.0"
-    priority: "Core"
-    benefit: >-
-      Connects general machine-learning methods directly to computational fluid mechanics.
-    recommended_use: >-
-      Study after introductory CFD and machine learning, before a full surrogate or ROM project.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/AndreWeiner/ml-cfd-lecture
+    category: scientific-ai-rom
+    type: lecture-materials
+    level: intermediate
+    priority: core
+
   - name: Awesome-AI4CFD
-    category: "AI for CFD, ROM & Scientific ML"
-    type: "Survey and curated literature"
-    level: "Intermediate to advanced"
-    language: "Mixed"
-    repository: https://github.com/WillDreamer/Awesome-AI4CFD
-    license: "See upstream"
-    priority: "Core"
-    benefit: >-
-      Organizes research on machine learning for computational fluid dynamics.
-    recommended_use: >-
-      Consult during literature reviews, method selection, and proposal development.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/WillDreamer/Awesome-AI4CFD
+    category: scientific-ai-rom
+    type: survey-and-curated-literature
+    level: intermediate-to-advanced
+    priority: core
+
   - name: PyDMD
-    category: "AI for CFD, ROM & Scientific ML"
-    type: "Python library"
-    level: "Intermediate to advanced"
-    language: "Python"
-    repository: https://github.com/PyDMD/PyDMD
-    license: "MIT"
-    priority: "Core"
-    benefit: >-
-      Implements Dynamic Mode Decomposition methods for extracting spatial modes and temporal dynamics from snapshot data.
-    recommended_use: >-
-      Use for CFD/PIV modal analysis, reduced-order reconstruction, and benchmarking CNN-KAE or Koopman models.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/PyDMD/PyDMD
+    category: scientific-ai-rom
+    type: python-library
+    level: intermediate-to-advanced
+    priority: core
+
   - name: PINNs
-    category: "AI for CFD, ROM & Scientific ML"
-    type: "Research implementation"
-    level: "Advanced"
-    language: "Python"
-    repository: https://github.com/maziarraissi/PINNs
-    license: "MIT"
-    priority: "Specialized"
-    benefit: >-
-      Introduces physics-informed deep learning for forward, inverse, and equation-discovery problems.
-    recommended_use: >-
-      Study after differential equations, neural networks, and numerical CFD.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/maziarraissi/PINNs
+    category: scientific-ai-rom
+    type: research-implementation
+    level: advanced
+    priority: specialized
+
   - name: felupe
-    category: "FEA, Multiphase & Specialized Applications"
-    type: "Python FEA library"
-    level: "Intermediate to advanced"
-    language: "Python"
-    repository: https://github.com/adtzlr/felupe
-    license: "GPL-3.0"
-    priority: "Specialized"
-    benefit: >-
-      Supports finite-element analysis for continuum mechanics of solid bodies.
-    recommended_use: >-
-      Use for solid-mechanics learning, constitutive modeling, and preparation for FSI studies.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/adtzlr/felupe
+    category: specialized-applications
+    type: python-fea-library
+    level: intermediate-to-advanced
+    priority: specialized
+
   - name: BubbleID
-    category: "FEA, Multiphase & Specialized Applications"
-    type: "Application notebooks"
-    level: "Intermediate"
-    language: "Jupyter Notebook"
-    repository: https://github.com/cldunlap73/BubbleID
-    license: "Apache-2.0"
-    priority: "Specialized"
-    benefit: >-
-      Provides an application-oriented workflow for bubble identification and image-based analysis.
-    recommended_use: >-
-      Evaluate for cavitation, multiphase-flow visualization, and experimental image processing.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/cldunlap73/BubbleID
+    category: specialized-applications
+    type: application-notebooks
+    level: intermediate
+    priority: specialized
+
   - name: LaTex-Thesis-Template
-    category: "Research Communication & Productivity"
-    type: "Document template"
-    level: "All levels"
-    language: "LaTeX"
-    repository: https://github.com/samina1/LaTex-Thesis-Template
-    license: "See upstream"
-    priority: "Supporting"
-    benefit: >-
-      Provides a starting structure for long academic documents with equations, figures, tables, and references.
-    recommended_use: >-
-      Use for thesis, dissertation, report, or manuscript preparation after checking institutional formatting requirements.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/samina1/LaTex-Thesis-Template
+    category: research-communication
+    type: document-template
+    level: all
+    priority: supporting
+
   - name: voice-pro
-    category: "Research Communication & Productivity"
-    type: "AI media utility"
-    level: "Intermediate"
-    language: "Python"
-    repository: https://github.com/abus-aikorea/voice-pro
-    license: "MIT"
-    priority: "Optional"
-    benefit: >-
-      Provides speech, transcription, audio-processing, and presentation-rehearsal utilities.
-    recommended_use: >-
-      Use optionally for lecture preparation, script rehearsal, transcription, and educational content.
-    status: active
-    last_checked: 2026-07-16
+    url: https://github.com/abus-aikorea/voice-pro
+    category: research-communication
+    type: ai-media-utility
+    level: intermediate
+    priority: optional
