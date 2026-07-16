@@ -448,12 +448,12 @@ flowchart LR
 
 | Research direction | Recommended route |
 |---|---|
-| Upper-airway CFD and medical digital twin | [ML-foundations](https://github.com/jonkrohn/ML-foundations) → [CFDPython](https://github.com/barbagroup/CFDPython) → [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) → [PyDMD](https://github.com/PyDMD/PyDMD) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) → [PINNs](https://github.com/maziarraissi/PINNs) / CNN-KAE |
+| Upper-airway CFD and medical digital twin | [ML-foundations](https://github.com/jonkrohn/ML-foundations) → [CFDPython](https://github.com/barbagroup/CFDPython) → [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) → [PyDMD](https://github.com/PyDMD/PyDMD) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) → [PINNs](https://github.com/maziarraissi/PINNs) / [CNN-KAE development](project-guides/upper-airway-cfd-and-medical-twin.md) |
 | Pump and turbomachinery | [CFDPython](https://github.com/barbagroup/CFDPython) → [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) → [PyCFD](https://github.com/LukeMcCulloch/PyCFD) → [PyDMD](https://github.com/PyDMD/PyDMD) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) |
-| PIV and transient-flow analysis | [Python foundations](learning-paths/python-and-math-foundations.md) → snapshot preprocessing → [PyDMD](https://github.com/PyDMD/PyDMD) → flow reconstruction |
+| PIV and transient-flow analysis | [Python foundations](learning-paths/python-and-math-foundations.md) → [snapshot preprocessing](learning-paths/reduced-order-modeling.md) → [PyDMD](https://github.com/PyDMD/PyDMD) → [flow reconstruction](learning-paths/reduced-order-modeling.md) |
 | Cavitation and multiphase analysis | [CFD foundations](learning-paths/cfd-foundations.md) → [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics) → [BubbleID](https://github.com/cldunlap73/BubbleID) → [LBM resources](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) |
-| Solid mechanics and FSI | [Mathematics and Python](learning-paths/python-and-math-foundations.md) → [felupe](https://github.com/adtzlr/felupe) → separately validated fluid/solid models → [coupled FSI guide](project-guides/solid-mechanics-and-fsi.md) |
-| Scientific writing and presentation | [LaTeX Thesis Template](https://github.com/samina1/LaTex-Thesis-Template) → literature/document tools → [voice-pro](https://github.com/abus-aikorea/voice-pro) for rehearsal |
+| Solid mechanics and FSI | [Mathematics and Python](learning-paths/python-and-math-foundations.md) → [felupe](https://github.com/adtzlr/felupe) → [validated fluid and solid models](project-guides/solid-mechanics-and-fsi.md) → [coupled FSI guide](project-guides/solid-mechanics-and-fsi.md) |
+| Scientific writing and presentation | [LaTeX Thesis Template](https://github.com/samina1/LaTex-Thesis-Template) → [literature and document workflow](learning-paths/scientific-communication.md) → [voice-pro](https://github.com/abus-aikorea/voice-pro) for rehearsal |
 
 ## Status labels
 
