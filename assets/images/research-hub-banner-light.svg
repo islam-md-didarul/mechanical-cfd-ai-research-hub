@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8FBFD"/>
+      <stop offset="1" stop-color="#E7F3F7"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#124E78"/>
+      <stop offset="0.55" stop-color="#22B8CF"/>
+      <stop offset="1" stop-color="#20A486"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="mesh" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M0 0H48V48H0Z M0 0L48 48 M48 0L0 48" fill="none" stroke="#124E78" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="480" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="480" rx="28" fill="url(#mesh)"/>
+  <circle cx="1210" cy="220" r="210" fill="#22B8CF" opacity=".12" filter="url(#blur)"/>
+  <circle cx="1390" cy="120" r="130" fill="#20A486" opacity=".12" filter="url(#blur)"/>
+  <g fill="none" stroke="url(#flow)" stroke-linecap="round">
+    <path d="M720 330C900 160 1060 370 1280 170C1390 70 1490 120 1580 210" stroke-width="10" opacity=".9"/>
+    <path d="M680 372C870 220 1050 430 1270 240C1395 132 1480 170 1580 255" stroke-width="4" opacity=".55"/>
+    <path d="M760 270C940 100 1120 300 1320 110C1420 15 1510 60 1590 135" stroke-width="4" opacity=".45"/>
+  </g>
+  <g fill="#20A486">
+    <circle cx="1210" cy="132" r="8"/><circle cx="1320" cy="94" r="8"/><circle cx="1430" cy="142" r="8"/>
+    <circle cx="1270" cy="235" r="8"/><circle cx="1390" cy="250" r="8"/><circle cx="1495" cy="210" r="8"/>
+    <circle cx="1325" cy="350" r="8"/><circle cx="1455" cy="340" r="8"/>
+  </g>
+  <g stroke="#20A486" stroke-width="2" opacity=".45">
+    <path d="M1210 132L1320 94L1430 142L1495 210L1390 250L1270 235L1210 132"/>
+    <path d="M1270 235L1325 350L1455 340L1495 210"/>
+    <path d="M1320 94L1390 250M1430 142L1270 235M1390 250L1325 350"/>
+  </g>
+  <text x="92" y="154" fill="#071827" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="4">MECHANICAL ENGINEERING · CFD · SCIENTIFIC AI</text>
+  <text x="92" y="237" fill="#071827" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="64" font-weight="800">Research Hub</text>
+  <text x="92" y="303" fill="#52606D" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27">Learning pathways, verified resources, and project-oriented guides</text>
+  <rect x="92" y="345" width="510" height="6" rx="3" fill="url(#flow)"/>
+</svg>

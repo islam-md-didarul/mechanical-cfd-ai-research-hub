@@ -1,15 +1,15 @@
-# Third-Party Repository Notice
+# Attribution Notice
 
-This repository is a curated collection of links, classifications, descriptions, learning paths, and original organizational material.
+This repository is a curated navigation and documentation hub.
 
-The linked repositories remain the property of their respective authors and contributors. Each external project is governed by its own license. The MIT license included with this hub does not replace, modify, or extend any third-party license.
+The repository's own MIT license applies only to original organization, descriptions, diagrams, visual assets, and documentation created for this hub. Each linked external repository remains the property of its respective authors and is governed by its own license.
 
-Before copying, modifying, integrating, or redistributing code from a linked project:
+Before copying, modifying, or redistributing third-party code:
 
-1. Open the original upstream repository.
-2. Review its current license and notices.
-3. Preserve copyright and attribution requirements.
-4. Cite the original project in research publications when appropriate.
-5. Confirm that any local or derivative modifications are clearly documented.
+1. open the upstream repository;
+2. review its current license;
+3. retain required copyright and attribution notices;
+4. follow any citation or academic-use requirements;
+5. verify whether the project is actively maintained and suitable for the intended research use.
 
-This hub links directly to the original repositories maintained by their respective authors and organizations.
+Links do not imply endorsement by or affiliation with the upstream authors.

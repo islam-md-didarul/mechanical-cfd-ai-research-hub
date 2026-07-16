@@ -1,9 +1,23 @@
 # Learning Paths
 
-These pages provide ordered study routes rather than simple lists.
+[← Main hub](../README.md)
 
-1. [Python and mathematics foundations](python-and-math-foundations.md)
-2. [CFD foundations](cfd-foundations.md)
-3. [AI for CFD](ai-for-cfd.md)
-4. [Reduced-order modeling](reduced-order-modeling.md)
-5. [Scientific communication](scientific-communication.md)
+Choose a path based on your current goal.
+
+| Path | Best for | Outcome |
+|---|---|---|
+| [Foundations](./foundations.md) | Beginners and researchers strengthening prerequisites | Python, mathematics, numerical thinking, and ML readiness |
+| [CFD and Numerical Engineering](./cfd.md) | CFD students and mechanical-engineering researchers | Solver understanding, verification, validation, and application |
+| [Scientific AI and ROM](./scientific-ai.md) | Researchers connecting CFD with data-driven methods | DMD, Koopman models, PINNs, surrogates, and digital twins |
+
+## Recommended order
+
+```mermaid
+flowchart LR
+    A["Foundations"] --> B["CFD"]
+    A --> C["Machine Learning"]
+    B --> D["Scientific AI"]
+    C --> D
+    D --> E["Reduced-Order Models"]
+    E --> F["Research Application"]
+```
