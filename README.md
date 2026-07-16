@@ -67,7 +67,6 @@ flowchart LR
 | [PyCFD](https://github.com/LukeMcCulloch/PyCFD) | CFD Foundations & Numerical Solvers | Research solver prototype | Intermediate to advanced | Specialized | [Upstream](https://github.com/LukeMcCulloch/PyCFD) |
 | [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics) | CFD Foundations & Numerical Solvers | Curated list | All levels | Reference | [Upstream](https://github.com/lento234/awesome-fluid-dynamics) |
 | [list-lattice-Boltzmann-codes](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) | CFD Foundations & Numerical Solvers | Curated solver list | Intermediate to advanced | Specialized | [Upstream](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) |
-| [ml-cfd-learning-resources](https://github.com/islam-md-didarul/ml-cfd-learning-resources) | AI for CFD, ROM & Scientific ML | Original curated learning hub | Beginner to advanced | Core | Original |
 | [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) | AI for CFD, ROM & Scientific ML | Lecture materials | Intermediate | Core | [Upstream](https://github.com/AndreWeiner/ml-cfd-lecture) |
 | [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) | AI for CFD, ROM & Scientific ML | Survey and curated literature | Intermediate to advanced | Core | [Upstream](https://github.com/WillDreamer/Awesome-AI4CFD) |
 | [PyDMD](https://github.com/PyDMD/PyDMD) | AI for CFD, ROM & Scientific ML | Python library | Intermediate to advanced | Core | [Upstream](https://github.com/PyDMD/PyDMD) |
@@ -335,19 +334,6 @@ flowchart LR
 **Recommended use.** Consult for multiphase, porous-media, microfluidic, or complex-boundary applications.
 
 ## 5. AI for CFD, ROM & Scientific ML
-
-### [ml-cfd-learning-resources](https://github.com/islam-md-didarul/ml-cfd-learning-resources)
-
-**Type:** Original curated learning hub  
-**Level:** Beginner to advanced  
-**Primary language:** Markdown  
-**Priority in this hub:** Core  
-**License:** MIT  
-**Ownership:** Original repository in this GitHub account  
-
-**Main benefit.** Provides your focused collection of machine-learning and CFD learning resources.
-
-**Recommended use.** Use as the specialized AI-for-CFD sub-hub linked from this broader repository.
 
 ### [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture)
 

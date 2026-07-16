@@ -268,20 +268,6 @@ resources:
       Consult for multiphase, porous-media, microfluidic, or complex-boundary applications.
     status: active
     last_checked: 2026-07-16
-  - name: ml-cfd-learning-resources
-    category: "AI for CFD, ROM & Scientific ML"
-    type: "Original curated learning hub"
-    level: "Beginner to advanced"
-    language: "Markdown"
-    repository: https://github.com/islam-md-didarul/ml-cfd-learning-resources
-    license: "MIT"
-    priority: "Core"
-    benefit: >-
-      Provides your focused collection of machine-learning and CFD learning resources.
-    recommended_use: >-
-      Use as the specialized AI-for-CFD sub-hub linked from this broader repository.
-    status: active
-    last_checked: 2026-07-16
   - name: ml-cfd-lecture
     category: "AI for CFD, ROM & Scientific ML"
     type: "Lecture materials"
