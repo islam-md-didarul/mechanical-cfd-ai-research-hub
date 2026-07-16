@@ -96,13 +96,13 @@ This repository organizes independent open-source resources into a coherent rese
 
 ```mermaid
 flowchart LR
-    A["01 · Foundations<br/>Mathematics + Python"]
-    B["02 · Numerical Engineering<br/>Numerical Methods + CFD"]
-    C["03 · Data Foundations<br/>Machine Learning"]
-    D["04 · Scientific AI<br/>AI4CFD + PINNs"]
-    E["05 · Reduced Models<br/>DMD + Koopman"]
-    F["06 · Research Systems<br/>Surrogates + Digital Twins"]
-    G["07 · Communication<br/>Papers + Presentations"]
+    A["Foundations<br/>Mathematics + Python"]
+    B["Numerical Engineering<br/>Numerical Methods + CFD"]
+    C["Data Foundations<br/>Machine Learning"]
+    D["Scientific AI<br/>AI4CFD + PINNs"]
+    E["Reduced Models<br/>DMD + Koopman"]
+    F["Research Systems<br/>Surrogates + Digital Twins"]
+    G["Communication<br/>Papers + Presentations"]
 
     A --> B
     A --> C
