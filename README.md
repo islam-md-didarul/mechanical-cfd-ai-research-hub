@@ -42,8 +42,8 @@ This repository organizes independent open-source resources into a coherent rese
 - machine learning for fluid mechanics;
 - Dynamic Mode Decomposition and Koopman-based reduced-order modeling;
 - physics-informed and scientific machine learning;
-- finite-element, multiphase, and image-analysis workflows;
-- scientific writing, presentation, and research communication.
+- finite-element, multiphase and image-analysis workflows;
+- scientific writing, presentation and research communication.
 
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
@@ -189,11 +189,11 @@ flowchart LR
 | Collection | Resources | Primary purpose |
 |---|---:|---|
 | Research practice | 3 | Research planning and engineering maps |
-| Mathematics and programming | 4 | Python, mathematics, and numerical prerequisites |
+| Mathematics and programming | 4 | Python, mathematics and numerical prerequisites |
 | Machine learning and AI | 5 | General data-driven modeling foundations |
-| CFD and numerical solvers | 7 | Numerical CFD, solver development, and fluid mechanics |
-| Scientific AI and ROM | 5 | AI4CFD, DMD, Koopman methods, and PINNs |
-| Specialized applications | 2 | FEA, multiphase flow, and image analysis |
+| CFD and numerical solvers | 7 | Numerical CFD, solver development and fluid mechanics |
+| Scientific AI and ROM | 5 | AI4CFD, DMD, Koopman methods and PINNs |
+| Specialized applications | 2 | FEA, multiphase flow and image analysis |
 | Research communication | 2 | Thesis preparation and presentation support |
 
 <p align="center">
@@ -230,7 +230,7 @@ Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 
 Mathematics and computer-science foundations for machine learning and reduced-order modeling.
 
-**Best for:** Preparing for DMD, autoencoders, Koopman methods, and PINNs.  
+**Best for:** Preparing for DMD, autoencoders, Koopman methods and PINNs.  
 **Source:** [jonkrohn/ML-foundations](https://github.com/jonkrohn/ML-foundations)
 
 </td>
@@ -244,7 +244,7 @@ Mathematics and computer-science foundations for machine learning and reduced-or
 
 A comprehensive Python library for Dynamic Mode Decomposition methods.
 
-**Best for:** CFD/PIV modal analysis, reconstruction, and ROM benchmarking.  
+**Best for:** CFD/PIV modal analysis, reconstruction and ROM benchmarking.  
 **Source:** [PyDMD/PyDMD](https://github.com/PyDMD/PyDMD)
 
 </td>
@@ -256,7 +256,7 @@ A comprehensive Python library for Dynamic Mode Decomposition methods.
 
 A structured survey of machine-learning research for computational fluid dynamics.
 
-**Best for:** Literature reviews, method selection, and proposal development.  
+**Best for:** Literature reviews, method selection and proposal development.  
 **Source:** [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)
 
 </td>
