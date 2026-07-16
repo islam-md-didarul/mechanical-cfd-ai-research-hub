@@ -477,16 +477,6 @@ flowchart LR
 - **Reference:** Primarily used for discovering external resources.
 - **Optional:** Helpful for productivity or communication but not required technically.
 
-## How to add another repository
-
-1. Verify the original repository, license, and maintenance status.
-2. Add the resource to `resources/catalog.yml`.
-3. Add it to the correct README segment.
-4. Add it to one or more learning paths or project guides.
-5. Update the verification date.
-6. Run the link-check workflow.
-7. Commit using a descriptive message.
-
 ## License and attribution
 
 The MIT license in this hub applies only to the original organization, descriptions, documentation, and scripts created for this repository. Every linked repository remains governed by its own license. Review the upstream license before copying, modifying, or redistributing third-party code.
