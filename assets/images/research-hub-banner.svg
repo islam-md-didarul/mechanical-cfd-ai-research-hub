@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+  <rect width="1280" height="640" fill="#0b1220"/>
+  <g stroke="#4f7cac" stroke-width="2" opacity="0.35">
+    <path d="M0 110 C250 40, 430 180, 690 100 S1080 40,1280 130" fill="none"/>
+    <path d="M0 190 C250 120, 430 260, 690 180 S1080 120,1280 210" fill="none"/>
+    <path d="M0 450 C250 380, 430 520, 690 440 S1080 380,1280 470" fill="none"/>
+    <path d="M0 530 C250 460, 430 600, 690 520 S1080 460,1280 550" fill="none"/>
+  </g>
+  <g fill="#8ecae6" opacity="0.55">
+    <circle cx="145" cy="115" r="6"/><circle cx="330" cy="157" r="5"/><circle cx="545" cy="126" r="6"/>
+    <circle cx="765" cy="167" r="5"/><circle cx="980" cy="112" r="6"/><circle cx="1145" cy="152" r="5"/>
+    <circle cx="165" cy="485" r="5"/><circle cx="365" cy="520" r="6"/><circle cx="570" cy="475" r="5"/>
+    <circle cx="805" cy="515" r="6"/><circle cx="1010" cy="472" r="5"/><circle cx="1160" cy="520" r="6"/>
+  </g>
+  <text x="640" y="255" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">
+    Mechanical Engineering, CFD &amp; AI
+  </text>
+  <text x="640" y="325" text-anchor="middle" fill="#8ecae6" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="600">
+    Research and Learning Hub
+  </text>
+  <text x="640" y="390" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="25">
+    Numerical Methods • AI4CFD • DMD • Koopman • PINNs • FEA
+  </text>
+  <text x="640" y="435" text-anchor="middle" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="22">
+    Curated by Md. Didarul Islam
+  </text>
+</svg>
