@@ -63,7 +63,7 @@ This repository organizes independent open-source resources into a coherent rese
   <p align="center">
   <strong>Build foundations</strong>
   </p>
-  Mathematics, Python, numerical methods, and machine-learning prerequisites.<br><br>
+  Mathematics, Python, numerical methods and machine-learning prerequisites.<br><br>
   <a href="./learning-paths/foundations.md"><strong>Start learning →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
@@ -71,7 +71,7 @@ This repository organizes independent open-source resources into a coherent rese
   <p align="center">
   <strong>Develop engineering models</strong>
   </p>
-  CFD, FEA, multiphase flow, verification, validation, and engineering applications.<br><br>
+  CFD, FEA, multiphase flow, verification, validation and engineering applications.<br><br>
   <a href="./learning-paths/cfd.md"><strong>Explore CFD →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
@@ -79,7 +79,7 @@ This repository organizes independent open-source resources into a coherent rese
   <p align="center">
   <strong>Apply scientific AI</strong>
   </p>
-  DMD, Koopman models, PINNs, surrogate modeling, and AI4CFD.<br><br>
+  DMD, Koopman models, PINNs, surrogate modeling and AI4CFD.<br><br>
   <a href="./learning-paths/scientific-ai.md"><strong>Explore Scientific AI →</strong></a>
 </td>
 </tr>
