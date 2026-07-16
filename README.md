@@ -448,12 +448,12 @@ flowchart LR
 
 | Research direction | Recommended route |
 |---|---|
-| Upper-airway CFD and medical digital twin | ML-foundations → CFDPython → ml-cfd-lecture → PyDMD → Awesome-AI4CFD → PINNs/CNN-KAE |
-| Pump and turbomachinery | CFDPython → staggered-grid-lid-driven-cavity → PyCFD → PyDMD → AI4CFD |
-| PIV and transient-flow analysis | Python foundations → snapshot preprocessing → PyDMD → flow reconstruction |
-| Cavitation and multiphase analysis | CFD foundations → awesome-fluid-dynamics → BubbleID → LBM resources → AI4CFD |
-| Solid mechanics and FSI | Mathematics → Python → felupe → separately validated fluid/solid models → coupled FSI |
-| Scientific writing and presentation | LaTex-Thesis-Template → literature/document tools → voice-pro for rehearsal |
+| Upper-airway CFD and medical digital twin | [ML-foundations](https://github.com/jonkrohn/ML-foundations) → [CFDPython](https://github.com/barbagroup/CFDPython) → [ml-cfd-lecture](https://github.com/AndreWeiner/ml-cfd-lecture) → [PyDMD](https://github.com/PyDMD/PyDMD) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) → [PINNs](https://github.com/maziarraissi/PINNs) / CNN-KAE |
+| Pump and turbomachinery | [CFDPython](https://github.com/barbagroup/CFDPython) → [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) → [PyCFD](https://github.com/LukeMcCulloch/PyCFD) → [PyDMD](https://github.com/PyDMD/PyDMD) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) |
+| PIV and transient-flow analysis | [Python foundations](learning-paths/python-and-math-foundations.md) → snapshot preprocessing → [PyDMD](https://github.com/PyDMD/PyDMD) → flow reconstruction |
+| Cavitation and multiphase analysis | [CFD foundations](learning-paths/cfd-foundations.md) → [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics) → [BubbleID](https://github.com/cldunlap73/BubbleID) → [LBM resources](https://github.com/sthavishtha/list-lattice-Boltzmann-codes) → [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD) |
+| Solid mechanics and FSI | [Mathematics and Python](learning-paths/python-and-math-foundations.md) → [felupe](https://github.com/adtzlr/felupe) → separately validated fluid/solid models → [coupled FSI guide](project-guides/solid-mechanics-and-fsi.md) |
+| Scientific writing and presentation | [LaTeX Thesis Template](https://github.com/samina1/LaTex-Thesis-Template) → literature/document tools → [voice-pro](https://github.com/abus-aikorea/voice-pro) for rehearsal |
 
 ## Status labels
 
