@@ -2,7 +2,8 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/images/research-hub-banner-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
-    <img src="./assets/images/research-hub-banner-light.svg"
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/images/research-hub-banner.svg">
+    <img src="./assets/images/research-hub-banner.svg"
          width="100%"
          alt="Mechanical CFD and Scientific AI Research Hub">
   </picture>
