@@ -126,7 +126,7 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/medical-cfd.svg" width="80" alt="Medical CFD icon"></p>
-  <p align="center"><strong>Medical CFD & Digital Twins</strong></p>
+  <p align="center"><strong>Biofluids CFD & Digital Twins</strong></p>
   <p align="center">CT/MRI → segmentation → geometry → patient-specific CFD → physiological metrics → ROM → prediction</p>
   <p align="center"><a href="./project-guides/medical-cfd.md"><strong>Explore pathway →</strong></a></p>
 </td>
