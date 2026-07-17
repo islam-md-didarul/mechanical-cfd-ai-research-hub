@@ -1,299 +1,115 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/images/research-hub-banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/images/research-hub-banner.svg">
-    <img src="./assets/images/research-hub-banner.svg"
-         width="100%"
-         alt="Mechanical, CFD and Scientific AI Research Hub">
-  </picture>
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/images/research-hub-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
+  <img alt="Mechanical, CFD and Scientific AI Research Hub" src="./assets/images/research-hub-banner-light.svg">
+</picture>
 
-<h1 align="center">Mechanical, CFD & Scientific AI Research Hub</h1>
+# Mechanical, CFD & Scientific AI Research Hub
 
-<p align="center">
-  Structured learning pathways, verified resources and project-oriented guidance
-  for computational engineering research.
-</p>
+Structured learning pathways, verified resources, and project-oriented guidance for computational engineering research.
 
-<p align="center">
-  <a href="./learning-paths/README.md"><strong>Learning Paths</strong></a>
-  ·
-  <a href="./project-guides/README.md"><strong>Project Guides</strong></a>
-  ·
-  <a href="./resources/catalog.md"><strong>Resource Catalog</strong></a>
-  ·
-  <a href="./CONTRIBUTING.md"><strong>Contribute</strong></a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/last-commit/islam-md-didarul/mechanical-cfd-ai-research-hub?style=flat-square" alt="Last commit">
-  <img src="https://img.shields.io/github/license/islam-md-didarul/mechanical-cfd-ai-research-hub?style=flat-square" alt="License">
-  <img src="https://img.shields.io/github/actions/workflow/status/islam-md-didarul/mechanical-cfd-ai-research-hub/link-check.yml?style=flat-square&label=documentation%20check" alt="Documentation check">
-</p>
-
----
-
-## About this hub
-
-This repository organizes independent open-source resources into a coherent research pathway for:
-
-- computational fluid dynamics and numerical methods;
-- mechanical and aerospace engineering applications;
-- machine learning for fluid mechanics;
-- Dynamic Mode Decomposition and Koopman-based reduced-order modeling;
-- physics-informed and scientific machine learning;
-- finite-element, multiphase and image-analysis workflows;
-- scientific writing, presentation and research communication.
+[Learning Paths](./learning-paths/README.md) · [Project Guides](./project-guides/README.md) · [Resource Catalog](./resources/catalog.md) · [Selection Guide](./resources/selection-guide.md) · [Contribute](./CONTRIBUTING.md)
 
 > [!NOTE]
-> This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
+> This is a navigation and explanation hub. It links to independent upstream projects rather than copying their source code. Every external project remains governed by its own license and usage terms.
 
-<br>
+## What is new in this enhanced edition
 
-<p>
-  <strong>Choose your pathway</strong>
-</p>
+- Expanded from **28 to 57 curated resources**
+- Added production CFD solvers and differentiable simulation frameworks
+- Added meshing, mesh conversion, and reproducible post-processing tools
+- Added authoritative verification, validation, and turbulence datasets
+- Added neural operators, benchmark suites, system identification, and Operator Inference
+- Added engineering optimization, surrogate modeling, medical CFD, PIV, and FSI resources
+- Added automated catalog validation for duplicate URLs, invalid categories, and count mismatches
 
-<hr>
+## Choose your pathway
 
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
-  <img src="./assets/icons/foundations.svg" width="72" alt="Foundations icon"><br>
-  <p align="center">
-  <strong>Build foundations</strong>
-  </p>
-  Mathematics, Python, numerical methods and machine-learning prerequisites.<br><br>
-  <a href="./learning-paths/foundations.md"><strong>Start learning →</strong></a>
-</td>
-<td width="33%" valign="top" align="center">
-  <img src="./assets/icons/cfd.svg" width="72" alt="CFD icon"><br>
-  <p align="center">
-  <strong>Develop engineering models</strong>
-  </p>
-  CFD, FEA, multiphase flow, verification, validation and engineering applications.<br><br>
-  <a href="./learning-paths/cfd.md"><strong>Explore CFD →</strong></a>
-</td>
-<td width="33%" valign="top" align="center">
-  <img src="./assets/icons/scientific-ai.svg" width="72" alt="Scientific AI icon"><br>
-  <p align="center">
-  <strong>Apply scientific AI</strong>
-  </p>
-  DMD, Koopman models, PINNs, surrogate modeling and AI4CFD.<br><br>
-  <a href="./learning-paths/scientific-ai.md"><strong>Explore Scientific AI →</strong></a>
-</td>
-</tr>
-</table>
+| Goal | Start here | Expected outcome |
+|---|---|---|
+| Build foundations | [Foundations](./learning-paths/foundations.md) | Python, mathematics, numerical thinking, and ML readiness |
+| Develop credible CFD models | [CFD and Numerical Engineering](./learning-paths/cfd.md) | Solver understanding, meshing, verification, validation, and interpretation |
+| Apply scientific AI | [Scientific AI and ROM](./learning-paths/scientific-ai.md) | DMD, Operator Inference, PINNs, neural operators, and digital twins |
+| Select the right software | [Resource Selection Guide](./resources/selection-guide.md) | A task-based choice instead of a popularity-based list |
 
-<br>
-
-<p>
-  <strong>Research learning roadmap</strong>
-</p>
-
-<hr>
+## Research learning roadmap
 
 ```mermaid
 flowchart LR
-    A["Foundations<br/>Mathematics + Python"]
-    B["Numerical Engineering<br/>Numerical Methods + CFD"]
-    C["Data Foundations<br/>Machine Learning"]
-    D["Scientific AI<br/>AI4CFD + PINNs"]
-    E["Reduced Models<br/>DMD + Koopman"]
-    F["Research Systems<br/>Surrogates + Digital Twins"]
-    G["Communication<br/>Papers + Presentations"]
-
-    A --> B
-    A --> C
-    B --> D
-    C --> D
-    D --> E
-    D --> F
+    A["Foundations<br/>Python + Mathematics"] --> B["Numerical Engineering<br/>Discretization + CFD"]
+    A --> C["Data Foundations<br/>Machine Learning"]
+    B --> D["Credible Simulation<br/>Mesh + V&V"]
+    C --> E["Scientific AI<br/>PINNs + Neural Operators"]
+    D --> F["Reduced Models<br/>DMD + OpInf + SINDy"]
     E --> F
-    F --> G
-
-    classDef foundation fill:#102A43,stroke:#22B8CF,color:#F8FAFC,stroke-width:2px;
-    classDef engineering fill:#123B5D,stroke:#4CC9F0,color:#F8FAFC,stroke-width:2px;
-    classDef ai fill:#123F3B,stroke:#20C997,color:#F8FAFC,stroke-width:2px;
-    classDef output fill:#49351D,stroke:#F4A261,color:#F8FAFC,stroke-width:2px;
-
-    class A foundation;
-    class B engineering;
-    class C,D,E ai;
-    class F,G output;
+    F --> G["Research Systems<br/>Surrogates + Digital Twins"]
+    D --> H["Engineering Design<br/>Optimization + UQ"]
+    G --> I["Communication<br/>Papers + Presentations"]
+    H --> I
 ```
 
-<p align="center">
-  <a href="./learning-paths/README.md"><strong>View the complete learning paths →</strong></a>
-</p>
+## Featured project pathways
 
-<br>
+| Pathway | Workflow |
+|---|---|
+| [Biofluids CFD & Digital Twins](./project-guides/medical-cfd.md) | Medical images → segmentation → geometry → patient-specific CFD → ROM → clinical prediction |
+| [Turbomachinery & Pump Optimization](./project-guides/turbomachinery.md) | CAD → mesh study → RANS/URANS → experiment → surrogate → multi-objective optimization |
+| [PIV & Reduced-Order Modeling](./project-guides/piv-rom.md) | Image pairs → vector fields → preprocessing → POD/DMD/OpInf → reconstruction and prediction |
+| [Multiphase Flow & Cavitation](./project-guides/multiphase.md) | Multiphase model → time-step study → vapor/bubble field → image validation → prediction |
+| [Solid Mechanics & FSI](./project-guides/fsi.md) | Solid verification + fluid verification → coupling → interface conservation → validation |
+| [Verification & Validation](./project-guides/verification-validation.md) | Code verification → solution verification → validation → uncertainty statement |
+| [Surrogate Modeling & Optimization](./project-guides/surrogate-optimization.md) | DOE → simulations → surrogate → validation → optimization → final CFD verification |
 
-<p>
-  <strong>Featured research pathways</strong>
-</p>
+## Resource collections
 
-<hr>
+| Collection | Resources |
+|---|---:|
+| Research Practice & Engineering Maps | 3 |
+| Mathematics & Programming Foundations | 4 |
+| Machine Learning & AI | 5 |
+| CFD Foundations & Numerical Solvers | 10 |
+| Meshing, Post-processing & Data Interchange | 4 |
+| Verification, Validation & Benchmark Data | 3 |
+| Scientific AI, ROM & Differentiable Physics | 15 |
+| Optimization, Surrogates & Uncertainty | 2 |
+| Biofluids & Medical Modeling | 3 |
+| Experimental Flow & Image Analysis | 3 |
+| Solid Mechanics & Fluid–Structure Interaction | 3 |
+| Research Communication & Productivity | 2 |
 
-<table>
-<tr>
-<td width="50%" valign="top">
-  <p align="center"><img src="./assets/icons/medical-cfd.svg" width="80" alt="Medical CFD icon"></p>
-  <p align="center">
-  <strong>Biofluids CFD & Digital Twins</strong>
-  </p>
-  <p align="center">CT geometry → meshing → patient-specific CFD → physiological metrics → ROM → clinical prediction</p>
-  <p align="center"><a href="./project-guides/medical-cfd.md"><strong>Explore pathway →</strong></a></p>
-</td>
-<td width="50%" valign="top">
-  <p align="center"><img src="./assets/icons/turbomachinery.svg" width="80" alt="Turbomachinery icon"></p>
-  <p align="center">
-  <strong>Turbomachinery Optimization</strong>
-  </p>
-  <p align="center">CAD geometry → mesh independence → RANS CFD → experimental validation → design optimization</p>
-  <p align="center"><a href="./project-guides/turbomachinery.md"><strong>Explore pathway →</strong></a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-  <p align="center"><img src="./assets/icons/piv-rom.svg" width="80" alt="PIV and ROM icon"></p>
-  <p align="center">
-  <strong>PIV & Reduced-Order Modeling</strong>
-  </p>
-  <p align="center">Snapshot preprocessing → modal decomposition → temporal analysis → flow reconstruction</p>
-  <p align="center"><a href="./project-guides/piv-rom.md"><strong>Explore pathway →</strong></a></p>
-</td>
-<td width="50%" valign="top">
-  <p align="center"><img src="./assets/icons/multiphase.svg" width="80" alt="Multiphase icon"></p>
-  <p align="center">
-  <strong>Multiphase Flow & Cavitation</strong>
-  </p>
-  <p align="center">Multiphase CFD → bubble detection → cavitation metrics → image analysis → AI-assisted prediction</p>
-  <p align="center"><a href="./project-guides/multiphase.md"><strong>Explore pathway →</strong></a></p>
-</td>
-</tr>
-</table>
+[Browse all 57 verified resources →](./resources/catalog.md)
 
-<p align="center">
-  <a href="./project-guides/README.md"><strong>Browse all project guides →</strong></a>
-</p>
+## Featured core toolkit
 
-<br>
-
-<p>
-  <strong>Resource collections</strong>
-</p>
-
-<hr>
-
-| Collection | Resources | Primary purpose |
-|---|---:|---|
-| Research practice | 3 | Research planning and engineering maps |
-| Mathematics and programming | 4 | Python, mathematics and numerical prerequisites |
-| Machine learning and AI | 5 | General data-driven modeling foundations |
-| CFD and numerical solvers | 7 | Numerical CFD, solver development and fluid mechanics |
-| Scientific AI and ROM | 5 | AI4CFD, DMD, Koopman methods and PINNs |
-| Specialized applications | 2 | FEA, multiphase flow and image analysis |
-| Research communication | 2 | Thesis preparation and presentation support |
-
-<p align="center">
-  <a href="./resources/catalog.md"><strong>Browse all 28 verified resources →</strong></a>
-</p>
-
-<br>
-
-<p>
-  <strong>Featured core toolkit</strong>
-</p>
-
-<hr>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-<p><strong>CFDPython</strong></p>
-
-`CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
-
+### CFDPython
+`CORE` `BEGINNER–INTERMEDIATE`  
 Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 
-**Best for:** Connecting governing equations with Python implementation.  
-**Source:** [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython)
+### OpenFOAM and SU2
+`CORE` `INTERMEDIATE–ADVANCED`  
+Production-scale CFD workflows, solver customization, compressible flow, adjoints, and engineering design.
 
-</td>
-<td width="50%" valign="top">
+### NASA TMR and ERCOFTAC
+`CORE` `INTERMEDIATE–ADVANCED`  
+Turbulence-model verification and established validation cases.
 
-<p><strong>ML Foundations</strong></p>
+### PyDMD, flowTorch, and Operator Inference
+`CORE` `INTERMEDIATE–ADVANCED`  
+Transparent reduced-order baselines for CFD and PIV data.
 
-`CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
+### NeuralOperator, DeepXDE, and PDEBench
+`CORE` `INTERMEDIATE–ADVANCED`  
+Modern scientific-ML methods and standardized comparison tasks.
 
-Mathematics and computer-science foundations for machine learning and reduced-order modeling.
+### 3D Slicer, VMTK, and SimVascular
+`CORE / SPECIALIZED` `BEGINNER–ADVANCED`  
+Medical image processing, anatomical geometry, vascular simulation, and physiological modeling.
 
-**Best for:** Preparing for DMD, autoencoders, Koopman methods and PINNs.  
-**Source:** [jonkrohn/ML-foundations](https://github.com/jonkrohn/ML-foundations)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<p><strong>PyDMD</strong></p>
-
-`CORE` `INTERMEDIATE–ADVANCED` `PYTHON`
-
-A comprehensive Python library for Dynamic Mode Decomposition methods.
-
-**Best for:** CFD/PIV modal analysis, reconstruction and ROM benchmarking.  
-**Source:** [PyDMD/PyDMD](https://github.com/PyDMD/PyDMD)
-
-</td>
-<td width="50%" valign="top">
-
-<p><strong>Awesome AI4CFD</strong></p>
-
-`CORE` `INTERMEDIATE–ADVANCED` `LITERATURE`
-
-A structured survey of machine-learning research for computational fluid dynamics.
-
-**Best for:** Literature reviews, method selection and proposal development.  
-**Source:** [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)
-
-</td>
-</tr>
-</table>
-
-<br>
-
-<p>
-  <strong>Resource classification</strong>
-</p>
-
-<hr>
-
-| Label | Meaning |
-|---|---|
-| **Core** | Directly supports the principal CFD–AI learning pathway |
-| **Supporting** | Strengthens prerequisites or implementation ability |
-| **Specialized** | Intended for a particular method or application |
-| **Reference** | Mainly used to discover additional resources |
-| **Optional** | Useful for productivity or communication |
-
-<br>
-
-<p>
-  <strong>Repository organization</strong>
-</p>
-
-<hr>
+## Repository organization
 
 ```text
 mechanical-cfd-ai-research-hub/
 ├── README.md
-├── assets/
-│   ├── images/
-│   └── icons/
 ├── learning-paths/
 │   ├── README.md
 │   ├── foundations.md
@@ -306,79 +122,36 @@ mechanical-cfd-ai-research-hub/
 │   ├── piv-rom.md
 │   ├── multiphase.md
 │   ├── fsi.md
-│   └── research-communication.md
+│   ├── verification-validation.md
+│   └── surrogate-optimization.md
 ├── resources/
 │   ├── README.md
+│   ├── selection-guide.md
 │   ├── catalog.md
 │   └── catalog.yml
-├── .github/workflows/link-check.yml
+├── scripts/
+│   └── validate_catalog.py
+├── .github/workflows/
+│   └── link-check.yml
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── NOTICE.md
 ```
 
-<br>
+## Quality policy
 
-<p>
-  <strong>How the hub supports research</strong>
-</p>
+A resource is included only when it:
 
-<hr>
+1. has an identifiable upstream source;
+2. contributes to a defined learning or research workflow;
+3. offers substantial value beyond an existing entry;
+4. can be described accurately without overstating its capability;
+5. is assigned a clear level and role;
+6. is checked through the catalog-validation workflow.
 
-```mermaid
-flowchart LR
-    EXP["Experiments / Clinical Data"]
-    CFD["High-Fidelity CFD"]
-    ROM["Reduced-Order Model"]
-    AI["Scientific AI / Surrogate"]
-    DEC["Design or Clinical Decision"]
-    COM["Publication and Communication"]
+## License and attribution
 
-    EXP <--> CFD
-    CFD --> ROM
-    CFD --> AI
-    ROM --> DEC
-    AI --> DEC
-    DEC --> COM
+The repository license applies only to the original organization, descriptions, documentation, scripts, and assets created for this hub. Linked projects remain governed by their own licenses.
 
-    classDef data fill:#102A43,stroke:#22B8CF,color:#F8FAFC,stroke-width:2px;
-    classDef model fill:#123F3B,stroke:#20C997,color:#F8FAFC,stroke-width:2px;
-    classDef output fill:#49351D,stroke:#F4A261,color:#F8FAFC,stroke-width:2px;
-
-    class EXP,CFD data;
-    class ROM,AI model;
-    class DEC,COM output;
-```
-
-<br>
-
-<p>
-  <strong>Contributing</strong>
-</p>
-
-<hr>
-
-Resources should be added only after checking their relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
-
-[Read the contribution guide →](./CONTRIBUTING.md)
-
-<br>
-
-<p>
-  <strong>License and attribution</strong>
-</p>
-
-<hr>
-
-The MIT license in this hub applies only to the original organization, descriptions, documentation, and assets created for this repository. Every linked repository remains governed by its own upstream license.
-
-[Read the attribution notice →](./NOTICE.md)
-
----
-
-<p align="center">
-  Maintained by <strong>Md. Didarul Islam</strong><br>
-  Mechanical Engineering · CFD · Scientific AI
-</p>
-
-<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->
+Maintained by **Md. Didarul Islam**  
+Mechanical Engineering · CFD · Scientific AI

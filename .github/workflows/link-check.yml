@@ -2,8 +2,7 @@ name: Documentation Validation
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
   workflow_dispatch:
 
@@ -12,32 +11,44 @@ permissions:
 
 jobs:
   validate-documentation:
-    name: Validate documentation
     runs-on: ubuntu-latest
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install documentation dependencies
+        run: python -m pip install -r requirements-docs.txt
+
       - name: Check required repository files
         shell: bash
         run: |
           set -euo pipefail
-
           required_files=(
             "README.md"
             "CONTRIBUTING.md"
             "LICENSE"
             "NOTICE.md"
             "learning-paths/README.md"
+            "learning-paths/foundations.md"
+            "learning-paths/cfd.md"
+            "learning-paths/scientific-ai.md"
             "project-guides/README.md"
+            "project-guides/verification-validation.md"
+            "project-guides/surrogate-optimization.md"
             "resources/README.md"
+            "resources/selection-guide.md"
             "resources/catalog.md"
             "resources/catalog.yml"
+            "scripts/validate_catalog.py"
             "assets/images/research-hub-banner-light.svg"
             "assets/images/research-hub-banner-dark.svg"
           )
-
           for file in "${required_files[@]}"; do
             if [[ ! -s "$file" ]]; then
               echo "::error file=$file::Required file is missing or empty."
@@ -45,7 +56,8 @@ jobs:
             fi
           done
 
-          echo "All required repository files are present."
+      - name: Validate resource catalog
+        run: python scripts/validate_catalog.py
 
       - name: Validate internal Markdown links
         shell: bash
@@ -58,10 +70,7 @@ jobs:
 
           root = Path.cwd()
           missing = []
-
-          # Standard Markdown links and images.
           link_pattern = re.compile(r'!?\[[^\]]*\]\(([^)]+)\)')
-          # Basic HTML href/src links used in the README.
           html_pattern = re.compile(
               r'(?:href|src|srcset)=["\']([^"\']+)["\']',
               re.IGNORECASE,
@@ -75,22 +84,15 @@ jobs:
                   target = raw_target.strip().split()[0]
                   if not target:
                       continue
-
-                  # External URLs, email links, anchors, and data URIs are
-                  # intentionally excluded because remote services may be flaky.
-                  if target.startswith(
-                      ("http://", "https://", "mailto:", "#", "data:")
-                  ):
+                  if target.startswith(("http://", "https://", "mailto:", "#", "data:")):
                       continue
 
-                  # Remove query and fragment.
                   clean = target.split("#", 1)[0].split("?", 1)[0]
                   clean = unquote(clean)
                   if not clean:
                       continue
 
                   resolved = (md_file.parent / clean).resolve()
-
                   try:
                       resolved.relative_to(root.resolve())
                   except ValueError:
@@ -117,7 +119,6 @@ jobs:
           import sys
 
           errors = []
-
           for svg in Path("assets").rglob("*.svg"):
               try:
                   ET.parse(svg)

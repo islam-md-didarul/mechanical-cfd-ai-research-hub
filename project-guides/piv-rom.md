@@ -6,30 +6,31 @@
 
 ```mermaid
 flowchart LR
-    A["PIV / CFD Snapshots"] --> B["Cleaning and Alignment"]
-    B --> C["Snapshot Matrix"]
-    C --> D["POD / DMD"]
-    D --> E["Mode Selection"]
-    E --> F["Reconstruction"]
-    F --> G["Prediction and Interpretation"]
+    A["PIV Images / CFD Fields"] --> B["Vector or Field Extraction"]
+    B --> C["Cleaning and Alignment"]
+    C --> D["Snapshot Matrix"]
+    D --> E["POD / DMD / OpInf"]
+    E --> F["Mode Selection"]
+    F --> G["Reconstruction and Prediction"]
 ```
 
 ## Recommended resource route
 
-Python foundations  
-→ snapshot preprocessing  
-→ [PyDMD](https://github.com/PyDMD/PyDMD)  
-→ reconstruction analysis  
-→ comparison with learned Koopman or autoencoder models
+1. [OpenPIV](https://github.com/OpenPIV/openpiv-python) for scriptable PIV processing or [PIVlab](https://github.com/Shrediquette/PIVlab) for an interactive MATLAB workflow.
+2. [PyVista](https://github.com/pyvista/pyvista) and [flowTorch](https://github.com/AndreWeiner/flowtorch) for cleaning, alignment, interpolation, and data access.
+3. [PyDMD](https://github.com/PyDMD/PyDMD) for the first modal baseline.
+4. [Operator Inference](https://github.com/Willcox-Research-Group/rom-operator-inference-Python3) for physics-structured predictive ROMs.
+5. [PySINDy](https://github.com/dynamicslab/pysindy) for interpretable equations in modal coordinates.
+6. Neural autoencoders or neural operators only after the linear and polynomial baselines are established.
 
 ## Minimum evidence to report
 
-- Spatial and temporal resolution
-- Missing-vector or noise treatment
-- Snapshot normalization
-- Rank-selection method
-- Reconstruction error
-- Mode frequencies and physical interpretation
-- Generalization to unseen time intervals or operating conditions
-
-<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->
+- Image scale, frame rate, interrogation settings, and overlap
+- Calibration and uncertainty of measured velocity
+- Missing-vector, outlier, and smoothing treatment
+- Spatial interpolation and alignment between experiment and CFD
+- Snapshot normalization and weighting
+- Rank-selection method and retained energy
+- Reconstruction error and frequency uncertainty
+- Forecast performance on an unseen time interval or operating condition
+- Physical interpretation of coherent structures

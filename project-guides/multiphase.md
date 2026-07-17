@@ -8,28 +8,29 @@
 flowchart LR
     A["Operating Conditions"] --> B["Multiphase Model"]
     B --> C["Mesh and Time-Step Study"]
-    C --> D["Cavitation / Bubble Field"]
+    C --> D["Vapor / Bubble Field"]
     D --> E["Image-Based Detection"]
     E --> F["Metrics and Validation"]
-    F --> G["AI-Assisted Prediction"]
+    F --> G["Surrogate or AI Prediction"]
 ```
 
 ## Recommended resource route
 
-[CFDPython](https://github.com/barbagroup/CFDPython)  
-→ [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics)  
-→ [BubbleID](https://github.com/cldunlap73/BubbleID)  
-→ [Lattice Boltzmann code list](https://github.com/sthavishtha/list-lattice-Boltzmann-codes)  
-→ [Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)
+- [OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) for open multiphase and cavitation model exploration.
+- [JAX-Fluids](https://github.com/tumaer/JAXFLUIDS) for advanced differentiable compressible two-phase research.
+- [BubbleID](https://github.com/cldunlap73/BubbleID) for bubble-field image analysis.
+- [OpenPIV](https://github.com/OpenPIV/openpiv-python) when velocity measurements accompany cavitation visualization.
+- [ParaView](https://github.com/Kitware/ParaView) and [PyVista](https://github.com/pyvista/pyvista) for vapor-volume and interface metrics.
+- [SMT](https://github.com/SMTorg/smt) and [pymoo](https://github.com/anyoptimization/pymoo) for surrogate-based design studies.
 
 ## Minimum evidence to report
 
-- Phase properties and initial conditions
+- Phase properties, dissolved gas assumptions, and initial conditions
 - Cavitation or interphase-transfer model
-- Nuclei, bubble-size, or vapor-fraction assumptions
-- Mesh and time-step sensitivity
+- Nuclei, bubble-size, surface-tension, or vapor-pressure assumptions
+- Mesh and time-step sensitivity based on cavitation quantities
+- Inception criterion and threshold sensitivity
 - Image-processing validation
-- Cavitation inception, volume, erosion, or bubble metrics
-- Comparison with experiment or established benchmark
-
-<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->
+- Vapor volume, erosion proxy, pressure fluctuation, and efficiency metrics
+- Comparison with experiment or an established benchmark
+- Limits caused by model form and unresolved scales

@@ -4,7 +4,7 @@
 
 ## Goal
 
-Build the mathematical, programming, and machine-learning prerequisites needed for numerical CFD and scientific AI.
+Build the mathematical, programming, and machine-learning prerequisites required for numerical CFD and scientific AI.
 
 ## Suggested sequence
 
@@ -15,13 +15,13 @@ Build the mathematical, programming, and machine-learning prerequisites needed f
 | 3 | Mathematics for ML and ROM | [ML-foundations](https://github.com/jonkrohn/ML-foundations) |
 | 4 | Broader mathematics and CS review | [maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) |
 | 5 | Practical ML workflow | [MLOB1](https://github.com/shaiful019/MLOB1) |
+| 6 | Scientific data structures and plotting | NumPy, pandas, Matplotlib, and xarray documentation |
 
 ## Completion checklist
 
-- Read and write Python functions and classes.
-- Work comfortably with NumPy arrays and plotting.
-- Understand vectors, matrices, derivatives, probability, and optimization.
-- Split datasets and evaluate regression or classification models.
-- Reproduce a notebook result and explain each processing step.
-
-<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->
+- Write Python functions, classes, tests, and command-line scripts.
+- Work comfortably with arrays, vectorization, interpolation, and plotting.
+- Understand vectors, matrices, derivatives, probability, regression, and optimization.
+- Split datasets by case or patient without leakage.
+- Reproduce a notebook result and explain every processing step.
+- Record dependencies, random seeds, and data provenance.

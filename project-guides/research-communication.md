@@ -16,7 +16,8 @@ flowchart LR
 ## Recommended resources
 
 - [LaTex-Thesis-Template](https://github.com/samina1/LaTex-Thesis-Template)
-- [voice-pro](https://github.com/abus-aikorea/voice-pro)
+- [ParaView](https://github.com/Kitware/ParaView) and [PyVista](https://github.com/pyvista/pyvista) for reproducible scientific figures
+- [voice-pro](https://github.com/abus-aikorea/voice-pro) as an optional rehearsal and transcription utility
 
 ## Communication checklist
 
@@ -25,6 +26,5 @@ flowchart LR
 - Define symbols, units, assumptions, and comparison conditions.
 - Report uncertainty and limitations.
 - Separate observations from interpretation.
-- End with contribution, significance, and next steps.
-
-<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->
+- Use the same color, variable, and sign conventions throughout.
+- End with contribution, significance, limits, and next steps.

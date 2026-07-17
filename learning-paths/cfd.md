@@ -4,36 +4,40 @@
 
 ## Goal
 
-Connect governing equations, discretization, solver behavior, verification, validation, and engineering interpretation.
-
-## Suggested sequence
+Connect governing equations, discretization, mesh quality, solver behavior, verification, validation, and engineering interpretation.
 
 ```mermaid
 flowchart LR
-    A["Governing Equations"] --> B["1D Numerical Methods"]
-    B --> C["CFDPython"]
-    C --> D["Pressure–Velocity Coupling"]
-    D --> E["Unstructured Solvers"]
-    E --> F["Verification & Validation"]
+    A["Governing Equations"] --> B["Small Numerical Solvers"]
+    B --> C["Mesh and Boundary Conditions"]
+    C --> D["Production CFD"]
+    D --> E["Solution Verification"]
+    E --> F["Validation"]
     F --> G["Engineering Application"]
 ```
+
+## Suggested sequence
 
 | Stage | Recommended resource | Main outcome |
 |---|---|---|
 | Introductory solver coding | [CFDPython](https://github.com/barbagroup/CFDPython) | Understand discretization through progressive examples |
-| Reinforcement | [Python_CFD](https://github.com/DrZGan/Python_CFD) | Compare implementations and numerical choices |
-| Independent practice | [CFD-Python](https://github.com/kangluosee/CFD-Python) | Reproduce and modify additional examples |
-| Incompressible coupling | [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) | Study pressure–velocity coupling and boundary conditions |
-| Solver architecture | [PyCFD](https://github.com/LukeMcCulloch/PyCFD) | Inspect an unstructured solver prototype |
-| Discovery | [awesome-fluid-dynamics](https://github.com/lento234/awesome-fluid-dynamics) | Find broader theory, software, and experiments |
+| Reusable finite-volume PDEs | [FiPy](https://github.com/usnistgov/fipy) | Move from hand-coded equations to a PDE framework |
+| Pressure–velocity coupling | [staggered-grid-lid-driven-cavity](https://github.com/jeddiot/staggered-grid-lid-driven-cavity) | Study incompressible coupling and boundary conditions |
+| Mesh generation | [Gmsh](https://github.com/gmsh/gmsh) | Produce repeatable meshes using scripts |
+| Production finite-volume CFD | [OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) | Learn case structure, turbulence models, and solver customization |
+| Compressible flow and design | [SU2](https://github.com/su2code/SU2) | Study aerodynamic CFD, adjoints, and shape optimization |
+| Post-processing | [ParaView](https://github.com/Kitware/ParaView) and [PyVista](https://github.com/pyvista/pyvista) | Combine interactive and scripted analysis |
+| Turbulence-model verification | [NASA TMR](https://tmbwg.github.io/turbmodels/) | Confirm model definitions and implementation behavior |
+| Validation cases | [ERCOFTAC Classic Collection](https://cfd.mace.manchester.ac.uk/ercoftac/) | Compare simulation results with established data |
 
-## Research checklist
+## Credibility checklist
 
-- Define governing equations and modeling assumptions.
-- Perform mesh and time-step sensitivity studies.
-- Report residuals and physical monitors.
-- Compare against experimental or benchmark data.
-- Quantify uncertainty and numerical error.
-- Separate numerical findings from physical interpretation.
-
-<!-- documentation-status-refresh: 2026-07-16-green-status-refresh -->
+- State governing equations, assumptions, and model limitations.
+- Define every inlet, outlet, wall, interface, and reference pressure.
+- Report mesh metrics and near-wall resolution.
+- Perform mesh and time-step sensitivity studies using quantities of interest.
+- Report residuals together with conservation and physical monitors.
+- Verify turbulence-model definitions against an authoritative source.
+- Compare against experiments or established benchmark data.
+- Quantify experimental, numerical, and model-form uncertainty separately.
+- Separate numerical observations from physical interpretation.

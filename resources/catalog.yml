@@ -1,19 +1,47 @@
-# documentation-status-refresh: 2026-07-16-green-status-refresh
-schema_version: 1
-
+# Curated and verified on 2026-07-17
+schema_version: 2
 hub:
   name: Mechanical CFD & Scientific AI Research Hub
   owner: Md. Didarul Islam
-  resource_count: 28
-  categories:
-    - research-practice
-    - mathematics-programming
-    - machine-learning-ai
-    - cfd-numerical-solvers
-    - scientific-ai-rom
-    - specialized-applications
-    - research-communication
-
+  last_verified: 2026-07-17
+  resource_count: 57
+categories:
+  - id: research-practice
+    title: Research Practice & Engineering Maps
+    resource_count: 3
+  - id: mathematics-programming
+    title: Mathematics & Programming Foundations
+    resource_count: 4
+  - id: machine-learning-ai
+    title: Machine Learning & AI
+    resource_count: 5
+  - id: cfd-numerical-solvers
+    title: CFD Foundations & Numerical Solvers
+    resource_count: 10
+  - id: meshing-postprocessing
+    title: Meshing, Post-processing & Data Interchange
+    resource_count: 4
+  - id: verification-validation-data
+    title: Verification, Validation & Benchmark Data
+    resource_count: 3
+  - id: scientific-ai-rom
+    title: Scientific AI, ROM & Differentiable Physics
+    resource_count: 15
+  - id: optimization-uq
+    title: Optimization, Surrogates & Uncertainty
+    resource_count: 2
+  - id: biofluids-medical
+    title: Biofluids & Medical Modeling
+    resource_count: 3
+  - id: experimental-flow
+    title: Experimental Flow & Image Analysis
+    resource_count: 3
+  - id: solid-mechanics-fsi
+    title: Solid Mechanics & Fluid–Structure Interaction
+    resource_count: 3
+  - id: research-communication
+    title: Research Communication & Productivity
+    resource_count: 2
 resources:
   - name: mechanical-engineering-research-skill
     url: https://github.com/hanhuark/mechanical-engineering-research-skill
@@ -21,192 +49,453 @@ resources:
     type: research-guide
     level: all
     priority: core
-
+    summary: "Reusable workflows for planning mechanical-engineering investigations, reviewing literature, validating models, and documenting results."
+    best_for: "Structuring a new engineering research project before selecting software."
   - name: awesome-mecheng
     url: https://github.com/m2n037/awesome-mecheng
     category: research-practice
     type: curated-list
     level: all
     priority: reference
-
+    summary: "Broad mechanical-engineering resources covering design, mechanics, manufacturing, thermal sciences, and related software."
+    best_for: "Discovering adjacent tools when a project expands beyond CFD."
   - name: awesome-aerospace-engineering
     url: https://github.com/mahran-sayed/awesome-aerospace-engineering
     category: research-practice
     type: curated-list
     level: all
     priority: reference
-
+    summary: "Aerospace learning resources spanning aerodynamics, propulsion, structures, flight mechanics, and engineering software."
+    best_for: "Aerospace-oriented CFD and multidisciplinary research planning."
   - name: maths-cs-ai-compendium
     url: https://github.com/HenryNdubuaku/maths-cs-ai-compendium
     category: mathematics-programming
     type: learning-compendium
     level: beginner-to-advanced
     priority: core
-
+    summary: "Intuition-focused connections between mathematics, computing, and artificial intelligence."
+    best_for: "Reviewing mathematical ideas that support numerical methods and scientific AI."
   - name: pcc_3e
     url: https://github.com/ehmatthes/pcc_3e
     category: mathematics-programming
     type: course-resources
     level: beginner
     priority: core
-
+    summary: "Structured Python exercises and projects for learners beginning scientific programming."
+    best_for: "Learning Python before CFD scripting and data processing."
   - name: Complete-Python-Bootcamp
     url: https://github.com/krishnaik06/Complete-Python-Bootcamp
     category: mathematics-programming
     type: notebook-course
     level: beginner-to-intermediate
     priority: supporting
-
+    summary: "Extended Python practice for scripting, data handling, automation, and machine-learning preparation."
+    best_for: "Building coding confidence after learning basic Python syntax."
   - name: ML-foundations
     url: https://github.com/jonkrohn/ML-foundations
     category: mathematics-programming
     type: notebook-course
     level: beginner-to-intermediate
     priority: core
-
+    summary: "Linear algebra, calculus, statistics, and computer-science foundations for machine learning."
+    best_for: "Preparing for DMD, Koopman models, autoencoders, PINNs, and neural operators."
   - name: MLOB1
     url: https://github.com/shaiful019/MLOB1
     category: machine-learning-ai
     type: notebook-course
     level: beginner-to-intermediate
     priority: supporting
-
+    summary: "Practical preprocessing, model training, validation, and evaluation workflows."
+    best_for: "Learning the standard ML workflow before building CFD surrogates."
   - name: AI-Expert-Roadmap
     url: https://github.com/AMAI-GmbH/AI-Expert-Roadmap
     category: machine-learning-ai
     type: roadmap
     level: all
     priority: reference
-
+    summary: "A broad map of knowledge areas involved in long-term AI development."
+    best_for: "Planning study topics while separately verifying fast-changing tools."
   - name: ai_all_resources
     url: https://github.com/nivu/ai_all_resources
     category: machine-learning-ai
     type: curated-list
     level: all
     priority: reference
-
+    summary: "A discovery directory for courses, books, libraries, and references across AI domains."
+    best_for: "Finding supplementary material for a newly encountered AI topic."
   - name: best-of-ml-python
     url: https://github.com/lukasmasuch/best-of-ml-python
     category: machine-learning-ai
     type: ranked-curated-list
     level: intermediate
     priority: supporting
-
+    summary: "A ranked collection of established Python machine-learning libraries."
+    best_for: "Comparing libraries for training, optimization, explainability, or deployment."
   - name: Hands-On-Large-Language-Models
     url: https://github.com/HandsOnLLM/Hands-On-Large-Language-Models
     category: machine-learning-ai
     type: book-code-and-notebooks
     level: intermediate
     priority: specialized
-
+    summary: "Practical language-model workflows for embeddings, retrieval, text processing, and knowledge systems."
+    best_for: "Building research-document search and literature-assistant workflows."
   - name: CFDPython
     url: https://github.com/barbagroup/CFDPython
     category: cfd-numerical-solvers
     type: notebook-course
     level: beginner-to-intermediate
     priority: core
-
+    summary: "Progressive numerical CFD training through the 12 Steps to Navier–Stokes."
+    best_for: "Connecting governing equations, discretization, and Python implementation."
   - name: Python_CFD
     url: https://github.com/DrZGan/Python_CFD
     category: cfd-numerical-solvers
     type: notebook-course
     level: beginner-to-intermediate
     priority: supporting
-
+    summary: "A complementary Python CFD course with numerical examples and exercises."
+    best_for: "Reinforcing discretization and comparing solver implementations."
   - name: CFD-Python
     url: https://github.com/kangluosee/CFD-Python
     category: cfd-numerical-solvers
     type: notebook-collection
     level: beginner-to-intermediate
     priority: supporting
-
+    summary: "Additional CFD coding examples for independent practice."
+    best_for: "Modifying small solvers after completing an introductory CFD course."
   - name: staggered-grid-lid-driven-cavity
     url: https://github.com/jeddiot/staggered-grid-lid-driven-cavity
     category: cfd-numerical-solvers
     type: educational-solver
     level: intermediate
     priority: core
-
+    summary: "An incompressible-flow benchmark solver using a staggered grid."
+    best_for: "Studying pressure–velocity coupling, boundary conditions, and finite-volume logic."
   - name: PyCFD
     url: https://github.com/LukeMcCulloch/PyCFD
     category: cfd-numerical-solvers
     type: research-solver-prototype
     level: intermediate-to-advanced
     priority: specialized
-
+    summary: "A two-dimensional unstructured Euler-equation solver prototype in Python."
+    best_for: "Inspecting unstructured-mesh data structures and solver organization."
   - name: awesome-fluid-dynamics
     url: https://github.com/lento234/awesome-fluid-dynamics
     category: cfd-numerical-solvers
     type: curated-list
     level: all
     priority: reference
-
+    summary: "A broad directory of fluid-dynamics theory, software, experiments, and learning resources."
+    best_for: "Discovering resources outside the hub's focused pathways."
   - name: list-lattice-Boltzmann-codes
     url: https://github.com/sthavishtha/list-lattice-Boltzmann-codes
     category: cfd-numerical-solvers
     type: curated-solver-list
     level: intermediate-to-advanced
     priority: specialized
-
+    summary: "A collection of open-source lattice Boltzmann solvers."
+    best_for: "Exploring multiphase, porous-media, microfluidic, and complex-boundary problems."
+  - name: OpenFOAM-dev
+    url: https://github.com/OpenFOAM/OpenFOAM-dev
+    category: cfd-numerical-solvers
+    type: production-cfd-suite
+    level: intermediate-to-advanced
+    priority: core
+    summary: "The OpenFOAM Foundation development repository for a broad open-source CFD toolbox."
+    best_for: "Learning production-scale finite-volume case structure, models, and solver customization."
+  - name: SU2
+    url: https://github.com/su2code/SU2
+    category: cfd-numerical-solvers
+    type: multiphysics-design-suite
+    level: intermediate-to-advanced
+    priority: core
+    summary: "An open-source multiphysics simulation and design suite with strong aerodynamic and optimization workflows."
+    best_for: "Compressible flow, adjoint design, shape optimization, and solver verification."
+  - name: FiPy
+    url: https://github.com/usnistgov/fipy
+    category: cfd-numerical-solvers
+    type: finite-volume-pde-library
+    level: beginner-to-intermediate
+    priority: supporting
+    summary: "A Python finite-volume PDE solver developed by NIST."
+    best_for: "Learning reusable PDE assembly beyond hand-coded notebook solvers."
+  - name: Gmsh
+    url: https://github.com/gmsh/gmsh
+    category: meshing-postprocessing
+    type: mesh-generator
+    level: intermediate
+    priority: core
+    summary: "A three-dimensional finite-element mesh generator with scripting and CAD interfaces."
+    best_for: "Reproducible geometry and mesh generation for CFD and FEA."
+  - name: ParaView
+    url: https://github.com/Kitware/ParaView
+    category: meshing-postprocessing
+    type: visualization-application
+    level: beginner-to-advanced
+    priority: core
+    summary: "A VTK-based, open-source application for large-scale scientific data analysis and visualization."
+    best_for: "CFD field inspection, quantitative filters, animations, and publication figures."
+  - name: PyVista
+    url: https://github.com/pyvista/pyvista
+    category: meshing-postprocessing
+    type: python-visualization-library
+    level: beginner-to-advanced
+    priority: supporting
+    summary: "A NumPy-native Python interface for 3D visualization and mesh analysis."
+    best_for: "Automating post-processing, mesh inspection, and reproducible figures."
+  - name: meshio
+    url: https://github.com/nschloe/meshio
+    category: meshing-postprocessing
+    type: mesh-io-library
+    level: intermediate
+    priority: supporting
+    summary: "A Python library for reading, writing, and converting many unstructured mesh formats."
+    best_for: "Building solver-neutral data pipelines while checking format limitations."
+  - name: NASA-Turbulence-Modeling-Resource
+    url: https://tmbwg.github.io/turbmodels/
+    category: verification-validation-data
+    type: verification-resource
+    level: intermediate-to-advanced
+    priority: core
+    summary: "Authoritative turbulence-model definitions and verification cases maintained by the AIAA Turbulence Model Benchmarking Working Group."
+    best_for: "Checking RANS turbulence-model implementation and documenting model equations."
+  - name: ERCOFTAC-Classic-Collection
+    url: https://cfd.mace.manchester.ac.uk/ercoftac/
+    category: verification-validation-data
+    type: validation-database
+    level: intermediate-to-advanced
+    priority: core
+    summary: "A collection of classic experimental and computational test cases for flow-model validation."
+    best_for: "Selecting benchmark cases with reference data for CFD validation."
+  - name: JHTDB-Giverny
+    url: https://github.com/sciserver/giverny
+    category: verification-validation-data
+    type: turbulence-data-client
+    level: advanced
+    priority: specialized
+    summary: "A Python client and workflow for querying the Johns Hopkins Turbulence Database."
+    best_for: "Accessing DNS and LES fields for turbulence analysis and data-driven modeling."
   - name: ml-cfd-learning-resources
     url: https://github.com/islam-md-didarul/ml-cfd-learning-resources
     category: scientific-ai-rom
     type: original-curated-hub
     level: beginner-to-advanced
     priority: core
-
+    summary: "A focused learning hub for machine learning in computational fluid dynamics."
+    best_for: "Continuing from general foundations into application-specific AI4CFD material."
   - name: ml-cfd-lecture
     url: https://github.com/AndreWeiner/ml-cfd-lecture
     category: scientific-ai-rom
     type: lecture-materials
     level: intermediate
     priority: core
-
+    summary: "Lecture materials connecting machine-learning methods to computational fluid mechanics."
+    best_for: "Learning the conceptual bridge between CFD data and ML models."
   - name: Awesome-AI4CFD
     url: https://github.com/WillDreamer/Awesome-AI4CFD
     category: scientific-ai-rom
     type: survey-and-curated-literature
     level: intermediate-to-advanced
     priority: core
-
+    summary: "A structured collection of recent machine-learning research for CFD."
+    best_for: "Literature reviews, method selection, and identifying research gaps."
   - name: PyDMD
     url: https://github.com/PyDMD/PyDMD
     category: scientific-ai-rom
     type: python-library
     level: intermediate-to-advanced
     priority: core
-
+    summary: "A comprehensive Python library for Dynamic Mode Decomposition methods."
+    best_for: "CFD and PIV modal analysis, reconstruction, and Koopman-model baselines."
   - name: PINNs
     url: https://github.com/maziarraissi/PINNs
     category: scientific-ai-rom
     type: research-implementation
     level: advanced
     priority: specialized
-
-  - name: felupe
-    url: https://github.com/adtzlr/felupe
-    category: specialized-applications
-    type: python-fea-library
+    summary: "Foundational research implementations of physics-informed neural networks."
+    best_for: "Studying original PINN formulations and historical reference implementations."
+  - name: NeuralOperator
+    url: https://github.com/neuraloperator/neuraloperator
+    category: scientific-ai-rom
+    type: neural-operator-library
+    level: intermediate-to-advanced
+    priority: core
+    summary: "A PyTorch library containing official Fourier Neural Operator and related neural-operator implementations."
+    best_for: "Learning solution operators and building resolution-aware PDE surrogates."
+  - name: PhysicsNeMo
+    url: https://github.com/NVIDIA/physicsnemo
+    category: scientific-ai-rom
+    type: physics-ai-framework
+    level: advanced
+    priority: specialized
+    summary: "A scalable framework for training and deploying physics-AI models for science and engineering."
+    best_for: "Large-scale surrogate workflows, advanced architectures, and accelerator-based training."
+  - name: DeepXDE
+    url: https://github.com/lululxvi/deepxde
+    category: scientific-ai-rom
+    type: scientific-ml-library
+    level: intermediate-to-advanced
+    priority: core
+    summary: "A scientific machine-learning library supporting PINNs, DeepONets, multifidelity learning, and inverse problems."
+    best_for: "Implementing physics-informed and operator-learning baselines with concise APIs."
+  - name: JAX-Fluids
+    url: https://github.com/tumaer/JAXFLUIDS
+    category: scientific-ai-rom
+    type: differentiable-cfd-solver
+    level: advanced
+    priority: specialized
+    summary: "A differentiable CFD package for compressible single- and two-phase flows implemented in JAX."
+    best_for: "End-to-end optimization and research at the ML–CFD interface."
+  - name: PhiFlow
+    url: https://github.com/tum-pbs/PhiFlow
+    category: scientific-ai-rom
+    type: differentiable-pde-framework
     level: intermediate-to-advanced
     priority: specialized
-
+    summary: "A differentiable PDE simulation toolkit integrated with common machine-learning frameworks."
+    best_for: "Prototyping differentiable physics and learning-through-simulation workflows."
+  - name: PDEBench
+    url: https://github.com/pdebench/PDEBench
+    category: scientific-ai-rom
+    type: benchmark-suite
+    level: intermediate-to-advanced
+    priority: core
+    summary: "A benchmark suite with datasets, generation code, baselines, and metrics for scientific machine learning."
+    best_for: "Comparing surrogate models across multiple PDE families."
+  - name: PDEArena
+    url: https://github.com/pdearena/pdearena
+    category: scientific-ai-rom
+    type: surrogate-benchmark-framework
+    level: advanced
+    priority: supporting
+    summary: "A scalable framework for training and evaluating neural PDE surrogate models."
+    best_for: "Systematic architecture comparisons and multi-scale surrogate experiments."
+  - name: flowTorch
+    url: https://github.com/AndreWeiner/flowtorch
+    category: scientific-ai-rom
+    type: fluid-data-rom-library
+    level: intermediate-to-advanced
+    priority: core
+    summary: "A modular Python library for accessing, analyzing, and reducing fluid-flow datasets."
+    best_for: "PIV/CFD snapshot processing, POD/DMD workflows, and cross-format data access."
+  - name: PySINDy
+    url: https://github.com/dynamicslab/pysindy
+    category: scientific-ai-rom
+    type: system-identification-library
+    level: intermediate-to-advanced
+    priority: supporting
+    summary: "A Python package for sparse identification of nonlinear dynamical systems."
+    best_for: "Discovering interpretable low-order equations from temporal or modal data."
+  - name: Operator-Inference
+    url: https://github.com/Willcox-Research-Group/rom-operator-inference-Python3
+    category: scientific-ai-rom
+    type: projection-rom-library
+    level: advanced
+    priority: core
+    summary: "A Python implementation of data-driven, non-intrusive Operator Inference for reduced-order models."
+    best_for: "Learning physics-structured ROMs from high-fidelity snapshot data."
+  - name: pymoo
+    url: https://github.com/anyoptimization/pymoo
+    category: optimization-uq
+    type: multiobjective-optimization-library
+    level: intermediate
+    priority: core
+    summary: "A Python framework for single-, multi-, and many-objective optimization."
+    best_for: "Pump, turbomachinery, and CFD design studies with Pareto-front analysis."
+  - name: SMT
+    url: https://github.com/SMTorg/smt
+    category: optimization-uq
+    type: surrogate-modeling-toolbox
+    level: intermediate
+    priority: core
+    summary: "A toolbox for surrogate models, design of experiments, multifidelity methods, and benchmarking."
+    best_for: "Building kriging, RBF, and multifidelity surrogates for expensive simulations."
+  - name: 3D-Slicer
+    url: https://github.com/Slicer/Slicer
+    category: biofluids-medical
+    type: medical-image-platform
+    level: beginner-to-intermediate
+    priority: core
+    summary: "An open-source platform for medical image visualization, segmentation, registration, and mesh workflows."
+    best_for: "Converting CT or MRI data into reproducible anatomical models."
+  - name: VMTK
+    url: https://github.com/vmtk/vmtk
+    category: biofluids-medical
+    type: vascular-modeling-toolkit
+    level: intermediate
+    priority: specialized
+    summary: "Tools for vascular reconstruction, geometric analysis, centerlines, surfaces, and mesh generation."
+    best_for: "Image-based vessel modeling and centerline-dependent vascular analysis."
+  - name: SimVascular
+    url: https://github.com/SimVascular/SimVascular
+    category: biofluids-medical
+    type: patient-specific-simulation-suite
+    level: intermediate-to-advanced
+    priority: core
+    summary: "An open-source pipeline for patient-specific vascular modeling, meshing, simulation, and reduced-order models."
+    best_for: "Learning complete cardiovascular modeling workflows and physiological boundary conditions."
   - name: BubbleID
     url: https://github.com/cldunlap73/BubbleID
-    category: specialized-applications
+    category: experimental-flow
     type: application-notebooks
     level: intermediate
     priority: specialized
-
+    summary: "Image-based bubble identification notebooks for multiphase-flow analysis."
+    best_for: "Cavitation visualization and bubble-field quantification."
+  - name: OpenPIV
+    url: https://github.com/OpenPIV/openpiv-python
+    category: experimental-flow
+    type: piv-analysis-library
+    level: beginner-to-intermediate
+    priority: core
+    summary: "An open-source Python and Cython toolkit for particle image velocimetry."
+    best_for: "Scriptable PIV processing and reproducible experimental-flow analysis."
+  - name: PIVlab
+    url: https://github.com/Shrediquette/PIVlab
+    category: experimental-flow
+    type: piv-gui-toolbox
+    level: beginner-to-intermediate
+    priority: supporting
+    summary: "A MATLAB-based PIV toolbox with a graphical interface for analysis, validation, and post-processing."
+    best_for: "Interactive PIV workflows and comparison with Python-based processing."
+  - name: felupe
+    url: https://github.com/adtzlr/felupe
+    category: solid-mechanics-fsi
+    type: python-fea-library
+    level: intermediate-to-advanced
+    priority: specialized
+    summary: "A Python finite-element library for nonlinear continuum mechanics."
+    best_for: "Constitutive modeling, solid verification, and FSI preparation."
+  - name: DOLFINx
+    url: https://github.com/FEniCS/dolfinx
+    category: solid-mechanics-fsi
+    type: finite-element-environment
+    level: intermediate-to-advanced
+    priority: specialized
+    summary: "The actively developed computational environment of FEniCSx for finite-element problem solving."
+    best_for: "Custom PDE and solid-mechanics research requiring variational formulations."
+  - name: preCICE
+    url: https://github.com/precice/precice
+    category: solid-mechanics-fsi
+    type: multiphysics-coupling-library
+    level: advanced
+    priority: core
+    summary: "A coupling library and ecosystem for partitioned multiphysics and multiscale simulations."
+    best_for: "Coupling independent fluid and structural solvers in FSI studies."
   - name: LaTex-Thesis-Template
     url: https://github.com/samina1/LaTex-Thesis-Template
     category: research-communication
     type: document-template
     level: all
     priority: supporting
-
+    summary: "A starting structure for theses and long technical documents with equations, figures, and references."
+    best_for: "Organizing a thesis or report after checking institutional requirements."
   - name: voice-pro
     url: https://github.com/abus-aikorea/voice-pro
     category: research-communication
     type: ai-media-utility
     level: intermediate
     priority: optional
+    summary: "Speech, transcription, and audio-processing utilities."
+    best_for: "Optional presentation rehearsal, transcription, and lecture preparation."
