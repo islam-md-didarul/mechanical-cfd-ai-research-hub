@@ -51,11 +51,9 @@ This repository organizes independent open-source resources into coherent pathwa
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
 
-<br>
+---
 
 <p><strong>▌ Choose your pathway</strong></p>
-
----
 
 <table>
 <tr>
@@ -80,11 +78,9 @@ This repository organizes independent open-source resources into coherent pathwa
 </tr>
 </table>
 
-<br>
+---
 
 <p><strong>▌ Research learning roadmap</strong></p>
-
----
 
 ```mermaid
 flowchart LR
@@ -122,11 +118,9 @@ flowchart LR
   <a href="./learning-paths/README.md"><strong>View the complete learning paths →</strong></a>
 </p>
 
-<br>
+---
 
 <p><strong>▌ Featured research pathways</strong></p>
-
----
 
 <table>
 <tr>
@@ -167,11 +161,9 @@ flowchart LR
   <a href="./project-guides/surrogate-optimization.md"><strong>Surrogate Modeling & Optimization</strong></a>
 </p>
 
-<br>
+---
 
 <p><strong>▌ Resource collections</strong></p>
-
----
 
 | Collection | Resources | Primary purpose |
 |---|---:|---|
@@ -194,10 +186,9 @@ flowchart LR
   <a href="./resources/selection-guide.md"><strong>Select tools by research task →</strong></a>
 </p>
 
-<br>
+---
 
 # ▌ Featured core toolkit
-
 
 <table>
 <tr>
@@ -254,11 +245,9 @@ A structured survey of machine-learning research for computational fluid dynamic
 </tr>
 </table>
 
-<br>
+---
 
 <p><strong>▌ Resource classification</strong></p>
-
----
 
 | Label | Meaning |
 |---|---|
@@ -268,11 +257,9 @@ A structured survey of machine-learning research for computational fluid dynamic
 | **Reference** | Primarily used to discover additional resources |
 | **Optional** | Useful for productivity or communication |
 
-<br>
+---
 
 <p><strong>▌ Repository organization</strong></p>
-
----
 
 ```text
 mechanical-cfd-ai-research-hub/
@@ -310,7 +297,7 @@ mechanical-cfd-ai-research-hub/
 └── NOTICE.md
 ```
 
-<br>
+---
 
 ## ▌ How the hub supports research
 
@@ -339,7 +326,7 @@ flowchart LR
     class DEC,COM output;
 ```
 
-<br>
+---
 
 ## ▌ Contributing
 
@@ -347,7 +334,7 @@ Resources should be added only after checking relevance, upstream source, licens
 
 [Read the contribution guide →](./CONTRIBUTING.md)
 
-<br>
+---
 
 ## ▌ License and attribution
 
