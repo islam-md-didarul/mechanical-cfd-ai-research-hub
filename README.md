@@ -321,7 +321,7 @@ flowchart LR
 
 ## ▌ Contributing
 
-Resources should be added only after checking relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
+Resources should be added only after checking relevance, upstream source, license, maintenance status and suitability for a defined learning or research pathway.
 
 [Read the contribution guide →](./CONTRIBUTING.md)
 
@@ -329,7 +329,7 @@ Resources should be added only after checking relevance, upstream source, licens
 
 ## ▌ License and attribution
 
-The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts, and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
+The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
 
 [Read the attribution notice →](./NOTICE.md)
 
