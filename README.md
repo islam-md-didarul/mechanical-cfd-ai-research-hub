@@ -203,7 +203,7 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
 
-### CFDPython
+<p><strong>CFDPython</strong></p>
 
 `CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
@@ -215,7 +215,7 @@ Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 </td>
 <td width="50%" valign="top">
 
-### ML Foundations
+<p><strong>ML Foundations</strong></p>
 
 `CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
@@ -229,7 +229,7 @@ Mathematics and computer-science foundations for machine learning and reduced-or
 <tr>
 <td width="50%" valign="top">
 
-### PyDMD
+<p><strong>PyDMD</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `PYTHON`
 
@@ -241,7 +241,7 @@ A comprehensive Python library for Dynamic Mode Decomposition methods.
 </td>
 <td width="50%" valign="top">
 
-### Awesome AI4CFD
+<p><strong>Awesome AI4CFD</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `LITERATURE`
 
