@@ -4,13 +4,13 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
     <img src="./assets/images/research-hub-banner-light.svg"
          width="100%"
-         alt="Mechanical CFD and Scientific AI Research Hub">
+         alt="Mechanical, CFD and Scientific AI Research Hub">
   </picture>
 </p>
 
 
 <p align="center">
-  Structured learning pathways, verified resources, and project-oriented guidance
+  Structured learning pathways, verified resources and project-oriented guidance
   for computational engineering research.
 </p>
 
@@ -35,23 +35,31 @@
 
 ---
 
-<p><img src="./assets/section-titles/about.svg" width="100%" alt="About this hub"></p>
+<br>
+
+<p><strong>About this hub</strong></p>
+
+---
 
 This repository organizes independent open-source resources into coherent pathways for:
 
-- computational fluid dynamics, numerical methods, and production solvers;
-- mechanical, aerospace, turbomachinery, and multiphase engineering;
+- computational fluid dynamics, numerical methods and production solvers;
+- mechanical, aerospace, turbomachinery and multiphase engineering;
 - medical-image-based CFD and patient-specific simulation;
 - experimental flow analysis using PIV and image processing;
-- Dynamic Mode Decomposition, Koopman methods, and reduced-order modeling;
-- PINNs, neural operators, differentiable physics, and scientific machine learning;
-- surrogate modeling, engineering optimization, verification, and validation;
-- scientific writing, presentation, and reproducible research communication.
+- Dynamic Mode Decomposition, Koopman methods and reduced-order modeling;
+- PINNs, neural operators, differentiable physics and scientific machine learning;
+- surrogate modeling, engineering optimization, verification and validation;
+- scientific writing, presentation and reproducible research communication.
 
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
 
-<p><img src="./assets/section-titles/choose.svg" width="100%" alt="Choose your pathway"></p>
+<br>
+
+<p><strong>Choose your pathway</strong></p>
+
+---
 
 <table>
 <tr>
@@ -76,7 +84,11 @@ This repository organizes independent open-source resources into coherent pathwa
 </tr>
 </table>
 
-<p><img src="./assets/section-titles/roadmap.svg" width="100%" alt="Research learning roadmap"></p>
+<br>
+
+<p><strong>Research learning roadmap</strong></p>
+
+---
 
 ```mermaid
 flowchart LR
@@ -114,7 +126,11 @@ flowchart LR
   <a href="./learning-paths/README.md"><strong>View the complete learning paths →</strong></a>
 </p>
 
-<p><img src="./assets/section-titles/featured.svg" width="100%" alt="Featured research pathways"></p>
+<br>
+
+<p><strong>Featured research pathways</strong></p>
+
+---
 
 <table>
 <tr>
@@ -155,7 +171,11 @@ flowchart LR
   <a href="./project-guides/surrogate-optimization.md"><strong>Surrogate Modeling & Optimization</strong></a>
 </p>
 
-<p><img src="./assets/section-titles/collections.svg" width="100%" alt="Resource collections"></p>
+<br>
+
+<p><strong>Resource collections</strong></p>
+
+---
 
 | Collection | Resources | Primary purpose |
 |---|---:|---|
@@ -178,7 +198,11 @@ flowchart LR
   <a href="./resources/selection-guide.md"><strong>Select tools by research task →</strong></a>
 </p>
 
-<p><img src="./assets/section-titles/toolkit.svg" width="100%" alt="Featured core toolkit"></p>
+<br>
+
+<p><strong>Featured core toolkit</strong></p>
+
+---
 
 <table>
 <tr>
@@ -200,7 +224,7 @@ Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 
 `CORE` `INTERMEDIATE–ADVANCED` `CFD`
 
-Production finite-volume CFD, compressible flow, adjoint design, and solver customization.
+Production finite-volume CFD, compressible flow, adjoint design and solver customization.
 
 **Best for:** Moving from educational solvers to research-scale engineering workflows.  
 **Sources:** [OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) · [SU2](https://github.com/su2code/SU2)
@@ -216,7 +240,7 @@ Production finite-volume CFD, compressible flow, adjoint design, and solver cust
 
 Authoritative turbulence-model definitions and established validation cases.
 
-**Best for:** Verification, benchmark selection, and defensible CFD reporting.  
+**Best for:** Verification, benchmark selection and defensible CFD reporting.  
 **Sources:** [NASA TMR](https://tmbwg.github.io/turbmodels/) · [ERCOFTAC](https://cfd.mace.manchester.ac.uk/ercoftac/)
 
 </td>
@@ -226,9 +250,9 @@ Authoritative turbulence-model definitions and established validation cases.
 
 `CORE` `INTERMEDIATE–ADVANCED` `ROM`
 
-Modal analysis, fluid-data access, and physics-structured non-intrusive reduced models.
+Modal analysis, fluid-data access and physics-structured non-intrusive reduced models.
 
-**Best for:** CFD/PIV decomposition, prediction, and ROM benchmarking.  
+**Best for:** CFD/PIV decomposition, prediction and ROM benchmarking.  
 **Sources:** [PyDMD](https://github.com/PyDMD/PyDMD) · [flowTorch](https://github.com/AndreWeiner/flowtorch) · [Operator Inference](https://github.com/Willcox-Research-Group/rom-operator-inference-Python3)
 
 </td>
@@ -240,7 +264,7 @@ Modal analysis, fluid-data access, and physics-structured non-intrusive reduced 
 
 `CORE` `INTERMEDIATE–ADVANCED` `SCIENTIFIC ML`
 
-Neural operators, PINNs, DeepONets, and standardized scientific-ML benchmarks.
+Neural operators, PINNs, DeepONets and standardized scientific-ML benchmarks.
 
 **Best for:** Field surrogates and physics-informed learning after establishing reliable baselines.  
 **Sources:** [NeuralOperator](https://github.com/neuraloperator/neuraloperator) · [DeepXDE](https://github.com/lululxvi/deepxde) · [PDEBench](https://github.com/pdebench/PDEBench)
@@ -252,7 +276,7 @@ Neural operators, PINNs, DeepONets, and standardized scientific-ML benchmarks.
 
 `CORE / SPECIALIZED` `BEGINNER–ADVANCED` `MEDICAL CFD`
 
-Medical-image segmentation, anatomical modeling, meshing, and patient-specific simulation.
+Medical-image segmentation, anatomical modeling, meshing and patient-specific simulation.
 
 **Best for:** Reproducible biofluid and physiological boundary-condition workflows.  
 **Sources:** [3D Slicer](https://github.com/Slicer/Slicer) · [VMTK](https://github.com/vmtk/vmtk) · [SimVascular](https://github.com/SimVascular/SimVascular)
@@ -261,7 +285,11 @@ Medical-image segmentation, anatomical modeling, meshing, and patient-specific s
 </tr>
 </table>
 
-<p><img src="./assets/section-titles/classification.svg" width="100%" alt="Resource classification"></p>
+<br>
+
+<p><strong>Resource classification</strong></p>
+
+---
 
 | Label | Meaning |
 |---|---|
@@ -271,7 +299,11 @@ Medical-image segmentation, anatomical modeling, meshing, and patient-specific s
 | **Reference** | Primarily used to discover additional resources |
 | **Optional** | Useful for productivity or communication |
 
-<p><img src="./assets/section-titles/organization.svg" width="100%" alt="Repository organization"></p>
+<br>
+
+<p><strong>Repository organization</strong></p>
+
+---
 
 ```text
 mechanical-cfd-ai-research-hub/
@@ -309,7 +341,11 @@ mechanical-cfd-ai-research-hub/
 └── NOTICE.md
 ```
 
-<p><img src="./assets/section-titles/support.svg" width="100%" alt="How the hub supports research"></p>
+<br>
+
+<p><strong>How the hub supports research</strong></p>
+
+---
 
 ```mermaid
 flowchart LR
@@ -336,13 +372,20 @@ flowchart LR
     class DEC,COM output;
 ```
 
-<p><img src="./assets/section-titles/contributing.svg" width="100%" alt="Contributing"></p>
+<br>
 
+<p><strong>Contributing</strong></p>
+
+---
 Resources should be added only after checking relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
 
 [Read the contribution guide →](./CONTRIBUTING.md)
 
-<p><img src="./assets/section-titles/license.svg" width="100%" alt="License and attribution"></p>
+<br>
+
+<p><strong>License and attribution</strong></p>
+
+---
 
 The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts, and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
 
