@@ -11,7 +11,7 @@
 <h1 align="center">Mechanical CFD & Scientific AI Research Hub</h1>
 
 <p align="center">
-  Structured learning pathways, verified resources, and project-oriented guidance
+  Structured learning pathways, verified resources and project-oriented guidance
   for computational engineering research.
 </p>
 
