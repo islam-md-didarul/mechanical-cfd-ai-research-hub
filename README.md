@@ -37,7 +37,7 @@
 
 <br>
 
-<p><strong>About this hub</strong></p>
+<p><strong>▌ About this hub</strong></p>
 
 ---
 
@@ -57,7 +57,7 @@ This repository organizes independent open-source resources into coherent pathwa
 
 <br>
 
-<p><strong>Choose your pathway</strong></p>
+<p><strong>▌ Choose your pathway</strong></p>
 
 ---
 
@@ -86,7 +86,7 @@ This repository organizes independent open-source resources into coherent pathwa
 
 <br>
 
-<p><strong>Research learning roadmap</strong></p>
+<p><strong>▌ Research learning roadmap</strong></p>
 
 ---
 
@@ -128,7 +128,7 @@ flowchart LR
 
 <br>
 
-<p><strong>Featured research pathways</strong></p>
+<p><strong>▌ Featured research pathways</strong></p>
 
 ---
 
@@ -173,7 +173,7 @@ flowchart LR
 
 <br>
 
-<p><strong>Resource collections</strong></p>
+<p><strong>▌ Resource collections</strong></p>
 
 ---
 
@@ -200,7 +200,7 @@ flowchart LR
 
 <br>
 
-<p><strong>Featured core toolkit</strong></p>
+<p><strong>▌ Featured core toolkit</strong></p>
 
 ---
 
@@ -260,7 +260,7 @@ Modal analysis, fluid-data access and physics-structured non-intrusive reduced m
 <tr>
 <td width="50%" valign="top">
 
-<p><strong>NeuralOperator + DeepXDE + PDEBench</strong></p>
+<p><strong>▌ NeuralOperator + DeepXDE + PDEBench</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `SCIENTIFIC ML`
 
@@ -287,7 +287,7 @@ Medical-image segmentation, anatomical modeling, meshing and patient-specific si
 
 <br>
 
-<p><strong>Resource classification</strong></p>
+<p><strong>▌ Resource classification</strong></p>
 
 ---
 
@@ -301,7 +301,7 @@ Medical-image segmentation, anatomical modeling, meshing and patient-specific si
 
 <br>
 
-<p><strong>Repository organization</strong></p>
+<p><strong>▌ Repository organization</strong></p>
 
 ---
 
@@ -343,7 +343,7 @@ mechanical-cfd-ai-research-hub/
 
 <br>
 
-<p><strong>How the hub supports research</strong></p>
+<p><strong>▌ How the hub supports research</strong></p>
 
 ---
 
@@ -374,7 +374,7 @@ flowchart LR
 
 <br>
 
-<p><strong>Contributing</strong></p>
+<p><strong>▌ Contributing</strong></p>
 
 ---
 Resources should be added only after checking relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
@@ -383,7 +383,7 @@ Resources should be added only after checking relevance, upstream source, licens
 
 <br>
 
-<p><strong>License and attribution</strong></p>
+<p><strong>▌ License and attribution</strong></p>
 
 ---
 
