@@ -25,9 +25,9 @@ flowchart LR
 
 ## Minimum evidence to report
 
-- Image scale, frame rate, interrogation settings, and overlap
+- Image scale, frame rate, interrogation settings and overlap
 - Calibration and uncertainty of measured velocity
-- Missing-vector, outlier, and smoothing treatment
+- Missing-vector, outlier and smoothing treatment
 - Spatial interpolation and alignment between experiment and CFD
 - Snapshot normalization and weighting
 - Rank-selection method and retained energy
