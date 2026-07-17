@@ -124,3 +124,4 @@ jobs:
 
           print("All SVG assets are valid XML.")
           PY
+          
