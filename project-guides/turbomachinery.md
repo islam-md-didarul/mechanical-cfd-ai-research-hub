@@ -28,13 +28,13 @@ flowchart LR
 
 ## Minimum evidence to report
 
-- Design point, speed, fluid properties, and operating range
+- Design point, speed, fluid properties and operating range
 - Geometry variables, bounds, and manufacturing constraints
-- Mesh quality, near-wall treatment, and independence
+- Mesh quality, near-wall treatment and independence
 - Turbulence-model rationale and rotating-frame method
-- Interface settings and convergence of torque, head, and efficiency
+- Interface settings and convergence of torque, head and efficiency
 - Experimental uncertainty and repeatability
-- Head, efficiency, power, NPSH, cavitation, and loss metrics
+- Head, efficiency, power, NPSH, cavitation and loss metrics
 - DOE coverage and surrogate cross-validation
 - Pareto-front interpretation and decision rule
 - High-fidelity verification of every selected optimum
