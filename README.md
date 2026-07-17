@@ -4,14 +4,13 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
     <img src="./assets/images/research-hub-banner-light.svg"
          width="100%"
-         alt="Mechanical, CFD and Scientific AI Research Hub">
+         alt="Mechanical CFD and Scientific AI Research Hub">
   </picture>
 </p>
 
-<h1 align="center">Mechanical, CFD & Scientific AI Research Hub</h1>
 
 <p align="center">
-  Structured learning pathways, verified resources and project-oriented guidance
+  Structured learning pathways, verified resources, and project-oriented guidance
   for computational engineering research.
 </p>
 
@@ -36,48 +35,48 @@
 
 ---
 
-## About this hub
+<p><img src="./assets/section-titles/about.svg" width="100%" alt="About this hub"></p>
 
 This repository organizes independent open-source resources into coherent pathways for:
 
-- computational fluid dynamics, numerical methods and respective solvers;
-- mechanical, aerospace, turbomachinery and multiphase engineering;
+- computational fluid dynamics, numerical methods, and production solvers;
+- mechanical, aerospace, turbomachinery, and multiphase engineering;
 - medical-image-based CFD and patient-specific simulation;
 - experimental flow analysis using PIV and image processing;
-- Dynamic Mode Decomposition, Koopman methods and reduced-order modeling;
-- PINNs, neural operators, differentiable physics and scientific machine learning;
-- surrogate modeling, engineering optimization verification, and validation;
-- scientific writing, presentation and reproducible research communication.
+- Dynamic Mode Decomposition, Koopman methods, and reduced-order modeling;
+- PINNs, neural operators, differentiable physics, and scientific machine learning;
+- surrogate modeling, engineering optimization, verification, and validation;
+- scientific writing, presentation, and reproducible research communication.
 
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
 
-## Choose your pathway
+<p><img src="./assets/section-titles/choose.svg" width="100%" alt="Choose your pathway"></p>
 
 <table>
 <tr>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/foundations.svg" width="72" alt="Foundations icon"><br>
-  <h3>Build foundations</h3>
-  Mathematics, Python, numerical methods and machine-learning prerequisites.<br><br>
+  <p align="center"><strong>Build foundations</strong></p>
+  Mathematics, Python, numerical methods, and machine-learning prerequisites.<br><br>
   <a href="./learning-paths/foundations.md"><strong>Start learning →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/cfd.svg" width="72" alt="CFD icon"><br>
-  <h3>Develop engineering models</h3>
-  CFD, FEA, meshing, multiphase flow, verification, validation and engineering applications.<br><br>
+  <p align="center"><strong>Develop engineering models</strong></p>
+  CFD, FEA, meshing, multiphase flow, verification, validation, and engineering applications.<br><br>
   <a href="./learning-paths/cfd.md"><strong>Explore CFD →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/scientific-ai.svg" width="72" alt="Scientific AI icon"><br>
-  <h3>Apply scientific AI</h3>
-  DMD, Koopman models, PINNs, neural operators, surrogates and AI4CFD.<br><br>
+  <p align="center"><strong>Apply scientific AI</strong></p>
+  DMD, Koopman models, PINNs, neural operators, surrogates, and AI4CFD.<br><br>
   <a href="./learning-paths/scientific-ai.md"><strong>Explore Scientific AI →</strong></a>
 </td>
 </tr>
 </table>
 
-## Research learning roadmap
+<p><img src="./assets/section-titles/roadmap.svg" width="100%" alt="Research learning roadmap"></p>
 
 ```mermaid
 flowchart LR
@@ -115,19 +114,19 @@ flowchart LR
   <a href="./learning-paths/README.md"><strong>View the complete learning paths →</strong></a>
 </p>
 
-## Featured research pathways
+<p><img src="./assets/section-titles/featured.svg" width="100%" alt="Featured research pathways"></p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/medical-cfd.svg" width="80" alt="Medical CFD icon"></p>
-  <h3 align="center">Medical CFD & Digital Twins</h3>
+  <p align="center"><strong>Medical CFD & Digital Twins</strong></p>
   <p align="center">CT/MRI → segmentation → geometry → patient-specific CFD → physiological metrics → ROM → prediction</p>
   <p align="center"><a href="./project-guides/medical-cfd.md"><strong>Explore pathway →</strong></a></p>
 </td>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/turbomachinery.svg" width="80" alt="Turbomachinery icon"></p>
-  <h3 align="center">Turbomachinery Optimization</h3>
+  <p align="center"><strong>Turbomachinery Optimization</strong></p>
   <p align="center">CAD → mesh independence → RANS/URANS → experiment → surrogate → multi-objective optimization</p>
   <p align="center"><a href="./project-guides/turbomachinery.md"><strong>Explore pathway →</strong></a></p>
 </td>
@@ -135,13 +134,13 @@ flowchart LR
 <tr>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/piv-rom.svg" width="80" alt="PIV and ROM icon"></p>
-  <h3 align="center">PIV & Reduced-Order Modeling</h3>
+  <p align="center"><strong>PIV & Reduced-Order Modeling</strong></p>
   <p align="center">Images or snapshots → preprocessing → POD/DMD → Operator Inference → reconstruction and prediction</p>
   <p align="center"><a href="./project-guides/piv-rom.md"><strong>Explore pathway →</strong></a></p>
 </td>
 <td width="50%" valign="top">
   <p align="center"><img src="./assets/icons/multiphase.svg" width="80" alt="Multiphase icon"></p>
-  <h3 align="center">Multiphase Flow & Cavitation</h3>
+  <p align="center"><strong>Multiphase Flow & Cavitation</strong></p>
   <p align="center">Multiphase CFD → bubble detection → cavitation metrics → validation → AI-assisted prediction</p>
   <p align="center"><a href="./project-guides/multiphase.md"><strong>Explore pathway →</strong></a></p>
 </td>
@@ -156,21 +155,21 @@ flowchart LR
   <a href="./project-guides/surrogate-optimization.md"><strong>Surrogate Modeling & Optimization</strong></a>
 </p>
 
-## Resource collections
+<p><img src="./assets/section-titles/collections.svg" width="100%" alt="Resource collections"></p>
 
 | Collection | Resources | Primary purpose |
 |---|---:|---|
 | Research Practice & Engineering Maps | 3 | Research planning and multidisciplinary engineering maps |
-| Mathematics & Programming Foundations | 4 | Python, mathematics and numerical prerequisites |
+| Mathematics & Programming Foundations | 4 | Python, mathematics, and numerical prerequisites |
 | Machine Learning & AI | 5 | Data-driven modeling and AI foundations |
-| CFD Foundations & Numerical Solvers | 10 | Numerical CFD, production solvers and fluid mechanics |
-| Meshing, Post-processing & Data Interchange | 4 | Reproducible mesh generation, conversion and analysis |
+| CFD Foundations & Numerical Solvers | 10 | Numerical CFD, production solvers, and fluid mechanics |
+| Meshing, Post-processing & Data Interchange | 4 | Reproducible mesh generation, conversion, and analysis |
 | Verification, Validation & Benchmark Data | 3 | Turbulence-model verification and benchmark datasets |
-| Scientific AI, ROM & Differentiable Physics | 15 | DMD, OpInf, SINDy, PINNs, neural operators and differentiable CFD |
-| Optimization, Surrogates & Uncertainty | 2 | DOE, surrogate modeling and multi-objective design |
-| Biofluids & Medical Modeling | 3 | Segmentation, anatomical geometry and patient-specific simulation |
+| Scientific AI, ROM & Differentiable Physics | 15 | DMD, OpInf, SINDy, PINNs, neural operators, and differentiable CFD |
+| Optimization, Surrogates & Uncertainty | 2 | DOE, surrogate modeling, and multi-objective design |
+| Biofluids & Medical Modeling | 3 | Segmentation, anatomical geometry, and patient-specific simulation |
 | Experimental Flow & Image Analysis | 3 | PIV, bubble detection, and experimental data processing |
-| Solid Mechanics & Fluid–Structure Interaction | 3 | FEA, custom PDEs and partitioned multiphysics coupling |
+| Solid Mechanics & Fluid–Structure Interaction | 3 | FEA, custom PDEs, and partitioned multiphysics coupling |
 | Research Communication & Productivity | 2 | Thesis preparation and presentation support |
 
 <p align="center">
@@ -179,13 +178,13 @@ flowchart LR
   <a href="./resources/selection-guide.md"><strong>Select tools by research task →</strong></a>
 </p>
 
-## Featured core toolkit
+<p><img src="./assets/section-titles/toolkit.svg" width="100%" alt="Featured core toolkit"></p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### CFDPython
+<p><strong>CFDPython</strong></p>
 
 `CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
@@ -197,7 +196,7 @@ Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 </td>
 <td width="50%" valign="top">
 
-### OpenFOAM + SU2
+<p><strong>OpenFOAM + SU2</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `CFD`
 
@@ -211,7 +210,7 @@ Production finite-volume CFD, compressible flow, adjoint design, and solver cust
 <tr>
 <td width="50%" valign="top">
 
-### NASA TMR + ERCOFTAC
+<p><strong>NASA TMR + ERCOFTAC</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `V&V`
 
@@ -223,7 +222,7 @@ Authoritative turbulence-model definitions and established validation cases.
 </td>
 <td width="50%" valign="top">
 
-### PyDMD + flowTorch + Operator Inference
+<p><strong>PyDMD + flowTorch + Operator Inference</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `ROM`
 
@@ -237,7 +236,7 @@ Modal analysis, fluid-data access, and physics-structured non-intrusive reduced 
 <tr>
 <td width="50%" valign="top">
 
-### NeuralOperator + DeepXDE + PDEBench
+<p><strong>NeuralOperator + DeepXDE + PDEBench</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `SCIENTIFIC ML`
 
@@ -249,7 +248,7 @@ Neural operators, PINNs, DeepONets, and standardized scientific-ML benchmarks.
 </td>
 <td width="50%" valign="top">
 
-### 3D Slicer + VMTK + SimVascular
+<p><strong>3D Slicer + VMTK + SimVascular</strong></p>
 
 `CORE / SPECIALIZED` `BEGINNER–ADVANCED` `MEDICAL CFD`
 
@@ -262,7 +261,7 @@ Medical-image segmentation, anatomical modeling, meshing, and patient-specific s
 </tr>
 </table>
 
-## Resource classification
+<p><img src="./assets/section-titles/classification.svg" width="100%" alt="Resource classification"></p>
 
 | Label | Meaning |
 |---|---|
@@ -272,7 +271,7 @@ Medical-image segmentation, anatomical modeling, meshing, and patient-specific s
 | **Reference** | Primarily used to discover additional resources |
 | **Optional** | Useful for productivity or communication |
 
-## Repository organization
+<p><img src="./assets/section-titles/organization.svg" width="100%" alt="Repository organization"></p>
 
 ```text
 mechanical-cfd-ai-research-hub/
@@ -310,7 +309,7 @@ mechanical-cfd-ai-research-hub/
 └── NOTICE.md
 ```
 
-## How the hub supports research
+<p><img src="./assets/section-titles/support.svg" width="100%" alt="How the hub supports research"></p>
 
 ```mermaid
 flowchart LR
@@ -337,15 +336,15 @@ flowchart LR
     class DEC,COM output;
 ```
 
-## Contributing
+<p><img src="./assets/section-titles/contributing.svg" width="100%" alt="Contributing"></p>
 
-Resources should be added only after checking relevance, upstream source, license, maintenance status and suitability for a defined learning or research pathway.
+Resources should be added only after checking relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
 
 [Read the contribution guide →](./CONTRIBUTING.md)
 
-## License and attribution
+<p><img src="./assets/section-titles/license.svg" width="100%" alt="License and attribution"></p>
 
-The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
+The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts, and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
 
 [Read the attribution notice →](./NOTICE.md)
 
