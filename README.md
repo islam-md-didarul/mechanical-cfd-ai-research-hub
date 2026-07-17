@@ -196,7 +196,7 @@ flowchart LR
 
 <br>
 
-<p><strong>▌ Featured core toolkit</strong></p>
+# ▌ Featured core toolkit
 
 ---
 
@@ -339,9 +339,7 @@ mechanical-cfd-ai-research-hub/
 
 <br>
 
-<p><strong>▌ How the hub supports research</strong></p>
-
----
+## ▌ How the hub supports research
 
 ```mermaid
 flowchart LR
@@ -370,18 +368,15 @@ flowchart LR
 
 <br>
 
-<p><strong>▌ Contributing</strong></p>
+## ▌ Contributing
 
----
 Resources should be added only after checking relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
 
 [Read the contribution guide →](./CONTRIBUTING.md)
 
 <br>
 
-<p><strong>▌ License and attribution</strong></p>
-
----
+## ▌ License and attribution
 
 The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts, and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
 
