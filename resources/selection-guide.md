@@ -38,7 +38,7 @@ Use this page to choose a tool based on the research task rather than popularity
 | Physics-structured non-intrusive ROM | Operator Inference | PyDMD and full-order CFD |
 | Sparse governing-equation discovery | PySINDy | Known equations and held-out trajectories |
 | PINN or DeepONet experiments | DeepXDE | Numerical solver baseline |
-| Fourier Neural Operator | NeuralOperator | U-Net, autoregressive, and classical surrogate baselines |
+| Fourier Neural Operator | NeuralOperator | U-Net, autoregressive and classical surrogate baselines |
 | Standard SciML benchmark | PDEBench | PDEArena implementations |
 | Differentiable CFD | JAX-Fluids or PhiFlow | Conventional CFD and finite-difference checks |
 | Scalable physics-AI training | PhysicsNeMo | Smaller transparent baseline first |
