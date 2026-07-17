@@ -22,9 +22,9 @@ flowchart LR
 ## Communication checklist
 
 - Lead each section with one clear message.
-- Use figures to answer questions, not decorate pages.
-- Define symbols, units, assumptions, and comparison conditions.
+- Use figures to answer questions not decorate pages.
+- Define symbols, units, assumptions and comparison conditions.
 - Report uncertainty and limitations.
 - Separate observations from interpretation.
-- Use the same color, variable, and sign conventions throughout.
-- End with contribution, significance, limits, and next steps.
+- Use the same color, variable and sign conventions throughout.
+- End with contribution, significance, limits and next steps.
