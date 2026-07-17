@@ -33,8 +33,6 @@
   <img src="https://img.shields.io/badge/resources-57-0969DA?style=flat-square" alt="57 resources">
 </p>
 
----
-
 <br>
 
 <p><strong>▌ About this hub</strong></p>
