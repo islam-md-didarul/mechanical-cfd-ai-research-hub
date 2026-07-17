@@ -35,7 +35,7 @@
 
 <br>
 
-<p><strong>▌ # About this hub</strong></p>
+# ▌ About this hub
 
 ---
 
