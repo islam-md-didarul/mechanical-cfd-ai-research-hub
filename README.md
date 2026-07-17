@@ -263,38 +263,55 @@ A structured survey of machine-learning research for computational fluid dynamic
 
 ```text
 mechanical-cfd-ai-research-hub/
-├── README.md
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug-report.yml
+│   │   ├── config.yml
+│   │   └── resource-request.yml
+│   ├── workflows/
+│   │   └── link-check.yml
+│   ├── SECURITY.md
+│   └── pull_request_template.md
 ├── assets/
-│   ├── images/
-│   └── icons/
+│   ├── icons/
+│   │   ├── cfd.svg
+│   │   ├── foundations.svg
+│   │   ├── medical-cfd.svg
+│   │   ├── multiphase.svg
+│   │   ├── piv-rom.svg
+│   │   ├── scientific-ai.svg
+│   │   └── turbomachinery.svg
+│   └── images/
+│       ├── research-hub-banner-dark.svg
+│       └── research-hub-banner-light.svg
 ├── learning-paths/
 │   ├── README.md
-│   ├── foundations.md
 │   ├── cfd.md
+│   ├── foundations.md
 │   └── scientific-ai.md
 ├── project-guides/
 │   ├── README.md
-│   ├── medical-cfd.md
-│   ├── turbomachinery.md
-│   ├── piv-rom.md
-│   ├── multiphase.md
 │   ├── fsi.md
-│   ├── verification-validation.md
+│   ├── medical-cfd.md
+│   ├── multiphase.md
+│   ├── piv-rom.md
+│   ├── research-communication.md
 │   ├── surrogate-optimization.md
-│   └── research-communication.md
+│   ├── turbomachinery.md
+│   └── verification-validation.md
 ├── resources/
 │   ├── README.md
-│   ├── selection-guide.md
 │   ├── catalog.md
-│   └── catalog.yml
+│   ├── catalog.yml
+│   └── selection-guide.md
 ├── scripts/
 │   └── validate_catalog.py
-├── .github/workflows/
-│   └── link-check.yml
-├── requirements-docs.txt
+├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-└── NOTICE.md
+├── NOTICE.md
+├── README.md
+└── requirements-docs.txt
 ```
 
 ---
