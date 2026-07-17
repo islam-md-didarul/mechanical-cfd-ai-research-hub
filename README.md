@@ -4,11 +4,11 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
     <img src="./assets/images/research-hub-banner-light.svg"
          width="100%"
-         alt="Mechanical CFD and Scientific AI Research Hub">
+         alt="Mechanical, CFD and Scientific AI Research Hub">
   </picture>
 </p>
 
-<h1 align="center">Mechanical CFD & Scientific AI Research Hub</h1>
+<h1 align="center">Mechanical, CFD & Scientific AI Research Hub</h1>
 
 <p align="center">
   Structured learning pathways, verified resources and project-oriented guidance
