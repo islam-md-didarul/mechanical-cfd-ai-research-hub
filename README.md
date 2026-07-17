@@ -39,7 +39,7 @@
 # About this hub
 
 This repository organizes independent open-source resources into coherent pathways for:
-<div align="center">
+
 - computational fluid dynamics and numerical methods;
 - mechanical and aerospace engineering applications;
 - machine learning for fluid mechanics;
@@ -47,7 +47,7 @@ This repository organizes independent open-source resources into coherent pathwa
 - physics-informed and scientific machine learning;
 - finite-element, multiphase and image-analysis workflows;
 - scientific writing, presentation and research communication.
-</div>
+
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
 
