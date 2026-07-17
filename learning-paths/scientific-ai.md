@@ -35,10 +35,10 @@ flowchart LR
 ## Model-validation checklist
 
 - Establish a transparent numerical or reduced-order baseline first.
-- Split data by independent geometry, patient, operating condition, or experiment.
+- Split data by independent geometry, patient, operating condition or experiment.
 - Prevent temporal and spatial leakage during normalization and patch extraction.
 - Report reconstruction, rollout, conservation, and quantity-of-interest errors.
-- Compare parameter count, latent dimension, training cost, and inference time.
+- Compare parameter count, latent dimension, training cost and inference time.
 - Test extrapolation separately from interpolation.
 - Evaluate long-horizon stability, not only one-step accuracy.
 - Use physics-based metrics alongside global loss values.
