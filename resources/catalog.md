@@ -99,7 +99,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `CORE` `ALL` `RESEARCH–GUIDE`
 
-**Main benefit.** Reusable workflows for planning mechanical-engineering investigations, reviewing literature, validating models, and documenting results.
+**Main benefit.** Reusable workflows for planning mechanical-engineering investigations, reviewing literature, validating models and documenting results.
 
 **Recommended use.** Structuring a new engineering research project before selecting software.
 
@@ -107,7 +107,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `REFERENCE` `ALL` `CURATED–LIST`
 
-**Main benefit.** Broad mechanical-engineering resources covering design, mechanics, manufacturing, thermal sciences, and related software.
+**Main benefit.** Broad mechanical-engineering resources covering design, mechanics, manufacturing, thermal sciences and related software.
 
 **Recommended use.** Discovering adjacent tools when a project expands beyond CFD.
 
@@ -115,7 +115,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `REFERENCE` `ALL` `CURATED–LIST`
 
-**Main benefit.** Aerospace learning resources spanning aerodynamics, propulsion, structures, flight mechanics, and engineering software.
+**Main benefit.** Aerospace learning resources spanning aerodynamics, propulsion, structures, flight mechanics and engineering software.
 
 **Recommended use.** Aerospace-oriented CFD and multidisciplinary research planning.
 
@@ -126,7 +126,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `CORE` `BEGINNER–TO–ADVANCED` `LEARNING–COMPENDIUM`
 
-**Main benefit.** Intuition-focused connections between mathematics, computing, and artificial intelligence.
+**Main benefit.** Intuition-focused connections between mathematics, computing and artificial intelligence.
 
 **Recommended use.** Reviewing mathematical ideas that support numerical methods and scientific AI.
 
@@ -142,7 +142,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `SUPPORTING` `BEGINNER–TO–INTERMEDIATE` `NOTEBOOK–COURSE`
 
-**Main benefit.** Extended Python practice for scripting, data handling, automation, and machine-learning preparation.
+**Main benefit.** Extended Python practice for scripting, data handling, automation and machine-learning preparation.
 
 **Recommended use.** Building coding confidence after learning basic Python syntax.
 
@@ -152,7 +152,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** Linear algebra, calculus, statistics, and computer-science foundations for machine learning.
 
-**Recommended use.** Preparing for DMD, Koopman models, autoencoders, PINNs, and neural operators.
+**Recommended use.** Preparing for DMD, Koopman models, autoencoders, PINNs and neural operators.
 
 
 ## Machine Learning & AI
@@ -161,7 +161,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `SUPPORTING` `BEGINNER–TO–INTERMEDIATE` `NOTEBOOK–COURSE`
 
-**Main benefit.** Practical preprocessing, model training, validation, and evaluation workflows.
+**Main benefit.** Practical preprocessing, model training, validation and evaluation workflows.
 
 **Recommended use.** Learning the standard ML workflow before building CFD surrogates.
 
@@ -193,7 +193,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `SPECIALIZED` `INTERMEDIATE` `BOOK–CODE–AND–NOTEBOOKS`
 
-**Main benefit.** Practical language-model workflows for embeddings, retrieval, text processing, and knowledge systems.
+**Main benefit.** Practical language-model workflows for embeddings, retrieval, text processing and knowledge systems.
 
 **Recommended use.** Building research-document search and literature-assistant workflows.
 
@@ -206,7 +206,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 
-**Recommended use.** Connecting governing equations, discretization, and Python implementation.
+**Recommended use.** Connecting governing equations, discretization and Python implementation.
 
 ### [Python_CFD](https://github.com/DrZGan/Python_CFD)
 
@@ -230,7 +230,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** An incompressible-flow benchmark solver using a staggered grid.
 
-**Recommended use.** Studying pressure–velocity coupling, boundary conditions, and finite-volume logic.
+**Recommended use.** Studying pressure–velocity coupling, boundary conditions and finite-volume logic.
 
 ### [PyCFD](https://github.com/LukeMcCulloch/PyCFD)
 
@@ -244,7 +244,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `REFERENCE` `ALL` `CURATED–LIST`
 
-**Main benefit.** A broad directory of fluid-dynamics theory, software, experiments, and learning resources.
+**Main benefit.** A broad directory of fluid-dynamics theory, software, experiments and learning resources.
 
 **Recommended use.** Discovering resources outside the hub's focused pathways.
 
@@ -254,7 +254,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** A collection of open-source lattice Boltzmann solvers.
 
-**Recommended use.** Exploring multiphase, porous-media, microfluidic, and complex-boundary problems.
+**Recommended use.** Exploring multiphase, porous-media, microfluidic and complex-boundary problems.
 
 ### [OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev)
 
@@ -262,7 +262,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** The OpenFOAM Foundation development repository for a broad open-source CFD toolbox.
 
-**Recommended use.** Learning production-scale finite-volume case structure, models, and solver customization.
+**Recommended use.** Learning production-scale finite-volume case structure, models and solver customization.
 
 ### [SU2](https://github.com/su2code/SU2)
 
@@ -270,7 +270,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** An open-source multiphysics simulation and design suite with strong aerodynamic and optimization workflows.
 
-**Recommended use.** Compressible flow, adjoint design, shape optimization, and solver verification.
+**Recommended use.** Compressible flow, adjoint design, shape optimization and solver verification.
 
 ### [FiPy](https://github.com/usnistgov/fipy)
 
@@ -297,7 +297,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** A VTK-based, open-source application for large-scale scientific data analysis and visualization.
 
-**Recommended use.** CFD field inspection, quantitative filters, animations, and publication figures.
+**Recommended use.** CFD field inspection, quantitative filters, animations and publication figures.
 
 ### [PyVista](https://github.com/pyvista/pyvista)
 
@@ -305,7 +305,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** A NumPy-native Python interface for 3D visualization and mesh analysis.
 
-**Recommended use.** Automating post-processing, mesh inspection, and reproducible figures.
+**Recommended use.** Automating post-processing, mesh inspection and reproducible figures.
 
 ### [meshio](https://github.com/nschloe/meshio)
 
@@ -367,7 +367,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** A structured collection of recent machine-learning research for CFD.
 
-**Recommended use.** Literature reviews, method selection, and identifying research gaps.
+**Recommended use.** Literature reviews, method selection and identifying research gaps.
 
 ### [PyDMD](https://github.com/PyDMD/PyDMD)
 
@@ -375,7 +375,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** A comprehensive Python library for Dynamic Mode Decomposition methods.
 
-**Recommended use.** CFD and PIV modal analysis, reconstruction, and Koopman-model baselines.
+**Recommended use.** CFD and PIV modal analysis, reconstruction and Koopman-model baselines.
 
 ### [PINNs](https://github.com/maziarraissi/PINNs)
 
@@ -399,7 +399,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** A scalable framework for training and deploying physics-AI models for science and engineering.
 
-**Recommended use.** Large-scale surrogate workflows, advanced architectures, and accelerator-based training.
+**Recommended use.** Large-scale surrogate workflows, advanced architectures and accelerator-based training.
 
 ### [DeepXDE](https://github.com/lululxvi/deepxde)
 
@@ -445,9 +445,9 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `CORE` `INTERMEDIATE–TO–ADVANCED` `FLUID–DATA–ROM–LIBRARY`
 
-**Main benefit.** A modular Python library for accessing, analyzing, and reducing fluid-flow datasets.
+**Main benefit.** A modular Python library for accessing, analyzing and reducing fluid-flow datasets.
 
-**Recommended use.** PIV/CFD snapshot processing, POD/DMD workflows, and cross-format data access.
+**Recommended use.** PIV/CFD snapshot processing, POD/DMD workflows and cross-format data access.
 
 ### [PySINDy](https://github.com/dynamicslab/pysindy)
 
@@ -472,7 +472,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `CORE` `INTERMEDIATE` `MULTIOBJECTIVE–OPTIMIZATION–LIBRARY`
 
-**Main benefit.** A Python framework for single-, multi-, and many-objective optimization.
+**Main benefit.** A Python framework for single-, multi- and many-objective optimization.
 
 **Recommended use.** Pump, turbomachinery, and CFD design studies with Pareto-front analysis.
 
@@ -491,7 +491,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `CORE` `BEGINNER–TO–INTERMEDIATE` `MEDICAL–IMAGE–PLATFORM`
 
-**Main benefit.** An open-source platform for medical image visualization, segmentation, registration, and mesh workflows.
+**Main benefit.** An open-source platform for medical image visualization, segmentation, registration and mesh workflows.
 
 **Recommended use.** Converting CT or MRI data into reproducible anatomical models.
 
@@ -499,7 +499,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `SPECIALIZED` `INTERMEDIATE` `VASCULAR–MODELING–TOOLKIT`
 
-**Main benefit.** Tools for vascular reconstruction, geometric analysis, centerlines, surfaces, and mesh generation.
+**Main benefit.** Tools for vascular reconstruction, geometric analysis, centerlines, surfaces and mesh generation.
 
 **Recommended use.** Image-based vessel modeling and centerline-dependent vascular analysis.
 
@@ -507,7 +507,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `CORE` `INTERMEDIATE–TO–ADVANCED` `PATIENT–SPECIFIC–SIMULATION–SUITE`
 
-**Main benefit.** An open-source pipeline for patient-specific vascular modeling, meshing, simulation, and reduced-order models.
+**Main benefit.** An open-source pipeline for patient-specific vascular modeling, meshing, simulation and reduced-order models.
 
 **Recommended use.** Learning complete cardiovascular modeling workflows and physiological boundary conditions.
 
@@ -534,7 +534,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `SUPPORTING` `BEGINNER–TO–INTERMEDIATE` `PIV–GUI–TOOLBOX`
 
-**Main benefit.** A MATLAB-based PIV toolbox with a graphical interface for analysis, validation, and post-processing.
+**Main benefit.** A MATLAB-based PIV toolbox with a graphical interface for analysis, validation and post-processing.
 
 **Recommended use.** Interactive PIV workflows and comparison with Python-based processing.
 
@@ -547,7 +547,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** A Python finite-element library for nonlinear continuum mechanics.
 
-**Recommended use.** Constitutive modeling, solid verification, and FSI preparation.
+**Recommended use.** Constitutive modeling, solid verification and FSI preparation.
 
 ### [DOLFINx](https://github.com/FEniCS/dolfinx)
 
@@ -572,7 +572,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 `SUPPORTING` `ALL` `DOCUMENT–TEMPLATE`
 
-**Main benefit.** A starting structure for theses and long technical documents with equations, figures, and references.
+**Main benefit.** A starting structure for theses and long technical documents with equations, figures and references.
 
 **Recommended use.** Organizing a thesis or report after checking institutional requirements.
 
@@ -582,7 +582,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 **Main benefit.** Speech, transcription, and audio-processing utilities.
 
-**Recommended use.** Optional presentation rehearsal, transcription, and lecture preparation.
+**Recommended use.** Optional presentation rehearsal, transcription and lecture preparation.
 
 ## Adding another resource
 
