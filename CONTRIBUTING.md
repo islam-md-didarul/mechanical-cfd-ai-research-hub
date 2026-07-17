@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve the Mechanical CFD & Scientific AI Research Hub.
+Thank you for helping improve the Mechanical, CFD & Scientific AI Research Hub.
 
 ## Resource acceptance criteria
 
