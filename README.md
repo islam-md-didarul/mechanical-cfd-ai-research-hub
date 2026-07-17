@@ -249,14 +249,15 @@ A structured survey of machine-learning research for computational fluid dynamic
 
 <p><strong>▌ Resource classification</strong></p>
 
-<table width="100%">
+<table>
   <thead>
     <tr>
-      <th width="22%" align="left">Label</th>
-      <th width="78%" align="left">Meaning</th>
+      <th align="left">Label</th>
+      <th align="left">
+        Meaning&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+      </th>
     </tr>
   </thead>
-
   <tbody>
     <tr>
       <td><strong>Core</strong></td>
