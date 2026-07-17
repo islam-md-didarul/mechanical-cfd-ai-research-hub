@@ -45,8 +45,8 @@ This repository organizes independent open-source resources into coherent pathwa
 - machine learning for fluid mechanics;
 - Dynamic Mode Decomposition and Koopman-based reduced-order modeling;
 - physics-informed and scientific machine learning;
-- finite-element, multiphase, and image-analysis workflows;
-- scientific writing, presentation, and research communication.
+- finite-element, multiphase and image-analysis workflows;
+- scientific writing, presentation and research communication.
 
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
@@ -88,14 +88,14 @@ This repository organizes independent open-source resources into coherent pathwa
 
 ```mermaid
 flowchart LR
-    A["01 · Foundations<br/>Mathematics + Python"]
-    B["02 · Numerical Engineering<br/>Discretization + CFD"]
-    C["03 · Data Foundations<br/>Machine Learning"]
-    D["04 · Credible Simulation<br/>Mesh + V&V"]
-    E["05 · Scientific AI<br/>PINNs + Neural Operators"]
-    F["06 · Reduced Models<br/>DMD + OpInf + SINDy"]
-    G["07 · Research Systems<br/>Surrogates + Digital Twins"]
-    H["08 · Communication<br/>Papers + Presentations"]
+    A["Foundations<br/>Mathematics + Python"]
+    B["Numerical Engineering<br/>Discretization + CFD"]
+    C["Data Foundations<br/>Machine Learning"]
+    D["Credible Simulation<br/>Mesh + V&V"]
+    E["Scientific AI<br/>PINNs + Neural Operators"]
+    F["Reduced Models<br/>DMD + OpInf + SINDy"]
+    G["Research Systems<br/>Surrogates + Digital Twins"]
+    H["Communication<br/>Papers + Presentations"]
 
     A --> B
     A --> C
