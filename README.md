@@ -165,6 +165,8 @@ flowchart LR
 
 <p><strong>▌ Resource collections</strong></p>
 
+<div align="center">
+
 | Collection | Resources | Primary purpose |
 |---|---:|---|
 | Research Practice & Engineering Maps | 3 | Research planning and multidisciplinary engineering maps |
@@ -179,6 +181,8 @@ flowchart LR
 | Experimental Flow & Image Analysis | 3 | PIV, bubble detection, and experimental data processing |
 | Solid Mechanics & Fluid–Structure Interaction | 3 | FEA, custom PDEs, and partitioned multiphysics coupling |
 | Research Communication & Productivity | 2 | Thesis preparation and presentation support |
+
+</div>
 
 <p align="center">
   <a href="./resources/catalog.md"><strong>Browse all 57 verified resources →</strong></a>
@@ -249,38 +253,40 @@ A structured survey of machine-learning research for computational fluid dynamic
 
 <p><strong>▌ Resource classification</strong></p>
 
+<div align="center">
+
 <table>
   <thead>
     <tr>
       <th align="left">Label</th>
-      <th align="left">
-        Meaning&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      </th>
+      <th align="left">Meaning</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Core</strong></td>
-      <td>Directly supports a principal CFD–AI learning pathway</td>
+      <td align="left"><strong>Core</strong></td>
+      <td align="left">Directly supports a principal CFD–AI learning pathway</td>
     </tr>
     <tr>
-      <td><strong>Supporting</strong></td>
-      <td>Strengthens prerequisites or implementation ability</td>
+      <td align="left"><strong>Supporting</strong></td>
+      <td align="left">Strengthens prerequisites or implementation ability</td>
     </tr>
     <tr>
-      <td><strong>Specialized</strong></td>
-      <td>Intended for a focused method or application</td>
+      <td align="left"><strong>Specialized</strong></td>
+      <td align="left">Intended for a focused method or application</td>
     </tr>
     <tr>
-      <td><strong>Reference</strong></td>
-      <td>Primarily used to discover additional resources</td>
+      <td align="left"><strong>Reference</strong></td>
+      <td align="left">Primarily used to discover additional resources</td>
     </tr>
     <tr>
-      <td><strong>Optional</strong></td>
-      <td>Useful for productivity or communication</td>
+      <td align="left"><strong>Optional</strong></td>
+      <td align="left">Useful for productivity or communication</td>
     </tr>
   </tbody>
 </table>
+
+</div>
 
 ---
 
