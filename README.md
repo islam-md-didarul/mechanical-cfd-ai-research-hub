@@ -260,7 +260,7 @@ Modal analysis, fluid-data access and physics-structured non-intrusive reduced m
 <tr>
 <td width="50%" valign="top">
 
-<p><strong>▌ NeuralOperator + DeepXDE + PDEBench</strong></p>
+<p><strong>NeuralOperator + DeepXDE + PDEBench</strong></p>
 
 `CORE` `INTERMEDIATE–ADVANCED` `SCIENTIFIC ML`
 
