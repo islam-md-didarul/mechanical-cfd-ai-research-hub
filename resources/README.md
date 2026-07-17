@@ -12,7 +12,7 @@ The resource library separates the concise landing page from the complete techni
 
 ## Current scope
 
-The hub contains **57 resources** across **12 collections**. Resources are selected for a defined role in CFD, scientific AI, reduced-order modeling, engineering optimization, medical modeling, experimental flow analysis, or research communication.
+The hub contains **57 resources** across **12 collections**. Resources are selected for a defined role in CFD, scientific AI, reduced-order modeling, engineering optimization, medical modeling, experimental flow analysis and research communication.
 
 ## Classification
 
