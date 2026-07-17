@@ -25,12 +25,12 @@ flowchart LR
 
 ## Minimum evidence to report
 
-- Phase properties, dissolved gas assumptions, and initial conditions
+- Phase properties, dissolved gas assumptions and initial conditions
 - Cavitation or interphase-transfer model
-- Nuclei, bubble-size, surface-tension, or vapor-pressure assumptions
+- Nuclei, bubble-size, surface-tension or vapor-pressure assumptions
 - Mesh and time-step sensitivity based on cavitation quantities
 - Inception criterion and threshold sensitivity
 - Image-processing validation
-- Vapor volume, erosion proxy, pressure fluctuation, and efficiency metrics
+- Vapor volume, erosion proxy, pressure fluctuation and efficiency metrics
 - Comparison with experiment or an established benchmark
 - Limits caused by model form and unresolved scales
