@@ -25,7 +25,7 @@ flowchart LR
 
 ## Minimum evidence to report
 
-- Design-variable definitions, bounds, and constraints
+- Design-variable definitions, bounds and constraints
 - Sampling strategy and simulation budget
 - Failed-run handling and data-quality checks
 - Train/validation/test split by independent design
