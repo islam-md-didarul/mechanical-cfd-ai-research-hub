@@ -249,13 +249,37 @@ A structured survey of machine-learning research for computational fluid dynamic
 
 <p><strong>▌ Resource classification</strong></p>
 
-| Label | Meaning |
-|---|---|
-| **Core** | Directly supports a principal CFD–AI learning pathway |
-| **Supporting** | Strengthens prerequisites or implementation ability |
-| **Specialized** | Intended for a focused method or application |
-| **Reference** | Primarily used to discover additional resources |
-| **Optional** | Useful for productivity or communication |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="22%" align="left">Label</th>
+      <th width="78%" align="left">Meaning</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td><strong>Core</strong></td>
+      <td>Directly supports a principal CFD–AI learning pathway</td>
+    </tr>
+    <tr>
+      <td><strong>Supporting</strong></td>
+      <td>Strengthens prerequisites or implementation ability</td>
+    </tr>
+    <tr>
+      <td><strong>Specialized</strong></td>
+      <td>Intended for a focused method or application</td>
+    </tr>
+    <tr>
+      <td><strong>Reference</strong></td>
+      <td>Primarily used to discover additional resources</td>
+    </tr>
+    <tr>
+      <td><strong>Optional</strong></td>
+      <td>Useful for productivity or communication</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
