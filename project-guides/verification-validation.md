@@ -34,7 +34,7 @@ flowchart LR
 - Governing equations and closure models
 - Software version and solver settings
 - Geometry and boundary-condition provenance
-- Mesh families and refinement ratio
+- Mesh families & refinement ratio
 - Quantity-of-interest convergence
 - Iterative and temporal convergence
 - Conservation errors
