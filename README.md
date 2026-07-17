@@ -311,6 +311,7 @@ mechanical-cfd-ai-research-hub/
 ├── LICENSE
 ├── NOTICE.md
 ├── README.md
+├── SECURITY.md
 └── requirements-docs.txt
 ```
 
