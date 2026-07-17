@@ -321,7 +321,7 @@ flowchart LR
 
 ## ▌ Contributing
 
-Resources should be added only after checking relevance, upstream source, license, maintenance status and suitability for a defined learning or research pathway.
+Resources should be added only after checking relevance, upstream source, license, maintenance status and suitability for a defined learning/research pathway.
 
 [Read the contribution guide →](./CONTRIBUTING.md)
 
