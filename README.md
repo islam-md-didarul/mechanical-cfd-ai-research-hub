@@ -198,8 +198,6 @@ flowchart LR
 
 # ▌ Featured core toolkit
 
----
-
 <table>
 <tr>
 <td width="50%" valign="top">
