@@ -37,8 +37,6 @@
 
 # ▌ About this hub
 
----
-
 This repository organizes independent open-source resources into coherent pathways for:
 
 - computational fluid dynamics, numerical methods and production solvers;
