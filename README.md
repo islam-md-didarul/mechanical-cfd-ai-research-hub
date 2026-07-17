@@ -4,13 +4,14 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
     <img src="./assets/images/research-hub-banner-light.svg"
          width="100%"
-         alt="Mechanical, CFD and Scientific AI Research Hub">
+         alt="Mechanical CFD and Scientific AI Research Hub">
   </picture>
 </p>
 
+<h1 align="center">Mechanical CFD & Scientific AI Research Hub</h1>
 
 <p align="center">
-  Structured learning pathways, verified resources and project-oriented guidance
+  Structured learning pathways, verified resources, and project-oriented guidance
   for computational engineering research.
 </p>
 
@@ -39,14 +40,13 @@
 
 This repository organizes independent open-source resources into coherent pathways for:
 
-  - computational fluid dynamics, numerical methods and production solvers;
-  - mechanical, aerospace, turbomachinery and multiphase engineering;
-  - medical-image-based CFD and patient-specific simulation;
-  - experimental flow analysis using PIV and image processing;
-  - Dynamic Mode Decomposition, Koopman methods and reduced-order modeling;
-  - PINNs, neural operators, differentiable physics and scientific machine learning;
-  - surrogate modeling, engineering optimization, verification and validation;
-  - scientific writing, presentation and reproducible research communication.
+- computational fluid dynamics and numerical methods;
+- mechanical and aerospace engineering applications;
+- machine learning for fluid mechanics;
+- Dynamic Mode Decomposition and Koopman-based reduced-order modeling;
+- physics-informed and scientific machine learning;
+- finite-element, multiphase, and image-analysis workflows;
+- scientific writing, presentation, and research communication.
 
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
