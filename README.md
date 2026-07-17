@@ -36,7 +36,7 @@
 
 ---
 
-# About this hub
+# About this Hub
 
 This repository organizes independent open-source resources into coherent pathways for:
 
@@ -53,7 +53,7 @@ This repository organizes independent open-source resources into coherent pathwa
 
 ---
 
-<p><strong>▌ Choose your pathway</strong></p>
+<p><strong>▌ Choose Your Pathway</strong></p>
 
 <table>
 <tr>
@@ -80,7 +80,7 @@ This repository organizes independent open-source resources into coherent pathwa
 
 ---
 
-<p><strong>▌ Research learning roadmap</strong></p>
+<p><strong>▌ Research Learning Roadmap</strong></p>
 
 ```mermaid
 flowchart LR
@@ -120,7 +120,7 @@ flowchart LR
 
 ---
 
-<p><strong>▌ Featured research pathways</strong></p>
+<p><strong>▌ Featured Research Pathways</strong></p>
 
 <table>
 <tr>
@@ -163,7 +163,7 @@ flowchart LR
 
 ---
 
-<p><strong>▌ Resource collections</strong></p>
+<p><strong>▌ Resource Collections</strong></p>
 
 <div align="center">
 
@@ -192,7 +192,7 @@ flowchart LR
 
 ---
 
-# ▌ Featured core toolkit
+# ▌ Featured Core Toolkit
 
 <table>
 <tr>
@@ -251,7 +251,7 @@ A structured survey of machine-learning research for computational fluid dynamic
 
 ---
 
-<p><strong>▌ Resource classification</strong></p>
+<p><strong>▌ Resource Classification</strong></p>
 
 <div align="center">
 
@@ -290,7 +290,7 @@ A structured survey of machine-learning research for computational fluid dynamic
 
 ---
 
-## ▌ How the hub supports research
+## ▌ How the Hub Supports Research
 
 ```mermaid
 flowchart LR
@@ -327,7 +327,7 @@ Resources should be added only after checking relevance, upstream source, licens
 
 ---
 
-## ▌ License and attribution
+## ▌ License and Attribution
 
 The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
 
