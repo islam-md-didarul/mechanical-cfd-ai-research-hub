@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contribution guidelines
+    url: https://github.com/islam-md-didarul/mechanical-cfd-ai-research-hub/blob/main/CONTRIBUTING.md
+    about: Review the contribution requirements before proposing a substantial change.

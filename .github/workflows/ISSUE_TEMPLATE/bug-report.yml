@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a broken link, incorrect description, rendering problem, or validation failure
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the Mechanical CFD & Scientific AI Research Hub.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Problem category
+      options:
+        - Broken or redirected link
+        - Incorrect technical description
+        - README or mobile rendering problem
+        - Catalog or metadata problem
+        - GitHub Actions or validation failure
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Affected file or resource
+      description: Provide the file path, section name, or resource URL.
+      placeholder: resources/catalog.md or OpenFOAM entry
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: Explain what is wrong and what you expected.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or reproduction steps
+      description: Add screenshots, logs, references, or steps that confirm the issue.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preliminary checks
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I did not include passwords, tokens, private data, or undisclosed security details.
+          required: true

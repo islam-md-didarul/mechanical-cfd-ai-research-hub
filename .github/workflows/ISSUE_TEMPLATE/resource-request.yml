@@ -1,0 +1,68 @@
+name: Resource request
+description: Suggest a high-quality CFD, engineering, ROM, scientific-AI, or research resource
+title: "[Resource]: "
+labels:
+  - resource
+body:
+  - type: input
+    id: resource-name
+    attributes:
+      label: Resource name
+      placeholder: Project, dataset, course, documentation site, or repository
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Official source URL
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - Research practice
+        - Mathematics and programming
+        - Machine learning and AI
+        - CFD and numerical solvers
+        - Meshing and post-processing
+        - Verification and validation
+        - Scientific AI and reduced-order modeling
+        - Optimization and uncertainty
+        - Biofluids and medical modeling
+        - Experimental flow analysis
+        - Solid mechanics and FSI
+        - Research communication
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Why should it be included?
+      description: Explain its technical value, intended users, and the gap it fills.
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification information
+      description: Mention maintenance status, documentation quality, license, and authoritative references.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checks
+      options:
+        - label: I checked that this resource is not already in the catalog.
+          required: true
+        - label: I linked to the official or primary source.
+          required: true
+        - label: I have not copied copyrighted material into this issue.
+          required: true
