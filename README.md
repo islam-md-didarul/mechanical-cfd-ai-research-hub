@@ -4,14 +4,14 @@
     <source media="(prefers-color-scheme: light)" srcset="./assets/images/research-hub-banner-light.svg">
     <img src="./assets/images/research-hub-banner-light.svg"
          width="100%"
-         alt="Mechanical CFD and Scientific AI Research Hub">
+         alt="Mechanical, CFD and Scientific AI Research Hub">
   </picture>
 </p>
 
-<h1 align="center">Mechanical CFD & Scientific AI Research Hub</h1>
+<h1 align="center">Mechanical, CFD & Scientific AI Research Hub</h1>
 
 <p align="center">
-  Structured learning pathways, verified resources, and project-oriented guidance
+  Structured learning pathways, verified resources and project-oriented guidance
   for computational engineering research.
 </p>
 
@@ -40,14 +40,14 @@
 
 This repository organizes independent open-source resources into coherent pathways for:
 
-- computational fluid dynamics, numerical methods, and production solvers;
-- mechanical, aerospace, turbomachinery, and multiphase engineering;
+- computational fluid dynamics, numerical methods and respective solvers;
+- mechanical, aerospace, turbomachinery and multiphase engineering;
 - medical-image-based CFD and patient-specific simulation;
 - experimental flow analysis using PIV and image processing;
-- Dynamic Mode Decomposition, Koopman methods, and reduced-order modeling;
-- PINNs, neural operators, differentiable physics, and scientific machine learning;
-- surrogate modeling, engineering optimization, verification, and validation;
-- scientific writing, presentation, and reproducible research communication.
+- Dynamic Mode Decomposition, Koopman methods and reduced-order modeling;
+- PINNs, neural operators, differentiable physics and scientific machine learning;
+- surrogate modeling, engineering optimization verification, and validation;
+- scientific writing, presentation and reproducible research communication.
 
 > [!NOTE]
 > This is a navigation and explanation hub. It links to independent upstream repositories rather than copying their source code. Every external project remains governed by its own license.
@@ -59,19 +59,19 @@ This repository organizes independent open-source resources into coherent pathwa
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/foundations.svg" width="72" alt="Foundations icon"><br>
   <h3>Build foundations</h3>
-  Mathematics, Python, numerical methods, and machine-learning prerequisites.<br><br>
+  Mathematics, Python, numerical methods and machine-learning prerequisites.<br><br>
   <a href="./learning-paths/foundations.md"><strong>Start learning →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/cfd.svg" width="72" alt="CFD icon"><br>
   <h3>Develop engineering models</h3>
-  CFD, FEA, meshing, multiphase flow, verification, validation, and engineering applications.<br><br>
+  CFD, FEA, meshing, multiphase flow, verification, validation and engineering applications.<br><br>
   <a href="./learning-paths/cfd.md"><strong>Explore CFD →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/scientific-ai.svg" width="72" alt="Scientific AI icon"><br>
   <h3>Apply scientific AI</h3>
-  DMD, Koopman models, PINNs, neural operators, surrogates, and AI4CFD.<br><br>
+  DMD, Koopman models, PINNs, neural operators, surrogates and AI4CFD.<br><br>
   <a href="./learning-paths/scientific-ai.md"><strong>Explore Scientific AI →</strong></a>
 </td>
 </tr>
@@ -161,16 +161,16 @@ flowchart LR
 | Collection | Resources | Primary purpose |
 |---|---:|---|
 | Research Practice & Engineering Maps | 3 | Research planning and multidisciplinary engineering maps |
-| Mathematics & Programming Foundations | 4 | Python, mathematics, and numerical prerequisites |
+| Mathematics & Programming Foundations | 4 | Python, mathematics and numerical prerequisites |
 | Machine Learning & AI | 5 | Data-driven modeling and AI foundations |
-| CFD Foundations & Numerical Solvers | 10 | Numerical CFD, production solvers, and fluid mechanics |
-| Meshing, Post-processing & Data Interchange | 4 | Reproducible mesh generation, conversion, and analysis |
+| CFD Foundations & Numerical Solvers | 10 | Numerical CFD, production solvers and fluid mechanics |
+| Meshing, Post-processing & Data Interchange | 4 | Reproducible mesh generation, conversion and analysis |
 | Verification, Validation & Benchmark Data | 3 | Turbulence-model verification and benchmark datasets |
-| Scientific AI, ROM & Differentiable Physics | 15 | DMD, OpInf, SINDy, PINNs, neural operators, and differentiable CFD |
-| Optimization, Surrogates & Uncertainty | 2 | DOE, surrogate modeling, and multi-objective design |
-| Biofluids & Medical Modeling | 3 | Segmentation, anatomical geometry, and patient-specific simulation |
+| Scientific AI, ROM & Differentiable Physics | 15 | DMD, OpInf, SINDy, PINNs, neural operators and differentiable CFD |
+| Optimization, Surrogates & Uncertainty | 2 | DOE, surrogate modeling and multi-objective design |
+| Biofluids & Medical Modeling | 3 | Segmentation, anatomical geometry and patient-specific simulation |
 | Experimental Flow & Image Analysis | 3 | PIV, bubble detection, and experimental data processing |
-| Solid Mechanics & Fluid–Structure Interaction | 3 | FEA, custom PDEs, and partitioned multiphysics coupling |
+| Solid Mechanics & Fluid–Structure Interaction | 3 | FEA, custom PDEs and partitioned multiphysics coupling |
 | Research Communication & Productivity | 2 | Thesis preparation and presentation support |
 
 <p align="center">
@@ -339,13 +339,13 @@ flowchart LR
 
 ## Contributing
 
-Resources should be added only after checking relevance, upstream source, license, maintenance status, and suitability for a defined learning or research pathway.
+Resources should be added only after checking relevance, upstream source, license, maintenance status and suitability for a defined learning or research pathway.
 
 [Read the contribution guide →](./CONTRIBUTING.md)
 
 ## License and attribution
 
-The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts, and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
+The MIT license in this hub applies only to the original organization, descriptions, documentation, scripts and visual assets created for this repository. Every linked repository remains governed by its own upstream license.
 
 [Read the attribution notice →](./NOTICE.md)
 
