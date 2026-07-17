@@ -60,19 +60,19 @@ This repository organizes independent open-source resources into coherent pathwa
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/foundations.svg" width="72" alt="Foundations icon"><br>
   <p align="center"><strong>Build foundations</strong></p>
-  Mathematics, Python, numerical methods, and machine-learning prerequisites.<br><br>
+  Mathematics, Python, numerical methods and machine-learning prerequisites.<br><br>
   <a href="./learning-paths/foundations.md"><strong>Start learning →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/cfd.svg" width="72" alt="CFD icon"><br>
   <p align="center"><strong>Develop engineering models</strong></p>
-  CFD, FEA, meshing, multiphase flow, verification, validation, and engineering applications.<br><br>
+  CFD, FEA, meshing, multiphase flow, verification, validation and engineering applications.<br><br>
   <a href="./learning-paths/cfd.md"><strong>Explore CFD →</strong></a>
 </td>
 <td width="33%" valign="top" align="center">
   <img src="./assets/icons/scientific-ai.svg" width="72" alt="Scientific AI icon"><br>
   <p align="center"><strong>Apply scientific AI</strong></p>
-  DMD, Koopman models, PINNs, neural operators, surrogates, and AI4CFD.<br><br>
+  DMD, Koopman models, PINNs, neural operators, surrogates and AI4CFD.<br><br>
   <a href="./learning-paths/scientific-ai.md"><strong>Explore Scientific AI →</strong></a>
 </td>
 </tr>
@@ -170,16 +170,16 @@ flowchart LR
 | Collection | Resources | Primary purpose |
 |---|---:|---|
 | Research Practice & Engineering Maps | 3 | Research planning and multidisciplinary engineering maps |
-| Mathematics & Programming Foundations | 4 | Python, mathematics, and numerical prerequisites |
+| Mathematics & Programming Foundations | 4 | Python, mathematics and numerical prerequisites |
 | Machine Learning & AI | 5 | Data-driven modeling and AI foundations |
-| CFD Foundations & Numerical Solvers | 10 | Numerical CFD, production solvers, and fluid mechanics |
-| Meshing, Post-processing & Data Interchange | 4 | Reproducible mesh generation, conversion, and analysis |
+| CFD Foundations & Numerical Solvers | 10 | Numerical CFD, production solvers and fluid mechanics |
+| Meshing, Post-processing & Data Interchange | 4 | Reproducible mesh generation, conversion and analysis |
 | Verification, Validation & Benchmark Data | 3 | Turbulence-model verification and benchmark datasets |
-| Scientific AI, ROM & Differentiable Physics | 15 | DMD, OpInf, SINDy, PINNs, neural operators, and differentiable CFD |
-| Optimization, Surrogates & Uncertainty | 2 | DOE, surrogate modeling, and multi-objective design |
-| Biofluids & Medical Modeling | 3 | Segmentation, anatomical geometry, and patient-specific simulation |
-| Experimental Flow & Image Analysis | 3 | PIV, bubble detection, and experimental data processing |
-| Solid Mechanics & Fluid–Structure Interaction | 3 | FEA, custom PDEs, and partitioned multiphysics coupling |
+| Scientific AI, ROM & Differentiable Physics | 15 | DMD, OpInf, SINDy, PINNs, neural operators and differentiable CFD |
+| Optimization, Surrogates & Uncertainty | 2 | DOE, surrogate modeling and multi-objective design |
+| Biofluids & Medical Modeling | 3 | Segmentation, anatomical geometry and patient-specific simulation |
+| Experimental Flow & Image Analysis | 3 | PIV, bubble detection and experimental data processing |
+| Solid Mechanics & Fluid–Structure Interaction | 3 | FEA, custom PDEs and partitioned multiphysics coupling |
 | Research Communication & Productivity | 2 | Thesis preparation and presentation support |
 
 </div>
@@ -216,7 +216,7 @@ Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 
 Mathematics and computer-science foundations for machine learning and reduced-order modeling.
 
-**Best for:** Preparing for DMD, autoencoders, Koopman methods, and PINNs.  
+**Best for:** Preparing for DMD, autoencoders, Koopman methods and PINNs.  
 **Source:** [jonkrohn/ML-foundations](https://github.com/jonkrohn/ML-foundations)
 
 </td>
@@ -230,7 +230,7 @@ Mathematics and computer-science foundations for machine learning and reduced-or
 
 A comprehensive Python library for Dynamic Mode Decomposition methods.
 
-**Best for:** CFD/PIV modal analysis, reconstruction, and ROM benchmarking.  
+**Best for:** CFD/PIV modal analysis, reconstruction and ROM benchmarking.  
 **Source:** [PyDMD/PyDMD](https://github.com/PyDMD/PyDMD)
 
 </td>
@@ -242,7 +242,7 @@ A comprehensive Python library for Dynamic Mode Decomposition methods.
 
 A structured survey of machine-learning research for computational fluid dynamics.
 
-**Best for:** Literature reviews, method selection, and proposal development.  
+**Best for:** Literature reviews, method selection and proposal development.  
 **Source:** [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)
 
 </td>
