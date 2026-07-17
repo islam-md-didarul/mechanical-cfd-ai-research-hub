@@ -24,11 +24,11 @@ flowchart LR
 
 ## Minimum evidence to report
 
-- Constitutive model, material data source, and strain regime
+- Constitutive model, material data source and strain regime
 - Independent structural and fluid verification
-- Interface geometry, mapping, and sign conventions
+- Interface geometry, mapping and sign conventions
 - Coupling algorithm and relaxation settings
 - Time-step, subiteration, and convergence sensitivity
-- Force, displacement, and energy consistency across the interface
+- Force, displacement and energy consistency across the interface
 - Added-mass stability considerations
-- Comparison with deformation, pressure, force, or frequency measurements
+- Comparison with deformation, pressure, force or frequency measurements
