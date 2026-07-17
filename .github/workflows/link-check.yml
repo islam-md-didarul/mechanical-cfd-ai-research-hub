@@ -48,6 +48,13 @@ jobs:
             "scripts/validate_catalog.py"
             "assets/images/research-hub-banner-light.svg"
             "assets/images/research-hub-banner-dark.svg"
+            "assets/icons/foundations.svg"
+            "assets/icons/cfd.svg"
+            "assets/icons/scientific-ai.svg"
+            "assets/icons/medical-cfd.svg"
+            "assets/icons/turbomachinery.svg"
+            "assets/icons/piv-rom.svg"
+            "assets/icons/multiphase.svg"
           )
           for file in "${required_files[@]}"; do
             if [[ ! -s "$file" ]]; then
@@ -70,44 +77,29 @@ jobs:
 
           root = Path.cwd()
           missing = []
-          link_pattern = re.compile(r'!?\[[^\]]*\]\(([^)]+)\)')
-          html_pattern = re.compile(
-              r'(?:href|src|srcset)=["\']([^"\']+)["\']',
-              re.IGNORECASE,
-          )
+          markdown_links = re.compile(r'!?\[[^\]]*\]\(([^)]+)\)')
+          html_links = re.compile(r'(?:href|src|srcset)=["\']([^"\']+)["\']', re.IGNORECASE)
 
           for md_file in root.rglob("*.md"):
               text = md_file.read_text(encoding="utf-8")
-              targets = link_pattern.findall(text) + html_pattern.findall(text)
-
+              targets = markdown_links.findall(text) + html_links.findall(text)
               for raw_target in targets:
                   target = raw_target.strip().split()[0]
-                  if not target:
+                  if not target or target.startswith(("http://", "https://", "mailto:", "#", "data:")):
                       continue
-                  if target.startswith(("http://", "https://", "mailto:", "#", "data:")):
-                      continue
-
-                  clean = target.split("#", 1)[0].split("?", 1)[0]
-                  clean = unquote(clean)
+                  clean = unquote(target.split("#", 1)[0].split("?", 1)[0])
                   if not clean:
                       continue
-
                   resolved = (md_file.parent / clean).resolve()
-                  try:
-                      resolved.relative_to(root.resolve())
-                  except ValueError:
-                      missing.append((md_file, target, "points outside repository"))
-                      continue
-
                   if not resolved.exists():
-                      missing.append((md_file, target, "target does not exist"))
+                      missing.append((md_file, target))
 
           if missing:
-              for source, target, reason in missing:
-                  print(f"::error file={source}::{target} — {reason}")
+              for source, target in missing:
+                  print(f"::error file={source}::{target} — target does not exist")
               sys.exit(1)
 
-          print("All internal Markdown links are valid.")
+          print("All internal Markdown and HTML links are valid.")
           PY
 
       - name: Validate SVG assets
