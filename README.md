@@ -198,82 +198,57 @@ flowchart LR
 
 # ▌ Featured core toolkit
 
+
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<p><strong>CFDPython</strong></p>
+### CFDPython
 
 `CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
 Progressive numerical CFD training through the 12 Steps to Navier–Stokes.
 
-**Best for:** Connecting governing equations with transparent Python implementation.  
+**Best for:** Connecting governing equations with Python implementation.  
 **Source:** [barbagroup/CFDPython](https://github.com/barbagroup/CFDPython)
 
 </td>
 <td width="50%" valign="top">
 
-<p><strong>OpenFOAM + SU2</strong></p>
+### ML Foundations
 
-`CORE` `INTERMEDIATE–ADVANCED` `CFD`
+`CORE` `BEGINNER–INTERMEDIATE` `JUPYTER`
 
-Production finite-volume CFD, compressible flow, adjoint design and solver customization.
+Mathematics and computer-science foundations for machine learning and reduced-order modeling.
 
-**Best for:** Moving from educational solvers to research-scale engineering workflows.  
-**Sources:** [OpenFOAM-dev](https://github.com/OpenFOAM/OpenFOAM-dev) · [SU2](https://github.com/su2code/SU2)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<p><strong>NASA TMR + ERCOFTAC</strong></p>
-
-`CORE` `INTERMEDIATE–ADVANCED` `V&V`
-
-Authoritative turbulence-model definitions and established validation cases.
-
-**Best for:** Verification, benchmark selection and defensible CFD reporting.  
-**Sources:** [NASA TMR](https://tmbwg.github.io/turbmodels/) · [ERCOFTAC](https://cfd.mace.manchester.ac.uk/ercoftac/)
-
-</td>
-<td width="50%" valign="top">
-
-<p><strong>PyDMD + flowTorch + Operator Inference</strong></p>
-
-`CORE` `INTERMEDIATE–ADVANCED` `ROM`
-
-Modal analysis, fluid-data access and physics-structured non-intrusive reduced models.
-
-**Best for:** CFD/PIV decomposition, prediction and ROM benchmarking.  
-**Sources:** [PyDMD](https://github.com/PyDMD/PyDMD) · [flowTorch](https://github.com/AndreWeiner/flowtorch) · [Operator Inference](https://github.com/Willcox-Research-Group/rom-operator-inference-Python3)
+**Best for:** Preparing for DMD, autoencoders, Koopman methods, and PINNs.  
+**Source:** [jonkrohn/ML-foundations](https://github.com/jonkrohn/ML-foundations)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<p><strong>NeuralOperator + DeepXDE + PDEBench</strong></p>
+### PyDMD
 
-`CORE` `INTERMEDIATE–ADVANCED` `SCIENTIFIC ML`
+`CORE` `INTERMEDIATE–ADVANCED` `PYTHON`
 
-Neural operators, PINNs, DeepONets and standardized scientific-ML benchmarks.
+A comprehensive Python library for Dynamic Mode Decomposition methods.
 
-**Best for:** Field surrogates and physics-informed learning after establishing reliable baselines.  
-**Sources:** [NeuralOperator](https://github.com/neuraloperator/neuraloperator) · [DeepXDE](https://github.com/lululxvi/deepxde) · [PDEBench](https://github.com/pdebench/PDEBench)
+**Best for:** CFD/PIV modal analysis, reconstruction, and ROM benchmarking.  
+**Source:** [PyDMD/PyDMD](https://github.com/PyDMD/PyDMD)
 
 </td>
 <td width="50%" valign="top">
 
-<p><strong>3D Slicer + VMTK + SimVascular</strong></p>
+### Awesome AI4CFD
 
-`CORE / SPECIALIZED` `BEGINNER–ADVANCED` `MEDICAL CFD`
+`CORE` `INTERMEDIATE–ADVANCED` `LITERATURE`
 
-Medical-image segmentation, anatomical modeling, meshing and patient-specific simulation.
+A structured survey of machine-learning research for computational fluid dynamics.
 
-**Best for:** Reproducible biofluid and physiological boundary-condition workflows.  
-**Sources:** [3D Slicer](https://github.com/Slicer/Slicer) · [VMTK](https://github.com/vmtk/vmtk) · [SimVascular](https://github.com/SimVascular/SimVascular)
+**Best for:** Literature reviews, method selection, and proposal development.  
+**Source:** [WillDreamer/Awesome-AI4CFD](https://github.com/WillDreamer/Awesome-AI4CFD)
 
 </td>
 </tr>
