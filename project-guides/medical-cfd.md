@@ -26,13 +26,13 @@ flowchart LR
 
 ## Minimum evidence to report
 
-- Imaging protocol, slice spacing, and reconstruction resolution
-- Segmentation method, operator dependence, and smoothing decisions
+- Imaging protocol, slice spacing and reconstruction resolution
+- Segmentation method, operator dependence and smoothing decisions
 - Geometry truncation and inlet/outlet placement
 - Mesh and time-step sensitivity
 - Patient-specific or physiologically justified boundary conditions
-- Flow direction, sign convention, and reference pressure
+- Flow direction, sign convention and reference pressure
 - Solver benchmark or experimental validation
-- Physiological pressure, velocity, resistance, power, or wall metrics
-- ROM baseline, independent-patient testing, and leakage prevention
-- Clinical relevance, uncertainty, and limitations
+- Physiological pressure, velocity, resistance, power or wall metrics
+- ROM baseline, independent-patient testing and leakage prevention
+- Clinical relevance, uncertainty and limitations
