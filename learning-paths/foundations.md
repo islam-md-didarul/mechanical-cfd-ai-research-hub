@@ -14,7 +14,7 @@ Build the mathematical, programming, and machine-learning prerequisites required
 | 2 | Extended Python practice | [Complete-Python-Bootcamp](https://github.com/krishnaik06/Complete-Python-Bootcamp) |
 | 3 | Mathematics for ML and ROM | [ML-foundations](https://github.com/jonkrohn/ML-foundations) |
 | 4 | Broader mathematics and CS review | [maths-cs-ai-compendium](https://github.com/HenryNdubuaku/maths-cs-ai-compendium) |
-| 5 | Practical ML workflow | [MLOB1](https://github.com/shaiful019/MLOB1) |
+| 5 | Practical ML workflow | [MachineLearningWithPython](https://github.com/shaiful019/MachineLearningWithPython) |
 | 6 | Scientific data structures and plotting | NumPy, pandas, Matplotlib and xarray documentation |
 
 ## Completion checklist
