@@ -42,7 +42,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 | [pcc_3e](https://github.com/ehmatthes/pcc_3e) | Mathematics & Programming Foundations | course resources | beginner | Core |
 | [Complete-Python-Bootcamp](https://github.com/krishnaik06/Complete-Python-Bootcamp) | Mathematics & Programming Foundations | notebook course | beginner–to–intermediate | Supporting |
 | [ML-foundations](https://github.com/jonkrohn/ML-foundations) | Mathematics & Programming Foundations | notebook course | beginner–to–intermediate | Core |
-| [MLOB1](https://github.com/shaiful019/MLOB1) | Machine Learning & AI | notebook course | beginner–to–intermediate | Supporting |
+| [MachineLearningWithPython](https://github.com/shaiful019/MachineLearningWithPython) | Machine Learning & AI | notebook course | beginner–to–intermediate | Supporting |
 | [AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | Machine Learning & AI | roadmap | all | Reference |
 | [ai_all_resources](https://github.com/nivu/ai_all_resources) | Machine Learning & AI | curated list | all | Reference |
 | [best-of-ml-python](https://github.com/lukasmasuch/best-of-ml-python) | Machine Learning & AI | ranked curated list | intermediate | Supporting |
@@ -157,7 +157,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 
 ## Machine Learning & AI
 
-### [MLOB1](https://github.com/shaiful019/MLOB1)
+### [MachineLearningWithPython](https://github.com/shaiful019/MachineLearningWithPython)
 
 `SUPPORTING` `BEGINNER–TO–INTERMEDIATE` `NOTEBOOK–COURSE`
 
