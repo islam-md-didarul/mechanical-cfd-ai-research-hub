@@ -99,8 +99,8 @@ resources:
     priority: core
     summary: "Linear algebra, calculus, statistics, and computer-science foundations for machine learning."
     best_for: "Preparing for DMD, Koopman models, autoencoders, PINNs, and neural operators."
-  - name: MLOB1
-    url: https://github.com/shaiful019/MLOB1
+  - name: MachineLearningWithPython
+    url: https://github.com/shaiful019/MachineLearningWithPython
     category: machine-learning-ai
     type: notebook-course
     level: beginner-to-intermediate
