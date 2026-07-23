@@ -8,7 +8,7 @@
   </picture>
 </p>
 
-<h1 align="center">Mechanical, CFD & Scientific AI Research Hub</h1>
+<h1 align="center">Mechanical, CFD and Scientific AI Research Hub</h1>
 
 <p align="center">
   Structured learning pathways, verified resources and project-oriented guidance
@@ -53,7 +53,7 @@ This repository organizes independent open-source resources into coherent pathwa
 
 ---
 
-<p><strong>▌ Choose Your Pathway</strong></p>
+<p><strong>▌ Choose Pathway</strong></p>
 
 <table>
 <tr>
