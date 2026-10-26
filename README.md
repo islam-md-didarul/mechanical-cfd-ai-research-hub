@@ -31,7 +31,7 @@
   <img src="https://img.shields.io/github/last-commit/islam-md-didarul/mechanical-cfd-ai-research-hub?style=flat-square" alt="Last commit">
   <img src="https://img.shields.io/github/license/islam-md-didarul/mechanical-cfd-ai-research-hub?style=flat-square" alt="License">
   <img src="https://img.shields.io/github/actions/workflow/status/islam-md-didarul/mechanical-cfd-ai-research-hub/link-check.yml?style=flat-square&label=documentation%20check" alt="Documentation check">
-  <img src="https://img.shields.io/badge/resources-57-0969DA?style=flat-square" alt="57 resources">
+  <img src="https://img.shields.io/badge/resources-58-0969DA?style=flat-square" alt="58 resources">
 </p>
 
 ---
@@ -179,13 +179,13 @@ flowchart LR
 | Optimization, Surrogates & Uncertainty | 2 | DOE, surrogate modeling and multi-objective design |
 | Biofluids & Medical Modeling | 3 | Segmentation, anatomical geometry and patient-specific simulation |
 | Experimental Flow & Image Analysis | 3 | PIV, bubble detection and experimental data processing |
-| Solid Mechanics & Fluid–Structure Interaction | 3 | FEA, custom PDEs and partitioned multiphysics coupling |
+| Solid Mechanics & Fluid–Structure Interaction | 4 | FEA, custom PDEs and partitioned multiphysics coupling |
 | Research Communication & Productivity | 2 | Thesis preparation and presentation support |
 
 </div>
 
 <p align="center">
-  <a href="./resources/catalog.md"><strong>Browse all 57 verified resources →</strong></a>
+  <a href="./resources/catalog.md"><strong>Browse all 58 verified resources →</strong></a>
   ·
   <a href="./resources/selection-guide.md"><strong>Select tools by research task →</strong></a>
 </p>

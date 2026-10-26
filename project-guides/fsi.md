@@ -18,6 +18,7 @@ flowchart LR
 
 - [felupe](https://github.com/adtzlr/felupe) for nonlinear continuum-mechanics learning.
 - [DOLFINx](https://github.com/FEniCS/dolfinx) for custom variational finite-element models.
+- [AgentFEM](https://github.com/haoming-luo/agentfem) for the solid-verification stage: create an editable project, check inputs, run it and inspect recorded results. It builds on FEniCSx; no ready-made FSI coupling is implied. Start with the documented static-solid or modal-cantilever example before introducing a fluid interface.
 - [preCICE](https://github.com/precice/precice) for partitioned coupling of independently verified solvers.
 - [SU2](https://github.com/su2code/SU2) when its multiphysics and design capabilities match the problem.
 - [PyVista](https://github.com/pyvista/pyvista) for interface and deformation inspection.
