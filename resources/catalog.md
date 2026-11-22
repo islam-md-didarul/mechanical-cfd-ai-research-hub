@@ -2,7 +2,7 @@
 
 [← Main hub](../README.md) · [Selection guide](./selection-guide.md) · [Machine-readable YAML](./catalog.yml)
 
-This catalog contains **57 curated resources**. Each item is connected to a defined learning path or project workflow.
+This catalog contains **58 curated resources**. Each item is connected to a defined learning path or project workflow.
 
 ## Classification
 
@@ -28,7 +28,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 | Optimization, Surrogates & Uncertainty | 2 |
 | Biofluids & Medical Modeling | 3 |
 | Experimental Flow & Image Analysis | 3 |
-| Solid Mechanics & Fluid–Structure Interaction | 3 |
+| Solid Mechanics & Fluid–Structure Interaction | 4 |
 | Research Communication & Productivity | 2 |
 
 ## Complete catalog
@@ -89,6 +89,7 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 | [PIVlab](https://github.com/Shrediquette/PIVlab) | Experimental Flow & Image Analysis | piv gui toolbox | beginner–to–intermediate | Supporting |
 | [felupe](https://github.com/adtzlr/felupe) | Solid Mechanics & Fluid–Structure Interaction | python fea library | intermediate–to–advanced | Specialized |
 | [DOLFINx](https://github.com/FEniCS/dolfinx) | Solid Mechanics & Fluid–Structure Interaction | finite element environment | intermediate–to–advanced | Specialized |
+| [AgentFEM](https://github.com/haoming-luo/agentfem) | Solid Mechanics & Fluid–Structure Interaction | finite element workflow | intermediate | Supporting |
 | [preCICE](https://github.com/precice/precice) | Solid Mechanics & Fluid–Structure Interaction | multiphysics coupling library | advanced | Core |
 | [LaTex-Thesis-Template](https://github.com/samina1/LaTex-Thesis-Template) | Research Communication & Productivity | document template | all | Supporting |
 | [voice-pro](https://github.com/abus-aikorea/voice-pro) | Research Communication & Productivity | ai media utility | intermediate | Optional |
@@ -556,6 +557,14 @@ This catalog contains **57 curated resources**. Each item is connected to a defi
 **Main benefit.** The actively developed computational environment of FEniCSx for finite-element problem solving.
 
 **Recommended use.** Custom PDE and solid-mechanics research requiring variational formulations.
+
+### [AgentFEM](https://github.com/haoming-luo/agentfem)
+
+`SUPPORTING` `INTERMEDIATE` `FINITE–ELEMENT–WORKFLOW`
+
+**Main benefit.** FEniCSx-based structural analysis with editable Python models, pre-run checks, named runs and recorded verification results.
+
+**Recommended use.** Practicing reproducible solid-mechanics studies and parameter campaigns through a researcher- and agent-accessible CLI. This entry covers solid analysis, not an FSI coupling adapter. The core is Apache-2.0 licensed and requires a compatible local scientific runtime.
 
 ### [preCICE](https://github.com/precice/precice)
 

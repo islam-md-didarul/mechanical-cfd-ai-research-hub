@@ -4,7 +4,7 @@ hub:
   name: Mechanical, CFD & Scientific AI Research Hub
   owner: Md. Didarul Islam
   last_verified: 2026-07-17
-  resource_count: 57
+  resource_count: 58
 categories:
   - id: research-practice
     title: Research Practice & Engineering Maps
@@ -38,7 +38,7 @@ categories:
     resource_count: 3
   - id: solid-mechanics-fsi
     title: Solid Mechanics & Fluid–Structure Interaction
-    resource_count: 3
+    resource_count: 4
   - id: research-communication
     title: Research Communication & Productivity
     resource_count: 2
@@ -475,6 +475,14 @@ resources:
     priority: specialized
     summary: "The actively developed computational environment of FEniCSx for finite-element problem solving."
     best_for: "Custom PDE and solid-mechanics research requiring variational formulations."
+  - name: AgentFEM
+    url: https://github.com/haoming-luo/agentfem
+    category: solid-mechanics-fsi
+    type: finite-element-workflow
+    level: intermediate
+    priority: supporting
+    summary: "FEniCSx-based structural analysis with editable Python models, pre-run checks, named runs, and recorded verification results."
+    best_for: "Practicing reproducible solid-mechanics studies and parameter campaigns through a researcher- and agent-accessible CLI; not an FSI coupling adapter."
   - name: preCICE
     url: https://github.com/precice/precice
     category: solid-mechanics-fsi
